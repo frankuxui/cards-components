@@ -21,7 +21,7 @@ function App () {
     <div className='App pt-16 pb-16 mx-5 '>
 
       <div className='flex justify-center m-auto mb-3'>
-        <button ref={buttonThemenRef} className='rounded-full w-16 h-16 bg-slate-300 text-3xl dark:bg-slate-500'>
+        <button ref={buttonThemenRef} className='rounded-full w-16 h-16 bg-slate-300 text-3xl dark:bg-slate-800'>
           {theme ? '🌞' : '🌙'}
         </button>
       </div>
@@ -89,7 +89,7 @@ function App () {
       <div className='box-border m-auto max-w-[75rem] columns-1xs sm:columns-2xs md:columns-2 lg:columns-3 xl:columns-4'>
 
         {/** card */}
-        <div className='break-inside relative flex items-center justify-between bg-white rounded-xl mb-4 dark:bg-slate-700 dark:text-slate-50 overflow-hidden'>
+        <div className='break-inside relative flex items-center justify-between bg-white rounded-xl mb-4 dark:bg-slate-800 dark:text-slate-50 overflow-hidden'>
           <img src='https://images.pexels.com/photos/1145720/pexels-photo-1145720.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260' alt='avatar' />
           <div className='absolute top-0 left-0 w-full h-full p-6 flex flex-col justify-between text-white bg-[#4d00bd87]'>
             <a href='#' className='no-underline inline-block'>
@@ -104,10 +104,10 @@ function App () {
         </div>
 
         {/** card */}
-        <div className='break-inside relative flex flex-col justify-between bg-white rounded-xl mb-4 dark:bg-slate-700 dark:text-slate-50 overflow-hidden'>
+        <div className='break-inside relative flex flex-col justify-between bg-white rounded-xl mb-4 dark:bg-slate-800 dark:text-slate-50 overflow-hidden'>
           <div className='relative flex flex-col justify-between text-white bg-green-900 min-h-[14rem]'>
             <img src='https://images.pexels.com/photos/1742370/pexels-photo-1742370.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260' alt='Imagen' />
-            <div className='absolute top-0 left-0 w-full h-full p-6'>
+            <div className='absolute top-0 p-6'>
               <span className='bg-[#00ff3e] px-3 py-1 rounded-md text-sm font-bold text-black'>NEWS</span>
             </div>
           </div>
@@ -130,7 +130,7 @@ function App () {
         </div>
 
         {/** card */}
-        <div className='break-inside relative flex flex-col justify-between bg-white rounded-xl mb-4 dark:bg-slate-700 dark:text-slate-50 overflow-hidden'>
+        <div className='break-inside relative flex flex-col justify-between bg-white rounded-xl mb-4 dark:bg-slate-800 dark:text-slate-50 overflow-hidden'>
           <div className='p-4'>
             <div className='flex items-center space-x-4'>
               <img className='flex-none w-12 h-12 rounded-full object-cover' src='https://randomuser.me/api/portraits/men/44.jpg' alt='avatar' />
@@ -166,7 +166,7 @@ function App () {
               </a>
             </div>
           </div>
-          <div className='flex justify-between bg-slate-100 p-4 dark:bg-slate-600'>
+          <div className='flex justify-between bg-slate-100 p-4 dark:bg-slate-700'>
             <div className='flex items-center space-x-2'>
               <svg width='26' height='26' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
                 <path d='M13.73,15L9.83,21.76C10.53,21.91 11.25,22 12,22C14.4,22 16.6,21.15 18.32,19.75L14.66,13.4M2.46,15C3.38,17.92 5.61,20.26 8.45,21.34L12.12,15M8.54,12L4.64,5.25C3,7 2,9.39 2,12C2,12.68 2.07,13.35 2.2,14H9.69M21.8,10H14.31L14.6,10.5L19.36,18.75C21,16.97 22,14.6 22,12C22,11.31 21.93,10.64 21.8,10M21.54,9C20.62,6.07 18.39,3.74 15.55,2.66L11.88,9M9.4,10.5L14.17,2.24C13.47,2.09 12.75,2 12,2C9.6,2 7.4,2.84 5.68,4.25L9.34,10.6L9.4,10.5Z' fill='currentColor' />
@@ -181,6 +181,50 @@ function App () {
               <h2 className='text-2xl font-bold'>Salou, Tarragona</h2>
             </div>
             <p>Minim dolor in amet nulla laboris enim dolore consculpa eiusmod proident sed excepteur.</p>
+          </div>
+        </div>
+
+        {/** card */}
+        <div className='break-inside relative flex flex-col justify-between bg-white rounded-xl mb-4 dark:bg-slate-800 dark:text-slate-50 overflow-hidden'>
+          <div className='relative flex flex-col justify-between text-white bg-green-900 min-h-[14rem]'>
+            <img src='https://images.pexels.com/photos/1988681/pexels-photo-1988681.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260' alt='Imagen' />
+            <div className='absolute top-0 left-0 w-full h-full hp-6'>
+              <div className='flex justify-between h-full flex-col'>
+                <div className='flex space-x-2 p-6'>
+                  <span className='bg-[#00ff3e] px-3 py-1 rounded-md text-sm font-bold text-black'>FASHION</span>
+                  <span className='bg-[#d4ff00] px-3 py-1 rounded-md text-sm font-bold text-black'>TRENDS</span>
+                </div>
+                <div className='p-6 bg-gradient-to-t from-[#000000] to-[#00000000]'>
+                  <div className='flex items-center flex-row justify-between'>
+                    <div className='mr-auto'>
+                      <h3 className='text-lg text-medium'>Card overlay caption</h3>
+                      <p>Alternative caption</p>
+                    </div>
+                    <button className='flexitems-center justify-center hover:bg-[#ffffff27] rounded-full p-2 transition-all'>
+                      <svg width='26' height='26' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+                        <path d='M12,16A2,2 0 0,1 14,18A2,2 0 0,1 12,20A2,2 0 0,1 10,18A2,2 0 0,1 12,16M12,10A2,2 0 0,1 14,12A2,2 0 0,1 12,14A2,2 0 0,1 10,12A2,2 0 0,1 12,10M12,4A2,2 0 0,1 14,6A2,2 0 0,1 12,8A2,2 0 0,1 10,6A2,2 0 0,1 12,4Z' fill='currentColor' />
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className='p-4 space-y-4'>
+            <div className='flex flex-col space-y-2'>
+              <h2 className='text-2xl font-bold'>Fashion today</h2>
+              <p>September 22</p>
+            </div>
+            <p>Minim dolor in amet nulla laboris enim dolore consequat proident fugiat culpa eiusmod proident sed excepteur.</p>
+            <div className='pt-4'>
+              <div className='flex items-center space-x-4'>
+                <img className='flex-none w-12 h-12 rounded-full object-cover' src='https://randomuser.me/api/portraits/women/45.jpg' alt='avatar' />
+                <div className='flex-auto'>
+                  <a href='#' className='no-underline font-bold block text-blue-600 dark:text-white'>Sharon Martinez</a>
+                  <span className='text-slate-500 dark:text-slate-400'>Photography</span>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 
