@@ -310,11 +310,11 @@ function App () {
             </div>
           </div>
           <div className='flex p-4 flex-row items-center justify-between'>
-            <div className='flex space-x-2'>
+            <div className='flex space-x-1'>
               <span className='px-3 py-1 rounded-full text-sm font-bold bg-slate-900 text-white dark:bg-white dark:text-black'>FASHION</span>
               <span className='px-3 py-1 rounded-full text-sm font-bold bg-slate-900 text-white dark:bg-white dark:text-black'>TRENDS</span>
             </div>
-            <span>September 11</span>
+            <span className='text-sm'>September 11</span>
           </div>
         </div>
 
@@ -376,7 +376,7 @@ function App () {
         {/** card */}
         <div className='break-inside flex flex-col justify-between overflow-hidden rounded-xl mb-4 text-white bg-[#201422]'>
           <div className='p-6 space-y-3'>
-            <h1 className='text-5xl font-extrabold leading-snug text-transparent bg-clip-text bg-gradient-to-tr from-[#EC6F66] to-[#F3A183]'>
+            <h1 className='text-4xl font-extrabold leading-snug text-transparent bg-clip-text bg-gradient-to-tr from-[#EC6F66] to-[#F3A183]'>
               Buy best photo
               <br />
               package
@@ -397,6 +397,20 @@ function App () {
               <span>14</span>
             </button>
           </div>
+        </div>
+
+        {/** card */}
+        <div className='break-inside relative min-h-[30rem] flex flex-col justify-between rounded-xl mb-4 overflow-hidden bg-white dark:bg-slate-800 dark:text-slate-50'>
+          <img src='https://uploads.codesandbox.io/uploads/user/82fa41fe-2514-4525-afb4-b7eef7e3afc6/lagC-img-1.png' className='absolute object-cover w-wull' />
+          <div className='absolute top-0 left-0 p-8 flex flex-col space-y-1'>
+            <h2 className='text-2xl font-extrabold'>Buy Now</h2>
+            <span className='text-lg font-bold'>€ 135.00</span>
+          </div>
+          <button className='absolute bottom-10 left-8 rounded-full p-3 transition-all text-black hover:bg-[#0000000a] dark:text-white dark:hover:bg-[#fff1]'>
+            <svg width='24' height='24' viewBox='0 0 22 21' fill='none' xmlns='http://www.w3.org/2000/svg'>
+              <path d='M6 1.23792C3.239 1.23792 1 3.45391 1 6.18791C1 8.39491 1.875 13.6329 10.488 18.9279C10.6423 19.0218 10.8194 19.0714 11 19.0714C11.1806 19.0714 11.3577 19.0218 11.512 18.9279C20.125 13.6329 21 8.39491 21 6.18791C21 3.45391 18.761 1.23792 16 1.23792C13.239 1.23792 11 4.23792 11 4.23792C11 4.23792 8.761 1.23792 6 1.23792Z' stroke='currentColor' strokeWidth='2' strokeLinecap='round' strokeLinejoin='round' />
+            </svg>
+          </button>
         </div>
 
       </div>
