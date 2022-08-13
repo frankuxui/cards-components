@@ -116,7 +116,7 @@ function App () {
               <h2 className='text-2xl font-bold'>News</h2>
               <p>16 January 2017</p>
             </div>
-            <p>Minim dolor in amet nulla laboris enim dolore consequat proident fugiat culpa eiusmod proident sed excepteur.</p>
+            <p>Lorem ipsum dolor sit amt amet de consectetet, consectetur 😋 🤪 😬 adipiscing elit, sed do eiusmod.</p>
             <div className='pt-4'>
               <div className='flex items-center space-x-4'>
                 <img className='flex-none w-12 h-12 rounded-full object-cover' src='https://randomuser.me/api/portraits/women/44.jpg' alt='avatar' />
@@ -215,13 +215,18 @@ function App () {
               <h2 className='text-xl font-bold'>Fashion today</h2>
               <p>September 22</p>
             </div>
-            <p>Minim dolor in amet nulla laboris enim dolore consequat proident fugiat culpa eiusmod proident sed excepteur.</p>
+            <p>Minim dolor in amet nulla laboris enim dolore consequat proident fugiat culpa eiusmod ❤ ❤ ❤ dolore sed excepteur.</p>
             <div className='pt-4'>
               <div className='flex items-center space-x-4'>
                 <img className='flex-none w-12 h-12 rounded-full object-cover' src='https://randomuser.me/api/portraits/women/45.jpg' alt='avatar' />
                 <div className='flex-auto'>
-                  <a href='#' className='no-underline font-bold block dark:text-white'>Sharon Martinez</a>
-                  <span className='text-slate-500 dark:text-slate-400'>Photography</span>
+                  <a href='#' className='no-underline font-bold block dark:text-white'>
+                    Enmma
+                  </a>
+                  <span className='text-slate-500 dark:text-slate-400'>
+                    Photography
+                    <img src='https://twemoji.maxcdn.com/v/13.0.1/72x72/1f4f7.png' className='w-5 inline-block ml-2' />
+                  </span>
                 </div>
               </div>
             </div>
@@ -255,7 +260,7 @@ function App () {
           </div>
           <div className='p-4 space-y-2'>
             <div className='flex flex-col'>
-              <h2 className='text-2xl font-bold'>New trends</h2>
+              <h2 className='text-2xl font-bold'>New trends 🔥</h2>
             </div>
             <p>Minim dolor in amet nulla laboris enim dolore consequat proident fugiat culpa eiusmod proident sed excepteur.</p>
           </div>
@@ -314,7 +319,7 @@ function App () {
               <span className='px-3 py-1 rounded-full text-sm font-bold bg-slate-900 text-white dark:bg-white dark:text-black'>FASHION</span>
               <span className='px-3 py-1 rounded-full text-sm font-bold bg-slate-900 text-white dark:bg-white dark:text-black'>TRENDS</span>
             </div>
-            <span className='text-sm'>September 11</span>
+            <span className='text-sm'>April 23</span>
           </div>
         </div>
 
@@ -500,6 +505,28 @@ function App () {
                 </svg>
               </button>
             </div>
+          </div>
+        </div>
+
+        {/** card */}
+        <div className='break-inside flex flex-col justify-between rounded-xl mb-4 overflow-hidden bg-white dark:bg-slate-800 dark:text-slate-50'>
+          <div className='p-4 space-y-2'>
+            <h2 className='text-2xl font-bold'>Vector pack</h2>
+            <p>Minim dolor in amet nulla laboris enim dolore consequat proident fugiat culpa eiusmod 🎭🎨.</p>
+          </div>
+          <img src='https://images.pexels.com/photos/9669040/pexels-photo-9669040.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260' />
+          <div className='flex justify-between p-4 bg-slate-100 dark:bg-slate-700'>
+            <div className='flex items-center space-x-2'>
+              <svg width='26' height='26' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+                <path d='M2,4H4V2H10V4A10,10 0 0,1 20,14H22V20H20V22H18V20H16V14H18A8,8 0 0,0 10,6V8H4V6H2V4M18,16V18H20V16H18M6,4V6H8V4H6Z' fill='currentColor' />
+              </svg>
+              <span className='font-medium'>23k</span>
+            </div>
+            <button className='inline-flex justify-center items-center rounded-full py-3 px-6 font-medium tracking-wide transition-all bg-slate-800 text-white hover:bg-slate-900 dark:bg-slate-50 dark:text-black'>Buy now</button>
+          </div>
+          <div className='p-4 space-x-4'>
+            <span className='text-xl font-bold line-through text-red-600'>€18.99</span>
+            <span className='text-2xl font-bold'>€10.99</span>
           </div>
         </div>
 
