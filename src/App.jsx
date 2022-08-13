@@ -188,7 +188,7 @@ function App () {
         <div className='break-inside flex flex-col justify-between overflow-hidden rounded-xl mb-4 bg-white dark:bg-slate-800 dark:text-slate-50'>
           <div className='relative flex flex-col justify-between text-white bg-green-900 min-h-[14rem]'>
             <img src='https://images.pexels.com/photos/1988681/pexels-photo-1988681.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260' alt='Imagen' />
-            <div className='absolute top-0 left-0 w-full h-full hp-6'>
+            <div className='absolute top-0 left-0 w-full h-full'>
               <div className='flex justify-between h-full flex-col'>
                 <div className='flex space-x-2 p-6'>
                   <span className='bg-[#00ff3e] px-3 py-1 rounded-md text-sm font-bold text-black'>FASHION</span>
@@ -239,6 +239,26 @@ function App () {
               </small>
             </footer>
           </blockquote>
+        </div>
+
+        {/** card */}
+        <div className='break-inside flex flex-col justify-between overflow-hidden rounded-xl mb-4 bg-white dark:bg-slate-800 dark:text-slate-50'>
+          <div className='relative flex flex-col justify-between text-white bg-green-900 min-h-[14rem]'>
+            <img src='https://images.pexels.com/photos/1424981/pexels-photo-1424981.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500' alt='Imagen' />
+            <div className='absolute top-0 left-0 bg-pink-600 rounded-br-xl p-4'>
+              <div className='flex flex-col items-center text-center space-x-2'>
+                <span className='font-bold text-2xl'>22</span>
+                <span>SEP</span>
+                <span>2022</span>
+              </div>
+            </div>
+          </div>
+          <div className='p-4 space-y-4'>
+            <div className='flex flex-col space-y-2'>
+              <h2 className='text-2xl font-bold'>New trends</h2>
+            </div>
+            <p>Minim dolor in amet nulla laboris enim dolore consequat proident fugiat culpa eiusmod proident sed excepteur.</p>
+          </div>
         </div>
 
       </div>
