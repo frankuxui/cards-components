@@ -530,6 +530,23 @@ function App () {
           </div>
         </div>
 
+        {/** card */}
+        <div className='break-inside p-6 flex flex-col justify-between rounded-xl mb-4 bg-white dark:bg-slate-800 dark:text-slate-50'>
+          <div className='space-y-4'>
+            <div className='flex items-center space-x-4'>
+              <img className='flex-none w-14 h-14 rounded-full object-cover' src='https://randomuser.me/api/portraits/women/55.jpg' alt='avatar' />
+              <div className='flex-auto'>
+                <a href='#' className='text-lg font-bold block dark:text-white'>Monica Armas</a>
+                <span className='text-slate-500 dark:text-slate-400'>Dog Trainer</span>
+              </div>
+            </div>
+            <div className='space-y-2'>
+              <h4 className='text-3xl font-extrabold leading-snug'>Web Design templates Selection</h4>
+              <p>Minim dolor in amet nulla laboris enim dolore consequat proident fugiat culpa eiusmod.</p>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
   )
