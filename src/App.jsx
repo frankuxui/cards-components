@@ -336,6 +336,27 @@ function App () {
           </div>
         </div>
 
+        {/** card */}
+        <div className='break-inside flex flex-col justify-between rounded-xl mb-4 overflow-hidden bg-white dark:bg-slate-800 dark:text-slate-50'>
+          <div className='min-w-[14rem] bg-blue-700'>
+            <img src='https://images.pexels.com/photos/3757144/pexels-photo-3757144.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' className='w-full h-[12rem] object-cover' />
+          </div>
+          <div className='flex justify-between items-center flex-col space-y-4'>
+            <div className='flex flex-col items-center text-center space-y-2 -mt-10'>
+              <img className='flex-none w-24 h-24 rounded-full object-cover shadow-xl' src='https://randomuser.me/api/portraits/men/49.jpg' alt='avatar' />
+              <div>
+                <h5 className='text-lg font-medium'>Gladys Fernandez</h5>
+                <p>Marketing Coordinator</p>
+              </div>
+            </div>
+            <div className='flex w-full text-center'>
+              <a href='#' className='font-medium p-4 w-full transition-all hover:bg-slate-50 dark:hover:bg-slate-700'>
+                FOLLOW
+              </a>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
   )
