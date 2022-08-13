@@ -261,6 +261,33 @@ function App () {
           </div>
         </div>
 
+        {/** card */}
+        <div className='break-inside flex flex-col justify-between rounded-xl mb-4 overflow-hidden bg-white dark:bg-slate-800 dark:text-slate-50'>
+          <div className='p-4'>
+            <div className='p-4 space-y-4'>
+              <div className='flex flex-col space-y-1'>
+                <h2 className='text-2xl font-bold'>Exclusive</h2>
+                <p>Published on october 16, 2021</p>
+              </div>
+            </div>
+          </div>
+          <div className='relative flex flex-col justify-between text-white bg-green-900 min-h-[14rem]'>
+            <img src='https://images.pexels.com/photos/6470/black-and-white-creative-desk-pen.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260' alt='Imagen' />
+            <div className='absolute top-0 p-6'>
+              <span className='bg-[#00bfff] px-3 py-1 rounded-md text-sm font-bold text-white'>NEWS</span>
+            </div>
+          </div>
+          <div className='p-4 space-y-4'>
+            <div className='flex items-center space-x-4'>
+              <img className='flex-none w-14 h-14 rounded-full object-cover' src='https://randomuser.me/api/portraits/men/45.jpg' alt='avatar' />
+              <div className='flex-auto'>
+                <a href='#' className='no-underline font-bold block dark:text-white'>Darrell Steward</a>
+                <span className='text-slate-500 dark:text-slate-400'>Marketing Manager</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
   )
