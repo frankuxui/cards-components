@@ -345,8 +345,8 @@ function App () {
             <div className='flex flex-col items-center text-center space-y-2 -mt-10'>
               <img className='flex-none w-24 h-24 rounded-full object-cover shadow-xl' src='https://randomuser.me/api/portraits/men/49.jpg' alt='avatar' />
               <div>
-                <h5 className='text-lg font-medium'>Gladys Fernandez</h5>
-                <p>Marketing Coordinator</p>
+                <h5 className='text-lg font-medium'>Marloon Buendia</h5>
+                <p>Social assistant</p>
               </div>
             </div>
             <div className='flex w-full text-center'>
@@ -359,7 +359,7 @@ function App () {
 
         {/** card */}
         <div className='break-inside relative flex items-center justify-between overflow-hidden rounded-xl mb-4 '>
-          <img src='https://images.pexels.com/photos/1906167/pexels-photo-1906167.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='Image' />
+          <img src='https://images.pexels.com/photos/1906167/pexels-photo-1906167.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' className='w-full object-cover min-h-[22rem]' alt='Image' />
           <div className='absolute top-0 left-0 w-full h-full flex flex-col justify-between text-white bg-[#500e57be]'>
             <div className='p-6 space-y-3'>
               <h1 className='text-5xl font-extrabold leading-snug text-white'>
@@ -370,6 +370,32 @@ function App () {
               <button className='py-2 px-6 font-bold rounded-full bg-white text-black'>DONWLOAD</button>
             </div>
             <div className='p-6 bg-gradient-to-t from-[#000000b6] to-[#0000]'>16 January 2017</div>
+          </div>
+        </div>
+
+        {/** card */}
+        <div className='break-inside flex flex-col justify-between overflow-hidden rounded-xl mb-4 text-white bg-[#201422]'>
+          <div className='p-6 space-y-3'>
+            <h1 className='text-5xl font-extrabold leading-snug text-transparent bg-clip-text bg-gradient-to-tr from-[#EC6F66] to-[#F3A183]'>
+              Buy best photo
+              <br />
+              package
+            </h1>
+            <button className='py-2 px-6 font-bold rounded-full text-black bg-gradient-to-tr from-[#EC6F66] to-[#F3A183] hover:shadow-2xl'>DONWLOAD</button>
+          </div>
+          <div className='flex justify-start items-center flex-row p-6 space-x-3'>
+            <button className='flex items-center space-x-3 transition-all py-2 px-6 font-bold rounded-full text-[#ffcbc8] hover:bg-[#ffffff15]'>
+              <svg width='24' height='24' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+                <path d='M5,9V21H1V9H5M9,21A2,2 0 0,1 7,19V9C7,8.45 7.22,7.95 7.59,7.59L14.17,1L15.23,2.06C15.5,2.33 15.67,2.7 15.67,3.11L15.64,3.43L14.69,8H21C22.11,8 23,8.9 23,10V12C23,12.26 22.95,12.5 22.86,12.73L19.84,19.78C19.54,20.5 18.83,21 18,21H9M9,19H18.03L21,12V10H12.21L13.34,4.68L9,9.03V19Z' fill='currentColor' />
+              </svg>
+              <span>147</span>
+            </button>
+            <button className='flex items-center space-x-3 transition-all py-2 px-6 font-bold rounded-full text-[#ffcbc8] hover:bg-[#ffffff15]'>
+              <svg width='24' height='24' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+                <path d='M19,15V3H23V15H19M15,3A2,2 0 0,1 17,5V15C17,15.55 16.78,16.05 16.41,16.41L9.83,23L8.77,21.94C8.5,21.67 8.33,21.3 8.33,20.88L8.36,20.57L9.31,16H3C1.89,16 1,15.1 1,14V12C1,11.74 1.05,11.5 1.14,11.27L4.16,4.22C4.46,3.5 5.17,3 6,3H15M15,5H5.97L3,12V14H11.78L10.65,19.32L15,14.97V5Z' fill='currentColor' />
+              </svg>
+              <span>14</span>
+            </button>
           </div>
         </div>
 
