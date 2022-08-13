@@ -90,7 +90,7 @@ function App () {
 
         {/** card */}
         <div className='break-inside relative flex items-center justify-between overflow-hidden rounded-xl mb-4 bg-white dark:bg-slate-800 dark:text-slate-50'>
-          <img src='https://images.pexels.com/photos/1145720/pexels-photo-1145720.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260' alt='avatar' />
+          <img src='https://images.pexels.com/photos/1145720/pexels-photo-1145720.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260' alt='Image' />
           <div className='absolute top-0 left-0 w-full h-full p-6 flex flex-col justify-between text-white bg-[#4d00bd87]'>
             <a href='#' className='no-underline inline-block'>
               <h1 className='text-3xl font-bold leading-snug'>
@@ -105,7 +105,7 @@ function App () {
 
         {/** card */}
         <div className='break-inside relative flex flex-col justify-between overflow-hidden rounded-xl mb-4 bg-white dark:bg-slate-800 dark:text-slate-50'>
-          <div className='relative flex flex-col justify-between text-white bg-green-900 min-h-[14rem]'>
+          <div className='relative flex flex-col justify-between text-white bg-black min-h-[10rem]'>
             <img src='https://images.pexels.com/photos/1742370/pexels-photo-1742370.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260' alt='Imagen' />
             <div className='absolute top-0 p-6'>
               <span className='bg-[#00ff3e] px-3 py-1 rounded-md text-sm font-bold text-black'>NEWS</span>
@@ -315,6 +315,24 @@ function App () {
               <span className='px-3 py-1 rounded-full text-sm font-bold bg-slate-900 text-white dark:bg-white dark:text-black'>TRENDS</span>
             </div>
             <span>September 11</span>
+          </div>
+        </div>
+
+        {/** card */}
+        <div className='break-inside flex flex-col justify-between rounded-xl mb-4 overflow-hidden bg-white dark:bg-slate-800 dark:text-slate-50'>
+          <div className='flex justify-between items-center flex-col space-y-4'>
+            <div className='flex flex-col items-center text-center p-6 space-y-2'>
+              <img className='flex-none w-24 h-24 rounded-full object-cover' src='https://randomuser.me/api/portraits/women/47.jpg' alt='avatar' />
+              <div>
+                <h5 className='text-lg font-medium'>Gladys Fernandez</h5>
+                <p>Marketing Coordinator</p>
+              </div>
+            </div>
+            <div className='flex w-full text-center'>
+              <a href='#' className='font-medium p-4 w-full transition-all hover:bg-slate-50 dark:hover:bg-slate-700'>
+                FOLLOW
+              </a>
+            </div>
           </div>
         </div>
 
