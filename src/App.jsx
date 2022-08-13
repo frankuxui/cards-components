@@ -89,7 +89,7 @@ function App () {
       <div className='box-border m-auto max-w-[75rem] columns-1xs sm:columns-2xs md:columns-2 lg:columns-3 xl:columns-4'>
 
         {/** card */}
-        <div className='break-inside relative flex items-center justify-between overflow-hidden rounded-xl mb-4 bg-white dark:bg-slate-800 dark:text-slate-50'>
+        <div className='break-inside relative flex items-center justify-between overflow-hidden rounded-xl mb-4 bg-white'>
           <img src='https://images.pexels.com/photos/1145720/pexels-photo-1145720.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260' alt='Image' />
           <div className='absolute top-0 left-0 w-full h-full p-6 flex flex-col justify-between text-white bg-[#4d00bd87]'>
             <a href='#' className='no-underline inline-block'>
@@ -354,6 +354,22 @@ function App () {
                 FOLLOW
               </a>
             </div>
+          </div>
+        </div>
+
+        {/** card */}
+        <div className='break-inside relative flex items-center justify-between overflow-hidden rounded-xl mb-4 '>
+          <img src='https://images.pexels.com/photos/1906167/pexels-photo-1906167.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='Image' />
+          <div className='absolute top-0 left-0 w-full h-full flex flex-col justify-between text-white bg-[#500e57be]'>
+            <div className='p-6 space-y-3'>
+              <h1 className='text-5xl font-extrabold leading-snug text-white'>
+                Best photo
+                <br />
+                package
+              </h1>
+              <button className='py-2 px-6 font-bold rounded-full bg-white text-black'>DONWLOAD</button>
+            </div>
+            <div className='p-6 bg-gradient-to-t from-[#000000b6] to-[#0000]'>16 January 2017</div>
           </div>
         </div>
 
