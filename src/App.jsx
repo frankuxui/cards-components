@@ -553,14 +553,54 @@ function App () {
             <div className='flex items-center flex-col justify-center text-center space-y-4'>
               <img className='flex-none w-20 h-20 rounded-full ring-4 ring-[#81d200] border-4 border-black object-cover' src='https://randomuser.me/api/portraits/women/55.jpg' alt='avatar' />
               <div className='text-center'>
-                <a href='#' className='text-lg font-bold block'>Monica Armas</a>
-                <span className='text-slate-100'>Dog Trainer</span>
+                <a href='#' className='text-lg font-bold block'>Monica De Armas</a>
+                <span className='text-slate-100'>Dog Trainer 🐶</span>
               </div>
             </div>
             <div className='space-y-4 text-center'>
               <h4 className='text-3xl font-extrabold leading-snug text-transparent bg-clip-text bg-gradient-to-tr from-[#81d200] to-[#24d3ff]'>Web Design templates Selection</h4>
               <p>Minim dolor in amet nulla laboris enim dolore consequat proident.</p>
               <button className='py-2 px-4 font-bold rounded-full uppercase text-black bg-gradient-to-tr from-[#81d200] to-[#24ffd7] hover:shadow-2xl'>VIEW PROFILE</button>
+            </div>
+          </div>
+        </div>
+
+        {/** card */}
+        <div className='break-inside flex flex-col justify-between overflow-hidden rounded-xl mb-4 group bg-white text-white'>
+          <div className='relative flex flex-col justify-between text-white bg-green-900 min-h-[14rem]'>
+            <img src='https://images.pexels.com/photos/917594/pexels-photo-917594.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='Imagen' />
+            <div className='absolute top-0 left-0 w-full h-full'>
+              <div className='flex justify-between h-full flex-col'>
+                <div className='flex justify-end space-x-2 p-6 bg-gradient-to-t from-[#00000000] to-[#000000]'>
+                  <button className='flexitems-center justify-center text-white rounded-full p-2 transition-all group-hover:bg-white group-hover:text-black'>
+                    <svg width='24' height='24' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+                      <path d='M20.71,7.04C21.1,6.65 21.1,6 20.71,5.63L18.37,3.29C18,2.9 17.35,2.9 16.96,3.29L15.12,5.12L18.87,8.87M3,17.25V21H6.75L17.81,9.93L14.06,6.18L3,17.25Z' fill='currentColor' />
+                    </svg>
+                  </button>
+                  <button className='flexitems-center justify-center text-white rounded-full p-2 transition-all group-hover:bg-white group-hover:text-black'>
+                    <svg width='26' height='26' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+                      <path d='M12.1 18.55L12 18.65L11.89 18.55C7.14 14.24 4 11.39 4 8.5C4 6.5 5.5 5 7.5 5C9.04 5 10.54 6 11.07 7.36H12.93C13.46 6 14.96 5 16.5 5C18.5 5 20 6.5 20 8.5C20 11.39 16.86 14.24 12.1 18.55M16.5 3C14.76 3 13.09 3.81 12 5.08C10.91 3.81 9.24 3 7.5 3C4.42 3 2 5.41 2 8.5C2 12.27 5.4 15.36 10.55 20.03L12 21.35L13.45 20.03C18.6 15.36 22 12.27 22 8.5C22 5.41 19.58 3 16.5 3Z' fill='currentColor' />
+                    </svg>
+                  </button>
+                </div>
+                <div className='p-6 bg-gradient-to-t from-[#000000] to-[#00000000]'>
+                  <div className='flex items-center flex-row justify-between'>
+                    <div className='flex items-center space-x-4'>
+                      <img className='flex-none w-12 h-12 rounded-full object-cover' src='https://randomuser.me/api/portraits/men/35.jpg' alt='avatar' />
+                      <div className='flex-auto'>
+                        <a href='#' className='no-underline font-bold block'>
+                          Frank Esteban
+                        </a>
+                      </div>
+                    </div>
+                    <button className='flexitems-center justify-center text-white rounded-full p-2 transition-all group-hover:bg-white group-hover:text-black'>
+                      <svg width='26' height='26' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+                        <path d='M2 12H4V17H20V12H22V17C22 18.11 21.11 19 20 19H4C2.9 19 2 18.11 2 17V12M12 15L17.55 9.54L16.13 8.13L13 11.25V2H11V11.25L7.88 8.13L6.46 9.55L12 15Z' fill='currentColor' />
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
