@@ -413,6 +413,30 @@ function App () {
           </button>
         </div>
 
+        {/** card */}
+        <div className='break-inside flex flex-col justify-between overflow-hidden rounded-xl mb-4 bg-white dark:bg-slate-800 dark:text-slate-50'>
+          <div className='relative flex flex-col justify-between text-white bg-green-900 min-h-[14rem]'>
+            <img src='https://images.pexels.com/photos/4424567/pexels-photo-4424567.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260' alt='Imagen' />
+            <div className='absolute bottom-0 left-0 w-full p-6 bg-gradient-to-t from-[#000000] to-[#00000000]'>
+              <div className='flex items-center flex-row justify-between'>
+                <div className='mr-auto'>
+                  <span>Artist</span>
+                  <h3 className='font-medium text-xl'>Cameron Williamson</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className='p-6 flex  justify-between items-center'>
+            <div className='flex flex-row items-center space-x-2'>
+              <svg width='24' height='24' viewBox='0 0 22 21' fill='none' xmlns='http://www.w3.org/2000/svg'>
+                <path d='M6 1.23792C3.239 1.23792 1 3.45391 1 6.18791C1 8.39491 1.875 13.6329 10.488 18.9279C10.6423 19.0218 10.8194 19.0714 11 19.0714C11.1806 19.0714 11.3577 19.0218 11.512 18.9279C20.125 13.6329 21 8.39491 21 6.18791C21 3.45391 18.761 1.23792 16 1.23792C13.239 1.23792 11 4.23792 11 4.23792C11 4.23792 8.761 1.23792 6 1.23792Z' stroke='currentColor' strokeWidth='2' strokeLinecap='round' strokeLinejoin='round' />
+              </svg>
+              <span className='text-xl font-bold'>35k</span>
+            </div>
+            <button className='inline-flex justify-center items-center rounded-md py-2 px-4 font-medium tracking-wide text-sm transition-all bg-blue-500 text-white hover:bg-blue-600'>Button</button>
+          </div>
+        </div>
+
       </div>
     </div>
   )
