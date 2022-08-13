@@ -138,7 +138,7 @@ function App () {
                 <a href='#' className='no-underline font-bold block text-blue-600 dark:text-white'>Tom</a>
                 <span className='text-slate-500 dark:text-slate-400'>Photography</span>
               </div>
-              <button className='flex items-center justify-center hover:bg-slate-200 rounded-full p-1 transition-all'>
+              <button className='flex items-center justify-center rounded-full p-1 transition-all hover:bg-slate-200 dark:bg-slate-700'>
                 <svg width='26' height='26' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
                   <path d='M12,16A2,2 0 0,1 14,18A2,2 0 0,1 12,20A2,2 0 0,1 10,18A2,2 0 0,1 12,16M12,10A2,2 0 0,1 14,12A2,2 0 0,1 12,14A2,2 0 0,1 10,12A2,2 0 0,1 12,10M12,4A2,2 0 0,1 14,6A2,2 0 0,1 12,8A2,2 0 0,1 10,6A2,2 0 0,1 12,4Z' fill='currentColor' />
                 </svg>
@@ -253,8 +253,8 @@ function App () {
               </div>
             </div>
           </div>
-          <div className='p-4 space-y-4'>
-            <div className='flex flex-col space-y-2'>
+          <div className='p-4 space-y-2'>
+            <div className='flex flex-col'>
               <h2 className='text-2xl font-bold'>New trends</h2>
             </div>
             <p>Minim dolor in amet nulla laboris enim dolore consequat proident fugiat culpa eiusmod proident sed excepteur.</p>
@@ -283,6 +283,38 @@ function App () {
                 <span className='text-slate-500 dark:text-slate-400'>Marketing Manager</span>
               </div>
             </div>
+          </div>
+        </div>
+
+        {/** card */}
+        <div className='break-inside flex flex-col justify-between rounded-xl mb-4 bg-white dark:bg-slate-800 dark:text-slate-50'>
+          <div className='flex justify-between flex-row  items-center p-4'>
+            <h2 className='text-xl font-bold'>Header</h2>
+            <button className='flex items-center justify-center rounded-full p-1 transition-all hover:bg-slate-200 dark:bg-slate-700 '>
+              <svg width='26' height='26' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+                <path d='M12,16A2,2 0 0,1 14,18A2,2 0 0,1 12,20A2,2 0 0,1 10,18A2,2 0 0,1 12,16M12,10A2,2 0 0,1 14,12A2,2 0 0,1 12,14A2,2 0 0,1 10,12A2,2 0 0,1 12,10M12,4A2,2 0 0,1 14,6A2,2 0 0,1 12,8A2,2 0 0,1 10,6A2,2 0 0,1 12,4Z' fill='currentColor' />
+              </svg>
+            </button>
+          </div>
+          <div className='p-4 space-y-4'>
+            <div className='flex items-center space-x-4'>
+              <img className='flex-none w-14 h-14 rounded-full object-cover' src='https://randomuser.me/api/portraits/men/46.jpg' alt='avatar' />
+              <div className='flex-auto'>
+                <a href='#' className='no-underline font-bold block dark:text-white'>Ralph Edwards</a>
+                <span className='text-slate-500 dark:text-slate-400'>Dog Trainer</span>
+              </div>
+            </div>
+            <div className='space-y-1'>
+              <h4 className='text-lg font-medium'>News</h4>
+              <p>Minim dolor in amet nulla laboris enim dolore consequat proident fugiat culpa eiusmod.</p>
+            </div>
+          </div>
+          <div className='flex p-4 flex-row items-center justify-between'>
+            <div className='flex space-x-2'>
+              <span className='px-3 py-1 rounded-full text-sm font-bold bg-slate-900 text-white dark:bg-white dark:text-black'>FASHION</span>
+              <span className='px-3 py-1 rounded-full text-sm font-bold bg-slate-900 text-white dark:bg-white dark:text-black'>TRENDS</span>
+            </div>
+            <span>September 11</span>
           </div>
         </div>
 
