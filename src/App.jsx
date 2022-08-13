@@ -437,6 +437,36 @@ function App () {
           </div>
         </div>
 
+        {/** card */}
+        <div className='break-inside flex flex-col justify-between overflow-hidden rounded-xl mb-4 bg-white dark:bg-slate-800 dark:text-slate-50'>
+          <div className='relative flex flex-col justify-between text-white bg-green-900 min-h-[14rem]'>
+            <img src='https://images.pexels.com/photos/3584283/pexels-photo-3584283.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260' alt='Imagen' />
+            <div className='absolute bottom-0 left-0 w-full p-6 bg-gradient-to-t from-[#000000] to-[#00000000]'>
+              <div className='flex items-center flex-row justify-between'>
+                <button className='inline-flex justify-center items-center rounded-full py-2 px-4 font-medium tracking-wide text-sm transition-all bg-[#00b45d] text-white hover:bg-[#00944d]'>EXCLUSIVE</button>
+                <button className='inline-flex justify-center items-center rounded-full space-x-2 py-2 px-4 font-medium tracking-wide transition-all bg-white text-black'>
+                  <svg width='18' height='18' viewBox='0 0 23 23' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M17.1206 22.0917C16.7435 22.0894 16.3746 21.9811 16.0561 21.7792L11.3295 18.7812L6.94478 21.5644C6.58457 21.794 6.16337 21.9095 5.73641 21.8955C5.30945 21.8816 4.89667 21.7389 4.55221 21.4863C4.19609 21.2294 3.92553 20.8712 3.77575 20.4584C3.62596 20.0456 3.60387 19.5973 3.71236 19.1718L4.99166 14.1718L0.72408 10.6269C0.414555 10.3655 0.189833 10.0179 0.0785303 9.6283C-0.0327721 9.23874 -0.0256185 8.82487 0.0990802 8.43939C0.221194 8.05796 0.454908 7.72192 0.770011 7.47472C1.08512 7.22751 1.46712 7.08049 1.86666 7.05268L7.41353 6.70111L9.48385 1.4765C9.62929 1.10544 9.8832 0.786828 10.2125 0.562243C10.5417 0.337659 10.931 0.217529 11.3295 0.217529C11.7281 0.217529 12.1174 0.337659 12.4466 0.562243C12.7759 0.786828 13.0298 1.10544 13.1753 1.4765L15.2456 6.70111L20.7924 7.05268C21.192 7.08049 21.574 7.22751 21.8891 7.47472C22.2042 7.72192 22.4379 8.05796 22.56 8.43939C22.6847 8.82487 22.6919 9.23874 22.5806 9.6283C22.4693 10.0179 22.2445 10.3655 21.935 10.6269L17.6674 14.1718L19.0444 19.5722C19.1465 19.9649 19.1274 20.3793 18.9897 20.761C18.8521 21.1427 18.6022 21.4738 18.2729 21.7109C17.9393 21.9576 17.5355 22.0911 17.1206 22.0917ZM11.3295 16.3788C11.7029 16.3764 12.0691 16.4815 12.3842 16.6816L16.5639 19.3281L15.353 14.5527C15.2593 14.1815 15.2719 13.7915 15.3893 13.4271C15.5067 13.0627 15.7243 12.7387 16.017 12.4921L19.8061 9.33783L14.8745 9.02533C14.4984 8.99848 14.1376 8.866 13.8336 8.64314C13.5295 8.42027 13.2945 8.11608 13.1557 7.76557L11.3295 3.17572L9.50338 7.76557C9.36457 8.11608 9.12961 8.42027 8.82555 8.64314C8.52148 8.866 8.16066 8.99848 7.78463 9.02533L2.85299 9.33783L6.64205 12.4921C6.93484 12.7387 7.15237 13.0627 7.26979 13.4271C7.38721 13.7915 7.3998 14.1815 7.30611 14.5527L6.09517 19.3281L10.2749 16.6816C10.59 16.4815 10.9562 16.3764 11.3295 16.3788Z' fill='currentColor' /></svg>
+                  <span>8.5</span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div className='p-6 flex flex-col justify-between'>
+            <div className='flex flex-col items-start space-y-1'>
+              <span>Barcelona, Spain</span>
+              <h2 className='text-2xl font-bold'>Hotel, Cromwell International</h2>
+            </div>
+            <div className='flex justify-between items-center flex-row'>
+              <span className='text-2xl font-bold'>€365.99</span>
+              <button className='p-4 transition-all rounded-full hover:bg-slate-100 dark:hover:bg-slate-700'>
+                <svg width='24' height='24' viewBox='0 0 22 21' fill='none' xmlns='http://www.w3.org/2000/svg'>
+                  <path d='M6 1.23792C3.239 1.23792 1 3.45391 1 6.18791C1 8.39491 1.875 13.6329 10.488 18.9279C10.6423 19.0218 10.8194 19.0714 11 19.0714C11.1806 19.0714 11.3577 19.0218 11.512 18.9279C20.125 13.6329 21 8.39491 21 6.18791C21 3.45391 18.761 1.23792 16 1.23792C13.239 1.23792 11 4.23792 11 4.23792C11 4.23792 8.761 1.23792 6 1.23792Z' stroke='currentColor' strokeWidth='2' strokeLinecap='round' strokeLinejoin='round' />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
   )
