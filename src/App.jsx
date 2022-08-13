@@ -176,7 +176,7 @@ function App () {
             <button className='inline-flex justify-center items-center rounded-md py-2 px-4 font-medium tracking-wide text-sm transition-all bg-slate-800 text-white hover:bg-slate-900 dark:bg-slate-50 dark:text-black'>Visit</button>
           </div>
           <div className='p-4 space-y-4'>
-            <div className='flex flex-col space-y-2'>
+            <div className='flex flex-col space-y-1'>
               <p>Photographic rolls</p>
               <h2 className='text-2xl font-bold'>Salou, Tarragona</h2>
             </div>
@@ -220,7 +220,7 @@ function App () {
               <div className='flex items-center space-x-4'>
                 <img className='flex-none w-12 h-12 rounded-full object-cover' src='https://randomuser.me/api/portraits/women/45.jpg' alt='avatar' />
                 <div className='flex-auto'>
-                  <a href='#' className='no-underline font-bold block text-blue-600 dark:text-white'>Sharon Martinez</a>
+                  <a href='#' className='no-underline font-bold block dark:text-white'>Sharon Martinez</a>
                   <span className='text-slate-500 dark:text-slate-400'>Photography</span>
                 </div>
               </div>
@@ -246,7 +246,7 @@ function App () {
           <div className='relative flex flex-col justify-between text-white bg-green-900 min-h-[14rem]'>
             <img src='https://images.pexels.com/photos/1424981/pexels-photo-1424981.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500' alt='Imagen' />
             <div className='absolute top-0 left-0 bg-pink-600 rounded-br-xl p-4'>
-              <div className='flex flex-col items-center text-center space-x-2'>
+              <div className='flex flex-col items-center text-center'>
                 <span className='font-bold text-2xl'>22</span>
                 <span>SEP</span>
                 <span>2022</span>
@@ -263,12 +263,10 @@ function App () {
 
         {/** card */}
         <div className='break-inside flex flex-col justify-between rounded-xl mb-4 overflow-hidden bg-white dark:bg-slate-800 dark:text-slate-50'>
-          <div className='p-4'>
-            <div className='p-4 space-y-4'>
-              <div className='flex flex-col space-y-1'>
-                <h2 className='text-xl font-bold'>Exclusive</h2>
-                <p>Published on october 16, 2021</p>
-              </div>
+          <div className='p-5 space-y-4'>
+            <div className='flex flex-col'>
+              <h2 className='text-xl font-bold'>Exclusive</h2>
+              <p>Published on october 16, 2021</p>
             </div>
           </div>
           <div className='relative flex flex-col justify-between text-white min-h-[14rem]'>
