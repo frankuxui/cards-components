@@ -86,7 +86,7 @@ function App () {
       </div>
 
       {/** container cards */}
-      <div className='box-border m-auto max-w-[75rem] columns-1xs sm:columns-2xs md:columns-2 lg:columns-3 xl:columns-4'>
+      <div className='box-border m-auto max-w-[75rem] 3xl:max-w-[100rem] columns-1xs sm:columns-2xs md:columns-2 lg:columns-3 xl:columns-4 2xl:columns-4 3xl:columns-5'>
 
         {/** card */}
         <div className='break-inside relative flex items-center justify-between overflow-hidden rounded-xl mb-4 bg-white'>
@@ -543,6 +543,24 @@ function App () {
             <div className='space-y-2'>
               <h4 className='text-3xl font-extrabold leading-snug'>Web Design templates Selection</h4>
               <p>Minim dolor in amet nulla laboris enim dolore consequat proident fugiat culpa eiusmod.</p>
+            </div>
+          </div>
+        </div>
+
+        {/** card */}
+        <div className='break-inside p-6 flex flex-col justify-between rounded-xl mb-4 bg-black text-white'>
+          <div className='space-y-4'>
+            <div className='flex items-center flex-col justify-center text-center space-y-4'>
+              <img className='flex-none w-20 h-20 rounded-full ring-4 ring-[#81d200] border-4 border-black object-cover' src='https://randomuser.me/api/portraits/women/55.jpg' alt='avatar' />
+              <div className='text-center'>
+                <a href='#' className='text-lg font-bold block'>Monica Armas</a>
+                <span className='text-slate-100'>Dog Trainer</span>
+              </div>
+            </div>
+            <div className='space-y-4 text-center'>
+              <h4 className='text-3xl font-extrabold leading-snug text-transparent bg-clip-text bg-gradient-to-tr from-[#81d200] to-[#24d3ff]'>Web Design templates Selection</h4>
+              <p>Minim dolor in amet nulla laboris enim dolore consequat proident.</p>
+              <button className='py-2 px-4 font-bold rounded-full uppercase text-black bg-gradient-to-tr from-[#81d200] to-[#24ffd7] hover:shadow-2xl'>VIEW PROFILE</button>
             </div>
           </div>
         </div>
