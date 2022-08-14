@@ -781,6 +781,19 @@ function App () {
           </div>
         </div>
 
+        {/** card */}
+        <a href='#' className='break-inside flex flex-col justify-between rounded-xl mb-4 text-black dark:text-white'>
+          <div className='space-y-4'>
+            <div className='flex items-center space-x-4'>
+              <img src='https://images.pexels.com/photos/315987/pexels-photo-315987.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' className='object-cover rounded-lg' alt='Image' />
+            </div>
+            <div className='space-y-2'>
+              <h4 className='text-2xl font-extrabold leading-snug'>Web Design templates Selection</h4>
+              <p>Minim dolor in amet nulla laboris enim dolore consequat proident fugiat culpa eiusmod.</p>
+            </div>
+          </div>
+        </a>
+
       </div>
     </div>
   )
