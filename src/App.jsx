@@ -215,7 +215,7 @@ function App () {
               <h2 className='text-xl font-bold'>Fashion today</h2>
               <p>September 22</p>
             </div>
-            <p>Minim dolor in amet nulla laboris enim dolore consequat proident fugiat culpa eiusmod ❤ ❤ ❤ dolore sed excepteur.</p>
+            <p>Minim dolor in amet nulla laboris enim dolore consequat proident fugia ❤ ❤ ❤ dolore.</p>
             <div className='pt-4'>
               <div className='flex items-center space-x-4'>
                 <img className='flex-none w-12 h-12 rounded-full object-cover' src='https://randomuser.me/api/portraits/women/45.jpg' alt='avatar' />
@@ -541,7 +541,7 @@ function App () {
               </div>
             </div>
             <div className='space-y-2'>
-              <h4 className='text-3xl font-extrabold leading-snug'>Web Design templates Selection</h4>
+              <h4 className='text-2xl font-extrabold leading-snug'>Web Design templates Selection</h4>
               <p>Minim dolor in amet nulla laboris enim dolore consequat proident fugiat culpa eiusmod.</p>
             </div>
           </div>
@@ -610,10 +610,10 @@ function App () {
           <div className='space-y-4'>
             <div className='flex justify-between flex-row items-center space-x-4'>
               <div className='flex-auto flex flex-row space-x-4'>
-                <img className='flex-none w-14 h-14 rounded-full object-cover' src='https://randomuser.me/api/portraits/men/33.jpg' alt='avatar' />
+                <img className='flex-none w-10 h-10 rounded-full object-cover' src='https://randomuser.me/api/portraits/men/33.jpg' alt='avatar' />
                 <div className='flex flex-col'>
-                  <a href='#' className='text-lg font-bold block dark:text-white'>Lorenzo Jimenez</a>
-                  <a href='#' className='font-medium underline text-green-500 dark:text-slate-300'>Publication</a>
+                  <a href='#' className='text-smk font-bold block dark:text-white'>Lorenzo Jimenez</a>
+                  <a href='#' className='font-medium text-sm underline text-green-500 dark:text-slate-300'>Publication</a>
                 </div>
               </div>
               <button className='flex items-center justify-center rounded-full p-1 transition-all hover:bg-slate-200 dark:hover:bg-slate-700'>
@@ -623,13 +623,13 @@ function App () {
               </button>
             </div>
             <div className='space-y-4'>
-              <h4 className='text-3xl font-extrabold leading-snug'>We must protect the environment</h4>
+              <h4 className='text-2xl font-extrabold leading-snug'>We must protect the environment</h4>
               <span className='text-slate-500 dark:text-slate-400'>September 23, 2021</span>
               <p>Minim dolor in amet nulla laboris enim dolore consequat proident fugiat culpa eiusmod.</p>
               <div className='flex flex-row space-x-1'>
-                <span className='px-3 py-1 rounded-md bg-green-600 text-white'>Environment</span>
-                <span className='px-3 py-1 rounded-md bg-green-600 text-white'>Biology</span>
-                <span className='px-3 py-1 rounded-md bg-green-600 text-white'>Science</span>
+                <span className='px-2 text-sm py-1 rounded-md bg-green-600 text-white'>Environment</span>
+                <span className='px-2 text-sm py-1 rounded-md bg-green-600 text-white'>Biology</span>
+                <span className='px-2 text-sm py-1 rounded-md bg-green-600 text-white'>Science</span>
               </div>
             </div>
             <div className='flex flex-row justify-between'>
@@ -671,8 +671,8 @@ function App () {
         {/** card */}
         <div className='break-inside p-6 flex flex-col justify-between rounded-xl mb-4 bg-white dark:bg-slate-800 dark:text-slate-50'>
           <div className='flex justify-between'>
-            <div className='flex items-center space-x-4'>
-              <svg viewBox='0 0 24 24' width='28' height='28'>
+            <div className='flex items-center space-x-1'>
+              <svg viewBox='0 0 24 24' width='26' height='26'>
                 <path fill='currentColor' d='M4.59,6.89C5.29,6.18 6,5.54 6.3,5.67C6.8,5.87 6.3,6.7 6,7.19C5.75,7.61 3.14,11.08 3.14,13.5C3.14,14.78 3.62,15.84 4.5,16.5C5.23,17.04 6.22,17.21 7.12,16.94C8.19,16.63 9.07,15.54 10.18,14.17C11.39,12.68 13,10.73 14.26,10.73C15.89,10.73 15.91,11.74 16,12.5C12.24,13.16 10.64,16.19 10.64,17.89C10.64,19.59 12.08,21 13.85,21C15.5,21 18.14,19.65 18.54,14.88H21V12.38H18.53C18.38,10.73 17.44,8.18 14.5,8.18C12.25,8.18 10.32,10.09 9.56,11C9,11.75 7.5,13.5 7.27,13.74C7,14.04 6.59,14.58 6.16,14.58C5.71,14.58 5.44,13.75 5.8,12.66C6.15,11.57 7.2,9.8 7.65,9.14C8.43,8 8.95,7.22 8.95,5.86C8.95,3.69 7.31,3 6.44,3C5.12,3 3.97,4 3.72,4.25C3.36,4.61 3.06,4.91 2.84,5.18L4.59,6.89M13.88,18.55C13.57,18.55 13.14,18.29 13.14,17.83C13.14,17.23 13.87,15.63 16,15.07C15.71,17.76 14.58,18.55 13.88,18.55Z' />
               </svg>
               <div className='flex-auto'>
@@ -690,14 +690,68 @@ function App () {
             <h4 className='text-xl font-extrabold leading-snug'>Web Design templates Selection</h4>
             <img src='https://images.pexels.com/photos/1158783/pexels-photo-1158783.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260' className='rounded-xl h-[12rem] w-full object-cover' />
             <p className='uppercase text-sm text-slate-500 font-medium dark:text-slate-400'>Introduction</p>
-            <p>Minim dolor in amet nulla laboris enim dolore consequat proident fugiat culpa eiusmod.</p>
+            <p>Minim dolor in amet nulla laboris enim dolore consequat...</p>
           </div>
           <div className='flex justify-between'>
             <div className='flex items-center space-x-4'>
-              <a href='#' className='font-medium uppercase block dark:text-white'>Read more</a>
+              <a href='#' className='font-medium text-sm uppercase block dark:text-white'>Read more</a>
             </div>
             <button className='flex items-center justify-center rounded-full p-3 transition-all hover:bg-slate-200 dark:hover:bg-slate-700'>
               <svg viewBox='0 0 24 24' width='22' height='22'>
+                <path fill='currentColor' d='M19,4H15.5L14.5,3H9.5L8.5,4H5V6H19M6,19A2,2 0 0,0 8,21H16A2,2 0 0,0 18,19V7H6V19Z' />
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        {/** card */}
+        <div className='break-inside p-4 flex flex-col justify-between rounded-xl mb-4 bg-white dark:bg-slate-800 dark:text-slate-50 group'>
+          <div className='flex justify-between'>
+            <div className='flex items-center space-x-2'>
+              <svg viewBox='0 0 24 24' width='28' height='28'>
+                <path fill='currentColor' d='M4.59,6.89C5.29,6.18 6,5.54 6.3,5.67C6.8,5.87 6.3,6.7 6,7.19C5.75,7.61 3.14,11.08 3.14,13.5C3.14,14.78 3.62,15.84 4.5,16.5C5.23,17.04 6.22,17.21 7.12,16.94C8.19,16.63 9.07,15.54 10.18,14.17C11.39,12.68 13,10.73 14.26,10.73C15.89,10.73 15.91,11.74 16,12.5C12.24,13.16 10.64,16.19 10.64,17.89C10.64,19.59 12.08,21 13.85,21C15.5,21 18.14,19.65 18.54,14.88H21V12.38H18.53C18.38,10.73 17.44,8.18 14.5,8.18C12.25,8.18 10.32,10.09 9.56,11C9,11.75 7.5,13.5 7.27,13.74C7,14.04 6.59,14.58 6.16,14.58C5.71,14.58 5.44,13.75 5.8,12.66C6.15,11.57 7.2,9.8 7.65,9.14C8.43,8 8.95,7.22 8.95,5.86C8.95,3.69 7.31,3 6.44,3C5.12,3 3.97,4 3.72,4.25C3.36,4.61 3.06,4.91 2.84,5.18L4.59,6.89M13.88,18.55C13.57,18.55 13.14,18.29 13.14,17.83C13.14,17.23 13.87,15.63 16,15.07C15.71,17.76 14.58,18.55 13.88,18.55Z' />
+              </svg>
+              <div className='flex-auto'>
+                <a href='#' className='text-xl font-bold block dark:text-white'>Paint</a>
+              </div>
+            </div>
+            <div className='flex items-center space-x-1 text-slate-500 dark:text-slate-400'>
+              <svg viewBox='0 0 24 24' width='18' height='18'>
+                <path fill='currentColor' d='M12 20C16.4 20 20 16.4 20 12S16.4 4 12 4 4 7.6 4 12 7.6 20 12 20M12 2C17.5 2 22 6.5 22 12S17.5 22 12 22C6.5 22 2 17.5 2 12C2 6.5 6.5 2 12 2M17 13.9L16.3 15.2L11 12.3V7H12.5V11.4L17 13.9Z' />
+              </svg>
+              <span className='uppercase text-sm font-medium'>12 min ago</span>
+            </div>
+          </div>
+          <div className='py-6 space-y-3'>
+            <div className='relative rounded-xl overflow-hidden'>
+              <img src='https://images.pexels.com/photos/12499066/pexels-photo-12499066.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' className='h-[14rem] w-full object-cover' />
+              <div className='absolute bottom-0 left-0 w-full p-4 bg-gradient-to-t from-[#000000] to-[#00000000]'>
+                <div className='flex items-center flex-row justify-between'>
+                  <div className='flex items-center space-x-4'>
+                    <img className='flex-none w-8 h-8 rounded-full object-cover' src='https://randomuser.me/api/portraits/men/35.jpg' alt='avatar' />
+                    <div className='flex-auto'>
+                      <a href='#' className='no-underline text-sm font-medium block text-white'>
+                        Williams
+                      </a>
+                    </div>
+                  </div>
+                  <button className='flexitems-center justify-center text-white rounded-full p-2 transition-all group-hover:bg-white group-hover:text-black'>
+                    <svg width='22' height='22' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+                      <path d='M20.71,7.04C21.1,6.65 21.1,6 20.71,5.63L18.37,3.29C18,2.9 17.35,2.9 16.96,3.29L15.12,5.12L18.87,8.87M3,17.25V21H6.75L17.81,9.93L14.06,6.18L3,17.25Z' fill='currentColor' />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <p className='uppercase text-sm text-slate-500 font-medium dark:text-slate-400'>Introduction</p>
+            <p>Minim dolor in amet nulla laboris enim dolore consequat.</p>
+          </div>
+          <div className='flex justify-between'>
+            <div className='flex items-center space-x-4'>
+              <a href='#' className='font-medium text-sm uppercase block dark:text-white'>Read more</a>
+            </div>
+            <button className='flex items-center justify-center rounded-full p-2 transition-all hover:bg-slate-200 dark:hover:bg-slate-700'>
+              <svg viewBox='0 0 24 24' width='20' height='20'>
                 <path fill='currentColor' d='M19,4H15.5L14.5,3H9.5L8.5,4H5V6H19M6,19A2,2 0 0,0 8,21H16A2,2 0 0,0 18,19V7H6V19Z' />
               </svg>
             </button>
