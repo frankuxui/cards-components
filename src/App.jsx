@@ -531,7 +531,7 @@ function App () {
         </div>
 
         {/** card */}
-        <div className='break-inside p-6 flex flex-col justify-between rounded-xl mb-4 bg-white dark:bg-slate-800 dark:text-slate-50'>
+        <div className='break-inside p-4 flex flex-col justify-between rounded-xl mb-4 bg-white dark:bg-slate-800 dark:text-slate-50'>
           <div className='space-y-4'>
             <div className='flex items-center space-x-4'>
               <img className='flex-none w-14 h-14 rounded-full object-cover' src='https://randomuser.me/api/portraits/women/55.jpg' alt='avatar' />
@@ -755,6 +755,29 @@ function App () {
                 <path fill='currentColor' d='M19,4H15.5L14.5,3H9.5L8.5,4H5V6H19M6,19A2,2 0 0,0 8,21H16A2,2 0 0,0 18,19V7H6V19Z' />
               </svg>
             </button>
+          </div>
+        </div>
+
+        {/** card */}
+        <div className='break-inside p-4 flex flex-col justify-between rounded-xl mb-4 bg-white dark:bg-slate-800 dark:text-slate-50'>
+          <div className='space-y-4'>
+            <div className='flex justify-between flex-row items-center space-x-4'>
+              <div className='flex-auto flex flex-row space-x-4'>
+                <img className='flex-none w-10 h-10 rounded-full object-cover' src='https://randomuser.me/api/portraits/women/33.jpg' alt='avatar' />
+                <div className='flex flex-col'>
+                  <a href='#' className='text-smk font-bold block dark:text-white'>Emma Johnson </a>
+                  <span>Electronic technician</span>
+                </div>
+              </div>
+            </div>
+            <div className='py-4 space-y-4'>
+              <h4 className='text-xl font-extrabold leading-snug'>The care of animals and our planet only depends on you</h4>
+              <div className='grid grid-cols-2 gap-2'>
+                <img src='https://images.pexels.com/photos/37833/rainbow-lorikeet-parrots-australia-rainbow-37833.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' className='object-cover rounded-lg' alt='Image' />
+                <img src='https://images.pexels.com/photos/133459/pexels-photo-133459.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' className='object-cover rounded-lg' alt='Image' />
+              </div>
+              <p>Minim dolor in amet nulla laboris enim dolore consequat proident fugiat culpa eiusmod.</p>
+            </div>
           </div>
         </div>
 
