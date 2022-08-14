@@ -200,7 +200,7 @@ function App () {
                       <h3 className='text-lg font-medium'>Card overlay caption</h3>
                       <p>Alternative caption</p>
                     </div>
-                    <button className='flexitems-center justify-center hover:bg-[#ffffff27] rounded-full p-2 transition-all'>
+                    <button className='flex items-center justify-center hover:bg-[#ffffff27] rounded-full p-2 transition-all'>
                       <svg width='26' height='26' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
                         <path d='M12,16A2,2 0 0,1 14,18A2,2 0 0,1 12,20A2,2 0 0,1 10,18A2,2 0 0,1 12,16M12,10A2,2 0 0,1 14,12A2,2 0 0,1 12,14A2,2 0 0,1 10,12A2,2 0 0,1 12,10M12,4A2,2 0 0,1 14,6A2,2 0 0,1 12,8A2,2 0 0,1 10,6A2,2 0 0,1 12,4Z' fill='currentColor' />
                       </svg>
@@ -572,12 +572,12 @@ function App () {
             <div className='absolute top-0 left-0 w-full h-full'>
               <div className='flex justify-between h-full flex-col'>
                 <div className='flex justify-end space-x-2 p-6 bg-gradient-to-t from-[#00000000] to-[#000000]'>
-                  <button className='flexitems-center justify-center text-white rounded-full p-2 transition-all group-hover:bg-white group-hover:text-black'>
+                  <button className='flex items-center justify-center text-white rounded-full p-2 transition-all group-hover:bg-white group-hover:text-black'>
                     <svg width='24' height='24' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
                       <path d='M20.71,7.04C21.1,6.65 21.1,6 20.71,5.63L18.37,3.29C18,2.9 17.35,2.9 16.96,3.29L15.12,5.12L18.87,8.87M3,17.25V21H6.75L17.81,9.93L14.06,6.18L3,17.25Z' fill='currentColor' />
                     </svg>
                   </button>
-                  <button className='flexitems-center justify-center text-white rounded-full p-2 transition-all group-hover:bg-white group-hover:text-black'>
+                  <button className='flex items-center justify-center text-white rounded-full p-2 transition-all group-hover:bg-white group-hover:text-black'>
                     <svg width='26' height='26' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
                       <path d='M12.1 18.55L12 18.65L11.89 18.55C7.14 14.24 4 11.39 4 8.5C4 6.5 5.5 5 7.5 5C9.04 5 10.54 6 11.07 7.36H12.93C13.46 6 14.96 5 16.5 5C18.5 5 20 6.5 20 8.5C20 11.39 16.86 14.24 12.1 18.55M16.5 3C14.76 3 13.09 3.81 12 5.08C10.91 3.81 9.24 3 7.5 3C4.42 3 2 5.41 2 8.5C2 12.27 5.4 15.36 10.55 20.03L12 21.35L13.45 20.03C18.6 15.36 22 12.27 22 8.5C22 5.41 19.58 3 16.5 3Z' fill='currentColor' />
                     </svg>
@@ -593,7 +593,7 @@ function App () {
                         </a>
                       </div>
                     </div>
-                    <button className='flexitems-center justify-center text-white rounded-full p-2 transition-all group-hover:bg-white group-hover:text-black'>
+                    <button className='flex items-center justify-center text-white rounded-full p-2 transition-all group-hover:bg-white group-hover:text-black'>
                       <svg width='26' height='26' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
                         <path d='M2 12H4V17H20V12H22V17C22 18.11 21.11 19 20 19H4C2.9 19 2 18.11 2 17V12M12 15L17.55 9.54L16.13 8.13L13 11.25V2H11V11.25L7.88 8.13L6.46 9.55L12 15Z' fill='currentColor' />
                       </svg>
@@ -735,7 +735,7 @@ function App () {
                       </a>
                     </div>
                   </div>
-                  <button className='flexitems-center justify-center text-white rounded-full p-2 transition-all group-hover:bg-white group-hover:text-black'>
+                  <button className='flex items-center justify-center text-white rounded-full p-2 transition-all group-hover:bg-white group-hover:text-black'>
                     <svg width='22' height='22' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
                       <path d='M20.71,7.04C21.1,6.65 21.1,6 20.71,5.63L18.37,3.29C18,2.9 17.35,2.9 16.96,3.29L15.12,5.12L18.87,8.87M3,17.25V21H6.75L17.81,9.93L14.06,6.18L3,17.25Z' fill='currentColor' />
                     </svg>
@@ -763,7 +763,7 @@ function App () {
           <div className='space-y-4'>
             <div className='flex justify-between flex-row items-center space-x-4'>
               <div className='flex-auto flex flex-row space-x-4'>
-                <img className='flex-none w-10 h-10 rounded-full object-cover' src='https://randomuser.me/api/portraits/women/33.jpg' alt='avatar' />
+                <img className='flex-none w-12 h-12 rounded-full object-cover' src='https://randomuser.me/api/portraits/women/33.jpg' alt='avatar' />
                 <div className='flex flex-col'>
                   <a href='#' className='text-smk font-bold block dark:text-white'>Emma Johnson </a>
                   <span>Electronic technician</span>
@@ -800,7 +800,7 @@ function App () {
             <div className='relative'>
               <img src='https://images.pexels.com/photos/5733747/pexels-photo-5733747.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' className='object-cover rounded-lg saturate-100' alt='Image' />
               <div className='p-6 absolute top-0 left-0 w-full flex justify-end'>
-                <button className='flexitems-center justify-center text-white rounded-full p-2 transition-all group-hover:bg-white group-hover:text-black'>
+                <button className='flex items-center justify-center text-white rounded-full p-2 transition-all group-hover:bg-white group-hover:text-black'>
                   <svg width='18' height='18' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
                     <path d='M12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5C2,5.41 4.42,3 7.5,3C9.24,3 10.91,3.81 12,5.08C13.09,3.81 14.76,3 16.5,3C19.58,3 22,5.41 22,8.5C22,12.27 18.6,15.36 13.45,20.03L12,21.35Z' fill='currentColor' />
                   </svg>
@@ -833,7 +833,7 @@ function App () {
               <img src='https://images.pexels.com/photos/244206/pexels-photo-244206.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' className='object-cover rounded-lg saturate-100' alt='Image' />
               <div className='p-4 absolute top-0 left-0 w-full flex justify-between items-center'>
                 <span className='px-3 py-1 text-xs                               rounded-full bg-[#0e0101] text-white'>Reservado</span>
-                <button className='flexitems-center justify-center text-slate-500 rounded-full p-2 transition-all group-hover:bg-slate-100 group-hover:text-black'>
+                <button className='flex items-center justify-center text-slate-500 rounded-full p-2 transition-all group-hover:bg-slate-100 group-hover:text-black'>
                   <svg width='18' height='18' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
                     <path d='M12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5C2,5.41 4.42,3 7.5,3C9.24,3 10.91,3.81 12,5.08C13.09,3.81 14.76,3 16.5,3C19.58,3 22,5.41 22,8.5C22,12.27 18.6,15.36 13.45,20.03L12,21.35Z' fill='currentColor' />
                   </svg>
@@ -866,7 +866,7 @@ function App () {
           <div className='space-y-4'>
             <div className='relative'>
               <img src='https://images.pexels.com/photos/6540939/pexels-photo-6540939.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' className='object-cover rounded-lg saturate-100' alt='Image' />
-              <button className='absolute right-0 top-4 flexitems-center justify-center text-black px-4 py-3 bg-white'>
+              <button className='absolute right-0 top-4 flex items-center justify-center text-black px-4 py-3 bg-white'>
                 <svg viewBox='0 0 24 24' width='20' height='20' aria-hidden='true'>
                   <g>
                     <path fill='currentColor' d='M12 21.638h-.014C9.403 21.59 1.95 14.856 1.95 8.478c0-3.064 2.525-5.754 5.403-5.754 2.29 0 3.83 1.58 4.646 2.73.814-1.148 2.354-2.73 4.645-2.73 2.88 0 5.404 2.69 5.404 5.755 0 6.376-7.454 13.11-10.037 13.157H12zM7.354 4.225c-2.08 0-3.903 1.988-3.903 4.255 0 5.74 7.034 11.596 8.55 11.658 1.518-.062 8.55-5.917 8.55-11.658 0-2.267-1.823-4.255-3.903-4.255-2.528 0-3.94 2.936-3.952 2.965-.23.562-1.156.562-1.387 0-.014-.03-1.425-2.965-3.954-2.965z' />
@@ -889,6 +889,49 @@ function App () {
               </div>
               <div className='flex text-xl font-bold'>
                 <span>94,99 €</span>
+              </div>
+            </div>
+          </div>
+        </a>
+
+        {/** card */}
+        <a href='#' className='break-inside flex flex-col justify-between rounded-xl mb-4 text-black dark:text-white group'>
+          <div className='space-y-4'>
+            <div className='relative'>
+              <img src='https://images.pexels.com/photos/1161547/pexels-photo-1161547.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' className='object-cover rounded-lg saturate-100' alt='Image' />
+              <div className='p-6 absolute top-0 left-0 w-full flex justify-end'>
+                <button className='flex items-center justify-center text-white rounded-full p-2 transition-all group-hover:bg-white group-hover:text-black'>
+                  <svg width='18' height='18' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+                    <path d='M12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5C2,5.41 4.42,3 7.5,3C9.24,3 10.91,3.81 12,5.08C13.09,3.81 14.76,3 16.5,3C19.58,3 22,5.41 22,8.5C22,12.27 18.6,15.36 13.45,20.03L12,21.35Z' fill='currentColor' />
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <div className='flex flex-col text-sm'>
+              <div className='flex justify-between flex-row items-center space-x-4'>
+                <div className='flex-auto flex flex-row space-x-4'>
+                  <img className='flex-none w-10 h-10 rounded-full object-cover' src='https://randomuser.me/api/portraits/women/33.jpg' alt='avatar' />
+                  <div className='flex flex-col'>
+                    <span>Magical Graphics</span>
+                    <a href='#' className='text-sm font-bold block dark:text-white'>Phill Garner</a>
+                  </div>
+                </div>
+                <button className='flex items-center justify-center'>
+                  <svg viewBox='0 0 24 24' width='20' height='20' aria-hidden='true'>
+                    <g>
+                      <path fill='currentColor' d='M12 21.638h-.014C9.403 21.59 1.95 14.856 1.95 8.478c0-3.064 2.525-5.754 5.403-5.754 2.29 0 3.83 1.58 4.646 2.73.814-1.148 2.354-2.73 4.645-2.73 2.88 0 5.404 2.69 5.404 5.755 0 6.376-7.454 13.11-10.037 13.157H12zM7.354 4.225c-2.08 0-3.903 1.988-3.903 4.255 0 5.74 7.034 11.596 8.55 11.658 1.518-.062 8.55-5.917 8.55-11.658 0-2.267-1.823-4.255-3.903-4.255-2.528 0-3.94 2.936-3.952 2.965-.23.562-1.156.562-1.387 0-.014-.03-1.425-2.965-3.954-2.965z' />
+                    </g>
+                  </svg>
+                  19
+                </button>
+                <button className='flex items-center justify-center'>
+                  <svg viewBox='0 0 24 24' width='20' height='20' aria-hidden='true'>
+                    <g>
+                      <path fill='currentColor' d='M12 21.638h-.014C9.403 21.59 1.95 14.856 1.95 8.478c0-3.064 2.525-5.754 5.403-5.754 2.29 0 3.83 1.58 4.646 2.73.814-1.148 2.354-2.73 4.645-2.73 2.88 0 5.404 2.69 5.404 5.755 0 6.376-7.454 13.11-10.037 13.157H12zM7.354 4.225c-2.08 0-3.903 1.988-3.903 4.255 0 5.74 7.034 11.596 8.55 11.658 1.518-.062 8.55-5.917 8.55-11.658 0-2.267-1.823-4.255-3.903-4.255-2.528 0-3.94 2.936-3.952 2.965-.23.562-1.156.562-1.387 0-.014-.03-1.425-2.965-3.954-2.965z' />
+                    </g>
+                  </svg>
+                  19
+                </button>
               </div>
             </div>
           </div>
