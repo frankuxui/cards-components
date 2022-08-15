@@ -937,6 +937,73 @@ function App () {
           </div>
         </a>
 
+        {/** card */}
+        <div className='break-inside flex flex-col justify-between overflow-hidden rounded-xl mb-4 bg-white dark:bg-slate-800 dark:text-slate-50'>
+          <div className='p-6 flex justify-between'>
+            <div className='flex items-center space-x-2'>
+              <svg viewBox='0 0 24 24' width='28' height='28'>
+                <path fill='currentColor' d='M12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2C17.5,2 22,6 22,11A6,6 0 0,1 16,17H14.2C13.9,17 13.7,17.2 13.7,17.5C13.7,17.6 13.8,17.7 13.8,17.8C14.2,18.3 14.4,18.9 14.4,19.5C14.5,20.9 13.4,22 12,22M12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20C12.3,20 12.5,19.8 12.5,19.5C12.5,19.3 12.4,19.2 12.4,19.1C12,18.6 11.8,18.1 11.8,17.5C11.8,16.1 12.9,15 14.3,15H16A4,4 0 0,0 20,11C20,7.1 16.4,4 12,4M6.5,10C7.3,10 8,10.7 8,11.5C8,12.3 7.3,13 6.5,13C5.7,13 5,12.3 5,11.5C5,10.7 5.7,10 6.5,10M9.5,6C10.3,6 11,6.7 11,7.5C11,8.3 10.3,9 9.5,9C8.7,9 8,8.3 8,7.5C8,6.7 8.7,6 9.5,6M14.5,6C15.3,6 16,6.7 16,7.5C16,8.3 15.3,9 14.5,9C13.7,9 13,8.3 13,7.5C13,6.7 13.7,6 14.5,6M17.5,10C18.3,10 19,10.7 19,11.5C19,12.3 18.3,13 17.5,13C16.7,13 16,12.3 16,11.5C16,10.7 16.7,10 17.5,10Z' />
+              </svg>
+              <div className='flex-auto'>
+                <a href='#' className='text-xl font-bold block dark:text-white'>Inspirations</a>
+              </div>
+            </div>
+          </div>
+          <div className='relative flex flex-col justify-between text-white bg-green-900 min-h-[14rem]'>
+            <img src='https://images.pexels.com/photos/13007364/pexels-photo-13007364.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='Imagen' />
+            <div className='absolute bottom-0 left-0 w-full p-6 bg-[#000000a8]'>
+              <div className='flex items-center flex-row justify-between'>
+                <div className='flex flex-col mr-auto'>
+                  <span>Artist</span>
+                  <a href='https://www.pexels.com/es-es/@anna-panchenko-212558913/' className='font-medium text-xl'>Anna Panchenko</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className='p-6 flex flex-col justify-between space-y-6'>
+            <div className='space-y-2'>
+              <p className='text-slate-500 dark:text-slate-400'>Introduction</p>
+              <p>This impressive paella is a perfect party dish and a fun meal to cook together with your guests..</p>
+            </div>
+            <div className='flex flex-row items-center justify-between space-x-2'>
+              <a href='#' className='inline-flex justify-center items-center rounded-md font-medium text-lg underline'>Views</a>
+              <div className='col-start-2 row-start-1 row-end-3'>
+                <dt className='sr-only'>Users</dt>
+                <dd className='flex justify-start -space-x-1.5'>
+                  <a href='#' className='inline-block -m-1'>
+                    <img
+                      className='w-9 h-9 rounded-full bg-slate-100 ring-2 ring-white dark:ring-slate-800'
+                      src='https://randomuser.me/api/portraits/women/46.jpg'
+                      alt='avatar'
+                    />
+                  </a>
+                  <a href='#' className='inline-block -m-1'>
+                    <img
+                      className='w-9 h-9 rounded-full bg-slate-100 ring-2 ring-white dark:ring-slate-800'
+                      src='https://randomuser.me/api/portraits/men/45.jpg'
+                      alt='avatar'
+                    />
+                  </a>
+                  <a href='#' className='inline-block -m-1'>
+                    <img
+                      className='w-9 h-9 rounded-full bg-slate-100 ring-2 ring-white dark:ring-slate-800'
+                      src='https://randomuser.me/api/portraits/women/47.jpg'
+                      alt='avatar'
+                    />
+                  </a>
+                  <a href='#' className='inline-block -m-1'>
+                    <img
+                      class='w-9 h-9 rounded-full bg-slate-100 ring-2 ring-white dark:ring-slate-800'
+                      src='https://randomuser.me/api/portraits/men/48.jpg'
+                      alt='avatar'
+                    />
+                  </a>
+                </dd>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
   )
