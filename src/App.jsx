@@ -586,7 +586,7 @@ function App () {
                 <div className='p-6 bg-gradient-to-t from-[#000000] to-[#00000000]'>
                   <div className='flex items-center flex-row justify-between'>
                     <div className='flex items-center space-x-4'>
-                      <img className='flex-none w-12 h-12 rounded-full object-cover' src='https://randomuser.me/api/portraits/men/35.jpg' alt='avatar' />
+                      <img className='flex-none w-10 h-10 rounded-full object-cover' src='https://randomuser.me/api/portraits/men/35.jpg' alt='avatar' />
                       <div className='flex-auto'>
                         <a href='#' className='no-underline font-bold block'>
                           Frank Esteban
@@ -1005,6 +1005,24 @@ function App () {
         </div>
 
         {/** card */}
+        <div className='break-inside relative overflow-hidden flex flex-col justify-between group rounded-[10rem] mb-4 bg-white text-black'>
+          <div className='absolute z-10 bottom-0 left-0 w-full p-16 bg-gradient-to-t from-[#c000e2] to-[#00000000] text-white'>
+            <div className='flex items-center flex-row justify-between'>
+              <div className='mr-auto'>
+                <span>Artist</span>
+                <h3 className='font-medium text-xl'>Cameron Williamson</h3>
+              </div>
+              <button className='flex items-center justify-center text-white rounded-full p-2 transition-all group-hover:bg-white group-hover:text-black'>
+                <svg width='18' height='18' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+                  <path d='M12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5C2,5.41 4.42,3 7.5,3C9.24,3 10.91,3.81 12,5.08C13.09,3.81 14.76,3 16.5,3C19.58,3 22,5.41 22,8.5C22,12.27 18.6,15.36 13.45,20.03L12,21.35Z' fill='currentColor' />
+                </svg>
+              </button>
+            </div>
+          </div>
+          <img src='https://images.pexels.com/photos/1164674/pexels-photo-1164674.jpeg' className='w-[30rem] h-[35rem] object-cover w-wull' />
+        </div>
+
+        {/** card */}
         <div className='break-inside flex flex-col justify-between rounded-xl mb-4 bg-white dark:bg-slate-800 dark:text-slate-50'>
           <div className='space-y-4'>
             <div className='p-4 flex justify-between flex-row items-center space-x-4'>
@@ -1012,7 +1030,7 @@ function App () {
                 <img className='flex-none w-10 h-10 rounded-full object-cover' src='https://randomuser.me/api/portraits/men/27.jpg' alt='avatar' />
                 <div className='flex flex-col'>
                   <a href='#' className='text-smk font-bold block dark:text-white'>Robert Jones</a>
-                  <span className='text-sm text-slate-500 dark:text-slate-400'>January 22, 2021</span>
+                  <span className='text-xs text-slate-500 dark:text-slate-400'>January 22, 2021</span>
                 </div>
               </div>
               <button className='flex items-center justify-center rounded-full p-1 transition-all hover:bg-slate-200 dark:hover:bg-slate-700'>
@@ -1206,9 +1224,16 @@ function App () {
             <div className='space-y-4 text-center'>
               <h4 className='text-3xl font-extrabold leading-snug'>Web Design templates Selection</h4>
               <div className='flex flex-col items-center text-center space-y-2'>
-                <img className='flex-none w-20 h-20 rounded-full object-cover border-4 border-[#fdc448] ring-4 ring-black' src='https://randomuser.me/api/portraits/men/65.jpg' alt='avatar' />
+                <div className='relative'>
+                  <img className='flex-none w-20 h-20 rounded-full object-cover border-4 border-[#fdc448] ring-4 ring-black' src='https://randomuser.me/api/portraits/men/65.jpg' alt='avatar' />
+                  <span className='absolute rounded-full p-1 bottom-[-8px] right-[-2px] bg-black text-[#fdc448]'>
+                    <svg width='16' height='16' viewBox='0 0 24 24'>
+                      <path fill='currentColor' d='M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z' />
+                    </svg>
+                  </span>
+                </div>
                 <div>
-                  <h5 className='text-lg font-medium'>Aron Ramsey</h5>
+                  <h5 className='text-lg font-medium mt-2'>Aron Ramsey</h5>
                   <p>Regional Legal Manager</p>
                   <p>Communication</p>
                 </div>
