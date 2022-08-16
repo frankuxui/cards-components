@@ -421,7 +421,7 @@ function App () {
         {/** card */}
         <div className='break-inside flex flex-col justify-between overflow-hidden rounded-xl mb-4 bg-white dark:bg-slate-800 dark:text-slate-50'>
           <div className='relative flex flex-col justify-between text-white bg-green-900 min-h-[14rem]'>
-            <img src='https://images.pexels.com/photos/4424567/pexels-photo-4424567.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260' alt='Imagen' />
+            <img src='https://images.pexels.com/photos/4424567/pexels-photo-4424567.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260' alt='Imagen' className='w-full h-[25rem] object-cover' />
             <div className='absolute bottom-0 left-0 w-full p-6 bg-gradient-to-t from-[#000000] to-[#00000000]'>
               <div className='flex items-center flex-row justify-between'>
                 <div className='mr-auto'>
@@ -542,7 +542,7 @@ function App () {
             </div>
             <div className='space-y-2'>
               <h4 className='text-2xl font-extrabold leading-snug'>Web Design templates Selection</h4>
-              <p>Minim dolor in amet nulla laboris enim dolore consequat proident fugiat culpa eiusmod.</p>
+              <p>Minim dolor in amet nulla laboris enim dolore conequat proide.</p>
             </div>
           </div>
         </div>
@@ -688,7 +688,7 @@ function App () {
           </div>
           <div className='py-6 space-y-3'>
             <h4 className='text-xl font-extrabold leading-snug'>Web Design templates Selection</h4>
-            <img src='https://images.pexels.com/photos/1158783/pexels-photo-1158783.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260' className='rounded-xl h-[12rem] w-full object-cover' />
+            <img src='https://images.pexels.com/photos/1158783/pexels-photo-1158783.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260' className='rounded-xl h-[8rem] w-full object-cover' />
             <p className='uppercase text-sm text-slate-500 font-medium dark:text-slate-400'>Introduction</p>
             <p>Minim dolor in amet nulla laboris enim dolore consequat...</p>
           </div>
@@ -925,11 +925,10 @@ function App () {
                 </div>
                 <div>
                   <h5 className='text-lg font-medium mt-2'>Aron Ramsey</h5>
-                  <p>Regional Legal Manager</p>
                   <p>Communication</p>
                 </div>
               </div>
-              <button className='rounded-full w-full py-2 font-medium transition-all border-2 group border-black bg-transparent hover:bg-black hover:text-white '>
+              <button className='rounded-full w-full py-1 font-medium transition-all border-2 group border-black bg-transparent hover:bg-black hover:text-white '>
                 Go to the future
               </button>
             </div>
@@ -992,7 +991,7 @@ function App () {
             </div>
           </div>
           <div className='relative flex flex-col justify-between text-white bg-green-900 min-h-[14rem]'>
-            <img src='https://images.pexels.com/photos/13007364/pexels-photo-13007364.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='Imagen' />
+            <img src='https://images.pexels.com/photos/13007364/pexels-photo-13007364.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='Imagen' className='object-cover w-full h-[20rem]' />
             <div className='absolute bottom-0 left-0 w-full p-6 bg-[#000000a8]'>
               <div className='flex items-center flex-row justify-between'>
                 <div className='flex flex-col mr-auto'>
@@ -1082,7 +1081,7 @@ function App () {
               </button>
             </div>
             <div className='px-4 py-0 space-y-4'>
-              <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmodelit sed do eiusmodelit😨🥴🦊 sed do eiusmodelit sed do eiusmod <a href='#' className='font-medium text-blue-600 dark:text-slate-100'>#ui</a> <a href='#' className='font-medium text-blue-600 dark:text-slate-100'>#uxui</a> <a href='#' className='font-medium text-blue-600 dark:text-slate-100'>#userinterface</a> <a href='#' className='font-medium text-blue-600 dark:text-slate-100'>#webdeveloper</a> <a href='#' className='font-medium text-blue-600 dark:text-slate-100'>#card</a> </p>
+              <p> Lorem ipsum dolor sit amet adipiscing elit sed do eiusmodelit 😨🥴🦊 eiusmodelit sed do eiusmod <a href='#' className='font-medium text-blue-600 dark:text-slate-100'>#ui</a> <a href='#' className='font-medium text-blue-600 dark:text-slate-100'>#uxui</a> <a href='#' className='font-medium text-blue-600 dark:text-slate-100'>#userinterface</a> <a href='#' className='font-medium text-blue-600 dark:text-slate-100'>#webdeveloper</a> <a href='#' className='font-medium text-blue-600 dark:text-slate-100'>#card</a> </p>
             </div>
             <div className='p-4 bg-pink-600 text-white text-3xl font-medium leading-snug'>
               This impressive paella is a perfect party dish
@@ -1137,7 +1136,7 @@ function App () {
             <div className='pt-4 pr-6 pl-6 pb-0 space-y-2'>
               <h1 className='text-xl font-medium'>News</h1>
               <p>14 May 2014</p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmodelit sed dosed do eiusmodelit sed do eiusmod <a href='#' className='font-medium text-blue-600 dark:text-slate-100'>#ui</a> <a href='#' className='font-medium text-blue-600 dark:text-slate-100'>#uxui</a> <a href='#' className='font-medium text-blue-600 dark:text-slate-100'>#userinterface</a> <a href='#' className='font-medium text-blue-600 dark:text-slate-100'>#webdeveloper</a> <a href='#' className='font-medium text-blue-600 dark:text-slate-100'>#card</a> </p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmodelit <a href='#' className='font-medium text-blue-600 dark:text-slate-100'>#ui</a> <a href='#' className='font-medium text-blue-600 dark:text-slate-100'>#uxui</a> <a href='#' className='font-medium text-blue-600 dark:text-slate-100'>#userinterface</a> <a href='#' className='font-medium text-blue-600 dark:text-slate-100'>#webdeveloper</a> <a href='#' className='font-medium text-blue-600 dark:text-slate-100'>#card</a> </p>
             </div>
             <div className='pr-6 pl-6'>
               <div className='rounded-xl overflow-hidden'>
@@ -1192,24 +1191,24 @@ function App () {
                   <p>Communication</p>
                 </div>
               </div>
-              <div className='flex justify-between items-center flex-row w-full p-4'>
+              <div className='flex justify-between items-center flex-row w-full'>
                 <button className='p-2 rounded-full transition-all hover:bg-yellow-200 dark:hover:bg-slate-600'>
-                  <svg width='26' height='26' viewBox='0 0 24 24'>
+                  <svg width='24' height='24' viewBox='0 0 24 24'>
                     <path fill='currentColor' d='M9.04,21.54C10,21.83 10.97,22 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2A10,10 0 0,0 2,12C2,16.25 4.67,19.9 8.44,21.34C8.35,20.56 8.26,19.27 8.44,18.38L9.59,13.44C9.59,13.44 9.3,12.86 9.3,11.94C9.3,10.56 10.16,9.53 11.14,9.53C12,9.53 12.4,10.16 12.4,10.97C12.4,11.83 11.83,13.06 11.54,14.24C11.37,15.22 12.06,16.08 13.06,16.08C14.84,16.08 16.22,14.18 16.22,11.5C16.22,9.1 14.5,7.46 12.03,7.46C9.21,7.46 7.55,9.56 7.55,11.77C7.55,12.63 7.83,13.5 8.29,14.07C8.38,14.13 8.38,14.21 8.35,14.36L8.06,15.45C8.06,15.62 7.95,15.68 7.78,15.56C6.5,15 5.76,13.18 5.76,11.71C5.76,8.55 8,5.68 12.32,5.68C15.76,5.68 18.44,8.15 18.44,11.43C18.44,14.87 16.31,17.63 13.26,17.63C12.29,17.63 11.34,17.11 11,16.5L10.33,18.87C10.1,19.73 9.47,20.88 9.04,21.57V21.54Z' />
                   </svg>
                 </button>
                 <button className='p-2 rounded-full transition-all hover:bg-yellow-200 dark:hover:bg-slate-600'>
-                  <svg width='26' height='26' viewBox='0 0 24 24'>
+                  <svg width='24' height='24' viewBox='0 0 24 24'>
                     <path fill='currentColor' d='M7.8,2H16.2C19.4,2 22,4.6 22,7.8V16.2A5.8,5.8 0 0,1 16.2,22H7.8C4.6,22 2,19.4 2,16.2V7.8A5.8,5.8 0 0,1 7.8,2M7.6,4A3.6,3.6 0 0,0 4,7.6V16.4C4,18.39 5.61,20 7.6,20H16.4A3.6,3.6 0 0,0 20,16.4V7.6C20,5.61 18.39,4 16.4,4H7.6M17.25,5.5A1.25,1.25 0 0,1 18.5,6.75A1.25,1.25 0 0,1 17.25,8A1.25,1.25 0 0,1 16,6.75A1.25,1.25 0 0,1 17.25,5.5M12,7A5,5 0 0,1 17,12A5,5 0 0,1 12,17A5,5 0 0,1 7,12A5,5 0 0,1 12,7M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9Z' />
                   </svg>
                 </button>
                 <button className='p-2 rounded-full transition-all hover:bg-yellow-200 dark:hover:bg-slate-600'>
-                  <svg width='26' height='26' viewBox='0 0 24 24'>
+                  <svg width='24' height='24' viewBox='0 0 24 24'>
                     <path fill='currentColor' d='M22.46,6C21.69,6.35 20.86,6.58 20,6.69C20.88,6.16 21.56,5.32 21.88,4.31C21.05,4.81 20.13,5.16 19.16,5.36C18.37,4.5 17.26,4 16,4C13.65,4 11.73,5.92 11.73,8.29C11.73,8.63 11.77,8.96 11.84,9.27C8.28,9.09 5.11,7.38 3,4.79C2.63,5.42 2.42,6.16 2.42,6.94C2.42,8.43 3.17,9.75 4.33,10.5C3.62,10.5 2.96,10.3 2.38,10C2.38,10 2.38,10 2.38,10.03C2.38,12.11 3.86,13.85 5.82,14.24C5.46,14.34 5.08,14.39 4.69,14.39C4.42,14.39 4.15,14.36 3.89,14.31C4.43,16 6,17.26 7.89,17.29C6.43,18.45 4.58,19.13 2.56,19.13C2.22,19.13 1.88,19.11 1.54,19.07C3.44,20.29 5.7,21 8.12,21C16,21 20.33,14.46 20.33,8.79C20.33,8.6 20.33,8.42 20.32,8.23C21.16,7.63 21.88,6.87 22.46,6Z' />
                   </svg>
                 </button>
                 <button className='p-2 rounded-full transition-all hover:bg-yellow-200 dark:hover:bg-slate-600'>
-                  <svg width='26' height='26' viewBox='0 0 24 24'>
+                  <svg width='24' height='24' viewBox='0 0 24 24'>
                     <path fill='currentColor' d='M19 3A2 2 0 0 1 21 5V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19V5A2 2 0 0 1 5 3H19M18.5 18.5V13.2A3.26 3.26 0 0 0 15.24 9.94C14.39 9.94 13.4 10.46 12.92 11.24V10.13H10.13V18.5H12.92V13.57C12.92 12.8 13.54 12.17 14.31 12.17A1.4 1.4 0 0 1 15.71 13.57V18.5H18.5M6.88 8.56A1.68 1.68 0 0 0 8.56 6.88C8.56 5.95 7.81 5.19 6.88 5.19A1.69 1.69 0 0 0 5.19 6.88C5.19 7.81 5.95 8.56 6.88 8.56M8.27 18.5V10.13H5.5V18.5H8.27Z' />
                   </svg>
                 </button>
@@ -1228,7 +1227,7 @@ function App () {
             <p>Martymouth</p>
           </div>
           <div className='p-4'>
-            <button className='rounded-lg w-full py-3 font-medium transition-all bg-slate-100 hover:bg-slate-200 dark:bg-slate-700 dark:hover:bg-slate-600'>Follow</button>
+            <button className='rounded-lg w-full py-2 font-medium transition-all bg-slate-100 hover:bg-slate-200 dark:bg-slate-700 dark:hover:bg-slate-600'>Follow</button>
           </div>
         </div>
 
@@ -1239,7 +1238,7 @@ function App () {
             <span className='px-3 py-1 rounded-full uppercase text-sm font-bold bg-black text-white'>future</span>
             <span className='px-3 py-1 rounded-full uppercase text-sm font-bold bg-black text-white'>sience</span>
           </div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmodelit sed dosed</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing</p>
           <div className='flex items-center justify-between'>
             <button className='flex items-center justify-center relative rounded-full w-full py-2 font-medium transition-all border-2 group border-black bg-transparent hover:bg-black hover:text-white '>
               Get experience
@@ -1282,7 +1281,7 @@ function App () {
               </button>
             </div>
             <h2 className='text-lg font-bold'>About</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmodelit sed dosed do eiusmodelit </p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmodelit sed.. </p>
           </div>
         </div>
 
