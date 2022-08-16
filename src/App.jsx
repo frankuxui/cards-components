@@ -876,6 +876,13 @@ function App () {
               <div className='absolute bottom-4 left-0 px-2 py-2 uppercase text-sm font-medium bg-white text-black'>
                 Sneakerlove
               </div>
+              <button className='absolute p-3 bg-[#ffffffcd] top-[49%] opacity-0 left-1/2 -translate-x-1/2 transition-all hover:bg-white group-hover:top-1/2 group-hover:opacity-100'>
+                <svg viewBox='0 0 24 24' width='32' height='32' aria-hidden='true'>
+                  <g>
+                    <path fill='currentColor' d='M9.5,3A6.5,6.5 0 0,1 16,9.5C16,11.11 15.41,12.59 14.44,13.73L14.71,14H15.5L20.5,19L19,20.5L14,15.5V14.71L13.73,14.44C12.59,15.41 11.11,16 9.5,16A6.5,6.5 0 0,1 3,9.5A6.5,6.5 0 0,1 9.5,3M9.5,5C7,5 5,7 5,9.5C5,12 7,14 9.5,14C12,14 14,12 14,9.5C14,7 12,5 9.5,5Z' />
+                  </g>
+                </svg>
+              </button>
             </div>
             <div className='flex flex-col text-sm'>
               <div className='flex justify-between font-medium mb-2'>
@@ -1242,6 +1249,40 @@ function App () {
                 Go to the future
               </button>
             </div>
+          </div>
+        </div>
+
+        {/** card */}
+        <div className='break-inside p-6 flex flex-col justify-between rounded-2xl mb-4 bg-white text-black dark:bg-slate-800 dark:text-white'>
+          <div className='relative sepia'>
+            <div className='absolute top-0 left-0 w-full h-full p-4 flex items-start justify-between'>
+              <button className='flex items-center justify-center p-2 rounded-full bg-white text-black'>
+                <svg width='24' height='24' viewBox='0 0 24 24'>
+                  <path fill='currentColor' d='M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z' />
+                </svg>
+              </button>
+              <button className='flex items-center justify-center p-2 rounded-full bg-white text-black'>
+                <svg width='24' height='24' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+                  <path d='M12,16A2,2 0 0,1 14,18A2,2 0 0,1 12,20A2,2 0 0,1 10,18A2,2 0 0,1 12,16M12,10A2,2 0 0,1 14,12A2,2 0 0,1 12,14A2,2 0 0,1 10,12A2,2 0 0,1 12,10M12,4A2,2 0 0,1 14,6A2,2 0 0,1 12,8A2,2 0 0,1 10,6A2,2 0 0,1 12,4Z' fill='currentColor' />
+                </svg>
+              </button>
+            </div>
+            <img src='https://images.pexels.com/photos/811838/pexels-photo-811838.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='Imagen' className='rounded-xl w-full h-[12rem] object-cover' />
+          </div>
+          <div className='pt-4 space-y-3'>
+            <div className='flex justify-between items-start'>
+              <div className='flex flex-col'>
+                <h1 className='text-xl font-bold'>We are a rock band</h1>
+                <p>15 songs</p>
+              </div>
+              <button className='flex items-center justify-center p-3 rounded-full bg-pink-100 text-pink-500 dark:bg-slate-700 dark:text-pink-400'>
+                <svg width='20' height='20' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+                  <path d='M12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5C2,5.41 4.42,3 7.5,3C9.24,3 10.91,3.81 12,5.08C13.09,3.81 14.76,3 16.5,3C19.58,3 22,5.41 22,8.5C22,12.27 18.6,15.36 13.45,20.03L12,21.35Z' fill='currentColor' />
+                </svg>
+              </button>
+            </div>
+            <h2 className='text-lg font-bold'>About</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmodelit sed dosed do eiusmodelit </p>
           </div>
         </div>
 
