@@ -902,6 +902,41 @@ function App () {
         </a>
 
         {/** card */}
+        <div className='break-inside p-6 flex flex-col justify-between rounded-xl mb-4 bg-[#fdc448] text-black'>
+          <div className='space-y-4'>
+            <div className='flex flex-col justify-center text-center space-y-4'>
+              <h1 className='text-3xl font-extrabold'>FUTURE</h1>
+              <div className='flex items-center justify-center space-x-3'>
+                <span className='flex-1 border border-black bg-black' />
+                <span className='uppercase font-bold'>The</span>
+                <span className='flex-1 border border-black bg-black' />
+              </div>
+            </div>
+            <div className='space-y-4 text-center'>
+              <h4 className='text-2xl font-extrabold leading-snug'>Web Design templates Selection</h4>
+              <div className='flex flex-col items-center text-center space-y-2'>
+                <div className='relative'>
+                  <img className='flex-none w-20 h-20 rounded-full object-cover border-4 border-[#fdc448] ring-4 ring-black' src='https://randomuser.me/api/portraits/men/65.jpg' alt='avatar' />
+                  <span className='absolute rounded-full p-1 bottom-[-8px] right-[-2px] bg-black text-[#fdc448]'>
+                    <svg width='16' height='16' viewBox='0 0 24 24'>
+                      <path fill='currentColor' d='M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z' />
+                    </svg>
+                  </span>
+                </div>
+                <div>
+                  <h5 className='text-lg font-medium mt-2'>Aron Ramsey</h5>
+                  <p>Regional Legal Manager</p>
+                  <p>Communication</p>
+                </div>
+              </div>
+              <button className='rounded-full w-full py-2 font-medium transition-all border-2 group border-black bg-transparent hover:bg-black hover:text-white '>
+                Go to the future
+              </button>
+            </div>
+          </div>
+        </div>
+
+        {/** card */}
         <a href='#' className='break-inside flex flex-col justify-between rounded-xl mb-4 text-black dark:text-white group'>
           <div className='space-y-4'>
             <div className='relative'>
@@ -1214,41 +1249,6 @@ function App () {
                 </svg>
               </span>
             </button>
-          </div>
-        </div>
-
-        {/** card */}
-        <div className='break-inside p-6 flex flex-col justify-between rounded-xl mb-4 bg-[#fdc448] text-black'>
-          <div className='space-y-4'>
-            <div className='flex flex-col justify-center text-center space-y-4'>
-              <h1 className='text-5xl font-extrabold'>FUTURE</h1>
-              <div className='flex items-center justify-center space-x-3'>
-                <span className='flex-1 border border-black bg-black' />
-                <span className='uppercase font-bold'>The</span>
-                <span className='flex-1 border border-black bg-black' />
-              </div>
-            </div>
-            <div className='space-y-4 text-center'>
-              <h4 className='text-3xl font-extrabold leading-snug'>Web Design templates Selection</h4>
-              <div className='flex flex-col items-center text-center space-y-2'>
-                <div className='relative'>
-                  <img className='flex-none w-20 h-20 rounded-full object-cover border-4 border-[#fdc448] ring-4 ring-black' src='https://randomuser.me/api/portraits/men/65.jpg' alt='avatar' />
-                  <span className='absolute rounded-full p-1 bottom-[-8px] right-[-2px] bg-black text-[#fdc448]'>
-                    <svg width='16' height='16' viewBox='0 0 24 24'>
-                      <path fill='currentColor' d='M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z' />
-                    </svg>
-                  </span>
-                </div>
-                <div>
-                  <h5 className='text-lg font-medium mt-2'>Aron Ramsey</h5>
-                  <p>Regional Legal Manager</p>
-                  <p>Communication</p>
-                </div>
-              </div>
-              <button className='rounded-full w-full py-2 font-medium transition-all border-2 group border-black bg-transparent hover:bg-black hover:text-white '>
-                Go to the future
-              </button>
-            </div>
           </div>
         </div>
 
