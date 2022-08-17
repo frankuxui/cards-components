@@ -1423,6 +1423,56 @@ function App () {
           </div>
         </div>
 
+        {/** card */}
+        <div className='break-inside flex flex-col justify-between rounded-xl mb-4 bg-white dark:bg-slate-800 dark:text-slate-50'>
+          <div className='flex justify-between flex-row  items-center p-4'>
+            <div className='flex items-center flex-row space-x-2'>
+              <img src='https://www.svgrepo.com/show/48395/photo-camera.svg' alt='blog' className='w-8 h-8' />
+              <span className='font-medium'>Gallery</span>
+            </div>
+            <button className='flex items-center justify-center rounded-full p-1 transition-all hover:bg-slate-200 dark:hover:bg-slate-700 '>
+              <svg width='26' height='26' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+                <path d='M16,12A2,2 0 0,1 18,10A2,2 0 0,1 20,12A2,2 0 0,1 18,14A2,2 0 0,1 16,12M10,12A2,2 0 0,1 12,10A2,2 0 0,1 14,12A2,2 0 0,1 12,14A2,2 0 0,1 10,12M4,12A2,2 0 0,1 6,10A2,2 0 0,1 8,12A2,2 0 0,1 6,14A2,2 0 0,1 4,12Z' fill='currentColor' />
+              </svg>
+            </button>
+          </div>
+          <div className='flex flex-col justify-between space-y-1 text-white'>
+            <div className='flex space-x-1'>
+              <a href='#' className='flex-1 relative'>
+                <div className='absolute top-0 left-0 w-full h-full transition-all bg-[#0000001d] hover:bg-[#000000a9]' />
+                <img src='https://images.pexels.com/photos/87452/flowers-background-butterflies-beautiful-87452.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' className='object-cover flex-1 w-full h-full' alt='Imagen' />
+              </a>
+              <a href='#' className='flex-1 relative'>
+                <div className='absolute top-0 left-0 w-full h-full transition-all bg-[#0000001d] hover:bg-[#000000a9]' />
+                <img src='https://images.pexels.com/photos/462402/pexels-photo-462402.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' className='object-cover flex-1 w-full h-full' alt='Imagen' />
+              </a>
+            </div>
+            <div className='flex space-x-1'>
+              <a href='#' className='flex-1 relative'>
+                <div className='absolute top-0 left-0 w-full h-full transition-all bg-[#0000001d] hover:bg-[#000000a9]' />
+                <img src='https://images.pexels.com/photos/1550618/pexels-photo-1550618.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' className='object-cover flex-1 w-full h-[7rem]' alt='Imagen' />
+              </a>
+              <a href='#' className='flex-1 relative'>
+                <div className='absolute top-0 left-0 w-full h-full transition-all bg-[#0000001d] hover:bg-[#000000a9]' />
+                <img src='https://images.pexels.com/photos/54186/tulips-flowers-tulip-bouquet-violet-54186.jpeg?cs=srgb&dl=pexels-pixabay-54186.jpg&fm=jpg' className='object-cover flex-1 w-full h-[7rem]' alt='Imagen' />
+              </a>
+              <a href='#' className='flex-1 relative'>
+                <div className='absolute top-0 left-0 w-full h-full transition-all bg-[#0000001d] hover:bg-[#000000a9]' />
+                <img src='https://images.pexels.com/photos/134989/pexels-photo-134989.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' className='object-cover flex-1 w-full h-[7rem]' alt='Imagen' />
+              </a>
+            </div>
+          </div>
+          <div className='p-4 flex items-center justify-between'>
+            <div className='flex items-center space-x-2'>
+              <svg width='18' height='18' viewBox='0 0 22 21' fill='none' xmlns='http://www.w3.org/2000/svg'>
+                <path d='M6 1.23792C3.239 1.23792 1 3.45391 1 6.18791C1 8.39491 1.875 13.6329 10.488 18.9279C10.6423 19.0218 10.8194 19.0714 11 19.0714C11.1806 19.0714 11.3577 19.0218 11.512 18.9279C20.125 13.6329 21 8.39491 21 6.18791C21 3.45391 18.761 1.23792 16 1.23792C13.239 1.23792 11 4.23792 11 4.23792C11 4.23792 8.761 1.23792 6 1.23792Z' stroke='currentColor' strokeWidth='2' strokeLinecap='round' strokeLinejoin='round' />
+              </svg>
+              <span className='font-bold'>35k</span>
+            </div>
+            <button className='py-1 px-3 rounded-md text-sm font-medium text-white bg-[#3300ff] dark:bg-white dark:text-black'>View gallery</button>
+          </div>
+        </div>
+
       </div>
     </div>
   )
