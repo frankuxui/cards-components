@@ -86,7 +86,7 @@ function App () {
       </div>
 
       {/** container cards */}
-      <div className='box-border m-auto max-w-[75rem] 3xl:max-w-[100rem] columns-1xs sm:columns-2xs md:columns-2 lg:columns-3 xl:columns-4 2xl:columns-4 3xl:columns-5'>
+      <div className='box-border m-auto max-w-[85rem] 3xl:max-w-[100rem] columns-1xs sm:columns-2xs md:columns-2 lg:columns-3 xl:columns-4 2xl:columns-4 3xl:columns-5'>
 
         {/** card */}
         <div className='break-inside relative flex items-center justify-between overflow-hidden rounded-xl mb-4 bg-white'>
@@ -941,7 +941,7 @@ function App () {
             <div className='relative'>
               <img src='https://images.pexels.com/photos/1161547/pexels-photo-1161547.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' className='object-cover rounded-lg saturate-100' alt='Image' />
               <div className='p-6 absolute top-0 left-0 w-full flex justify-end'>
-                <button className='flex items-center justify-center text-white rounded-full p-2 transition-all group-hover:bg-white group-hover:text-black'>
+                <button className='flex items-center justify-center rounded-full p-2 transition-all border-2 border-black text-black group-hover:bg-black group-hover:text-white group-hover:border-transparent'>
                   <svg width='18' height='18' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
                     <path d='M12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5C2,5.41 4.42,3 7.5,3C9.24,3 10.91,3.81 12,5.08C13.09,3.81 14.76,3 16.5,3C19.58,3 22,5.41 22,8.5C22,12.27 18.6,15.36 13.45,20.03L12,21.35Z' fill='currentColor' />
                   </svg>
@@ -1360,6 +1360,29 @@ function App () {
               <span className='flex items-center justify-center w-9 h-9 cursor-pointer text-sm font-medium rounded-full hover:bg-slate-100 dark:hover:bg-slate-700 dark:hover:text-white'>30</span>
               <span className='flex items-center justify-center w-9 h-9 cursor-pointer text-sm font-medium rounded-full hover:bg-slate-100 dark:hover:bg-slate-700 dark:hover:text-white'>31</span>
             </div>
+          </div>
+        </div>
+
+        {/** card */}
+        <div className='break-inside overflow-hidden flex flex-col justify-between rounded-xl mb-4 bg-black text-white'>
+          <div className='relative'>
+            <div className='flex justify-between flex-col absolute top-0 left-0 w-full h-full'>
+              <h2 className='text-2xl p-6 font-bold text-black'>
+                <span className='bg-[#ffe600]'>Minim </span>
+                <span className='bg-[#ffe600]'>dolor </span>
+                <span className='bg-[#ffe600]'>sit </span>
+                <span className='bg-[#ffe600]'>amet </span>
+                <span className='bg-[#ffe600]'>laboris </span>
+                <span className='bg-[#ffe600]'>enim </span>
+                <span className='bg-[#ffe600]'>dolore </span>
+                <span className='bg-[#ffe600]'>consequat</span>
+                <span className='bg-[#ffe600]'>proident</span>
+              </h2>
+              <div className='p-6 bg-gradient-to-t from-[#000000] to-[#00000000]'>
+                <p>Lorem ipsum es el texto que se usa habitualmente en diseño...</p>
+              </div>
+            </div>
+            <img src='https://images.pexels.com/photos/5159914/pexels-photo-5159914.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='Imagen' className='w-full h-auto' />
           </div>
         </div>
 
