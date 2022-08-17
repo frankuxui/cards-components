@@ -1386,6 +1386,43 @@ function App () {
           </div>
         </div>
 
+        {/** card */}
+        <div className='break-inside flex flex-col justify-between rounded-xl mb-4 bg-white dark:bg-slate-800 dark:text-slate-50'>
+          <div className='flex justify-between flex-row  items-center p-4'>
+            <div className='flex items-center flex-row space-x-2'>
+              <img src='https://www.svgrepo.com/show/34991/blogger.svg' alt='blog' className='w-8 h-8' />
+              <span className='font-medium'>Publicación</span>
+            </div>
+            <button className='flex items-center justify-center rounded-full p-1 transition-all hover:bg-slate-200 dark:hover:bg-slate-700 '>
+              <svg width='26' height='26' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+                <path d='M16,12A2,2 0 0,1 18,10A2,2 0 0,1 20,12A2,2 0 0,1 18,14A2,2 0 0,1 16,12M10,12A2,2 0 0,1 12,10A2,2 0 0,1 14,12A2,2 0 0,1 12,14A2,2 0 0,1 10,12M4,12A2,2 0 0,1 6,10A2,2 0 0,1 8,12A2,2 0 0,1 6,14A2,2 0 0,1 4,12Z' fill='currentColor' />
+              </svg>
+            </button>
+          </div>
+          <div className='space-y-4'>
+            <div className='p-4 flex items-center space-x-4'>
+              <img className='flex-none w-14 h-14 rounded-full object-cover' src='https://randomuser.me/api/portraits/women/19.jpg' alt='avatar' />
+              <div className='flex-auto'>
+                <a href='#' className='no-underline font-bold block dark:text-white'>Joyce M. Leonard</a>
+                <span className='text-slate-500 dark:text-slate-400'>Channel Home Centers</span>
+              </div>
+            </div>
+            <div className='space-y-1 px-4'>
+              <h4 className='text-sm text-slate-600 dark:text-slate-400'>28 de Abril del 2021</h4>
+              <p>Minim dolor in amet nulla laboris enim dolore consequat proident...</p>
+            </div>
+            <div>
+              <img src='https://images.pexels.com/photos/2312369/pexels-photo-2312369.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='Imagen' />
+            </div>
+          </div>
+          <div className='flex p-4 flex-row items-center justify-between'>
+            <div className='flex space-x-2'>
+              <span className='text-sm flex-1'>Minim dolor in amet lacon proident..</span>
+              <button className='py-1 px-3 rounded-md text-sm font-medium text-white bg-[#3300ff] dark:bg-white dark:text-black'>View publication</button>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
   )
