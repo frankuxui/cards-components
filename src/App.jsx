@@ -298,6 +298,32 @@ function App () {
 
         {/** card */}
         <div className='break-inside flex flex-col justify-between overflow-hidden rounded-xl mb-4 bg-white dark:bg-slate-800 dark:text-slate-50'>
+          <div className='relative flex flex-col justify-between text-white bg-green-900 min-h-[14rem] transition-all hover:sepia'>
+            <img src='https://images.pexels.com/photos/2698918/pexels-photo-2698918.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='Imagen' />
+            <div className='absolute top-0 left-0 w-full h-full'>
+              <div className='flex justify-end h-full flex-col'>
+                <div className='p-6 bg-gradient-to-t from-[#000000] to-[#00000000]'>
+                  <div className='flex items-center flex-row justify-between'>
+                    <div className='mr-auto'>
+                      <h3 className='text-4xl font-medium'>
+                        <div>Jhon </div>
+                        <div>Osteen </div>
+                      </h3>
+                    </div>
+                    <button className='flex items-center justify-center hover:bg-[#ffffff27] rounded-full p-2 transition-all'>
+                      <svg width='26' height='26' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+                        <path d='M12,16A2,2 0 0,1 14,18A2,2 0 0,1 12,20A2,2 0 0,1 10,18A2,2 0 0,1 12,16M12,10A2,2 0 0,1 14,12A2,2 0 0,1 12,14A2,2 0 0,1 10,12A2,2 0 0,1 12,10M12,4A2,2 0 0,1 14,6A2,2 0 0,1 12,8A2,2 0 0,1 10,6A2,2 0 0,1 12,4Z' fill='currentColor' />
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/** card */}
+        <div className='break-inside flex flex-col justify-between overflow-hidden rounded-xl mb-4 bg-white dark:bg-slate-800 dark:text-slate-50'>
           <div className='relative flex flex-col justify-between text-white bg-green-900 min-h-[14rem]'>
             <img src='https://images.pexels.com/photos/1988681/pexels-photo-1988681.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260' alt='Imagen' />
             <div className='absolute top-0 left-0 w-full h-full'>
