@@ -86,7 +86,7 @@ function App () {
       </div>
 
       {/** container cards */}
-      <div className='box-border m-auto max-w-[75rem] 3xl:max-w-[100rem] columns-1xs sm:columns-2xs md:columns-2 lg:columns-3 xl:columns-4 2xl:columns-4 3xl:columns-5'>
+      <div className='box-border m-auto max-w-[75rem] 3xl:max-w-[105rem] columns-1xs sm:columns-2xs md:columns-2 lg:columns-3 xl:columns-4 2xl:columns-4 3xl:columns-5'>
 
         {/** card */}
         <div className='break-inside relative flex items-center justify-between overflow-hidden rounded-xl mb-4 bg-white'>
@@ -1282,6 +1282,116 @@ function App () {
             </div>
             <h2 className='text-lg font-bold'>About</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmodelit sed.. </p>
+          </div>
+        </div>
+
+        {/** card */}
+        <div className='break-inside p-6 flex flex-col justify-between rounded-2xl mb-4 space-y-8 bg-white text-black dark:bg-slate-800 dark:text-white'>
+          <div className='flex justify-end'>
+            <button className='flex items-center justify-center rounded-full p-2 transition-all hover:bg-slate-200 dark:hover:bg-slate-700'>
+              <svg width='26' height='26' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+                <path d='M12,16A2,2 0 0,1 14,18A2,2 0 0,1 12,20A2,2 0 0,1 10,18A2,2 0 0,1 12,16M12,10A2,2 0 0,1 14,12A2,2 0 0,1 12,14A2,2 0 0,1 10,12A2,2 0 0,1 12,10M12,4A2,2 0 0,1 14,6A2,2 0 0,1 12,8A2,2 0 0,1 10,6A2,2 0 0,1 12,4Z' fill='currentColor' />
+              </svg>
+            </button>
+          </div>
+          <div className='flex flex-col items-center text-center space-y-2'>
+            <img className='flex-none w-40 h-40 rounded-full object-cover' src='https://images.pexels.com/photos/1762578/pexels-photo-1762578.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='album cover' />
+            <div>
+              <h5 className='text-2xl font-medium'>Sunshine - Mix</h5>
+              <p>Lookee Stefane</p>
+            </div>
+          </div>
+          <div className='flex items-center justify-between space-x-4'>
+            <span className='font-medium'>03:34</span>
+            <div className='relative rounded-full overflo-hidden flex-1 h-1 bg-slate-200 dark:bg-slate-600'>
+              <div className='absolute rounded-full left-0 w-1/2 h-full bg-purple-500' />
+            </div>
+            <span className='font-medium'>08:14</span>
+          </div>
+          <div className='flex justify-between items-center'>
+            <button className='flex justify-center items-center rounded-full p-3 transition-all hover:bg-slate-100 dark:hover:bg-slate-700'>
+              <svg width='26' height='26' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+                <path d='M6,5.75L10.25,10H7V16H13.5L15.5,18H7A2,2 0 0,1 5,16V10H1.75L6,5.75M18,18.25L13.75,14H17V8H10.5L8.5,6H17A2,2 0 0,1 19,8V14H22.25L18,18.25Z' fill='currentColor' />
+              </svg>
+            </button>
+            <button className='flex justify-center items-center rounded-full p-3 transition-all hover:bg-slate-100 dark:hover:bg-slate-700'>
+              <svg width='26' height='26' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+                <path d='M11.5,12L20,18V6M11,18V6L2.5,12L11,18Z' fill='currentColor' />
+              </svg>
+            </button>
+            <button className='flex justify-center items-center rounded-full p-3 transition-all bg-slate-100 hover:bg-slate-100 dark:bg-slate-700 dark:hover:bg-slate-700'>
+              <svg width='26' height='26' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+                <path d='M8,5.14V19.14L19,12.14L8,5.14Z' fill='currentColor' />
+              </svg>
+            </button>
+            <button className='flex justify-center items-center rounded-full p-3 transition-all hover:bg-slate-100 dark:hover:bg-slate-700'>
+              <svg width='26' height='26' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+                <path d='M13,6V18L21.5,12M4,18L12.5,12L4,6V18Z' fill='currentColor' />
+              </svg>
+            </button>
+            <button className='flex justify-center items-center rounded-full p-3 transition-all hover:bg-slate-100 dark:hover:bg-slate-700'>
+              <svg width='26' height='26' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+                <path d='M14.83,13.41L13.42,14.82L16.55,17.95L14.5,20H20V14.5L17.96,16.54L14.83,13.41M14.5,4L16.54,6.04L4,18.59L5.41,20L17.96,7.46L20,9.5V4M10.59,9.17L5.41,4L4,5.41L9.17,10.58L10.59,9.17Z' fill='currentColor' />
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        {/** card */}
+        <div className='break-inside p-6 flex flex-col overflow-hidden justify-between rounded-2xl mb-4 space-y-8 bg-[#9fd597] text-black'>
+          <div className='relative z-10 flex justify-between items-center'>
+            <div className='flex space-x-1'>
+              <span className='px-4 py-2 rounded-full uppercase text-xs bg-black text-white'>Deep house</span>
+              <span className='px-4 py-2 rounded-full uppercase text-xs bg-black text-white'>House</span>
+            </div>
+            <button className='flex items-center justify-center rounded-full p-2 transition-all hover:bg-[#abf1a1]'>
+              <svg width='28' height='28' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+                <path d='M12,16A2,2 0 0,1 14,18A2,2 0 0,1 12,20A2,2 0 0,1 10,18A2,2 0 0,1 12,16M12,10A2,2 0 0,1 14,12A2,2 0 0,1 12,14A2,2 0 0,1 10,12A2,2 0 0,1 12,10M12,4A2,2 0 0,1 14,6A2,2 0 0,1 12,8A2,2 0 0,1 10,6A2,2 0 0,1 12,4Z' fill='currentColor' />
+              </svg>
+            </button>
+          </div>
+          <div className='flex flex-col items-center text-center space-y-2'>
+            <div className='relative after:absolute after:rounded-full after:-left-[1rem] after:-top-[1rem] after:w-[12rem] after:h-[12rem] after:bg-[#c1ffb8] after:animate-ping'>
+              <img className='relative z-10 flex-none w-40 h-40 rounded-full object-cover animate-spin' src='https://images.pexels.com/photos/2746823/pexels-photo-2746823.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='album cover' />
+            </div>
+            <div className='relative z-10'>
+              <h5 className='text-3xl font-bold'>Runaway</h5>
+              <p>Smalltown Boy , Shane D</p>
+            </div>
+          </div>
+          <div className='flex items-center justify-between space-x-4'>
+            <span className='font-medium'>03:18</span>
+            <div className='relative rounded-full overflo-hidden flex-1 h-1 bg-[#ffffff]'>
+              <div className='absolute rounded-full left-0 w-2/3 h-full bg-[#0a3f19]' />
+            </div>
+            <span className='font-medium'>04:14</span>
+          </div>
+          <div className='flex justify-between items-center'>
+            <button className='flex justify-center items-center rounded-full p-3 transition-all hover:bg-[#abf1a1]'>
+              <svg width='26' height='26' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+                <path d='M6,5.75L10.25,10H7V16H13.5L15.5,18H7A2,2 0 0,1 5,16V10H1.75L6,5.75M18,18.25L13.75,14H17V8H10.5L8.5,6H17A2,2 0 0,1 19,8V14H22.25L18,18.25Z' fill='currentColor' />
+              </svg>
+            </button>
+            <button className='flex justify-center items-center rounded-full p-3 transition-all hover:bg-[#abf1a1]'>
+              <svg width='26' height='26' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+                <path d='M11.5,12L20,18V6M11,18V6L2.5,12L11,18Z' fill='currentColor' />
+              </svg>
+            </button>
+            <button className='flex justify-center items-center rounded-full p-3 transition-all bg-[#ffffff] hover:bg-[#abf1a1]'>
+              <svg width='26' height='26' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+                <path d='M8,5.14V19.14L19,12.14L8,5.14Z' fill='currentColor' />
+              </svg>
+            </button>
+            <button className='flex justify-center items-center rounded-full p-3 transition-all hover:bg-[#abf1a1]'>
+              <svg width='26' height='26' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+                <path d='M13,6V18L21.5,12M4,18L12.5,12L4,6V18Z' fill='currentColor' />
+              </svg>
+            </button>
+            <button className='flex justify-center items-center rounded-full p-3 transition-all hover:bg-[#abf1a1]'>
+              <svg width='26' height='26' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+                <path d='M14.83,13.41L13.42,14.82L16.55,17.95L14.5,20H20V14.5L17.96,16.54L14.83,13.41M14.5,4L16.54,6.04L4,18.59L5.41,20L17.96,7.46L20,9.5V4M10.59,9.17L5.41,4L4,5.41L9.17,10.58L10.59,9.17Z' fill='currentColor' />
+              </svg>
+            </button>
           </div>
         </div>
 
