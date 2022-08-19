@@ -185,6 +185,51 @@ function App () {
         </div>
 
         {/** card */}
+        <div className='break-inside flex flex-col justify-between rounded-xl mb-4 overflow-hidden bg-white dark:bg-slate-800 dark:text-slate-50'>
+          <div className='p-4'>
+            <div className='flex items-center space-x-4'>
+              <img className='flex-none w-14 h-14 rounded-full object-cover' src='https://randomuser.me/api/portraits/women/2.jpg' alt='avatar' />
+              <div className='flex-auto'>
+                <a href='#' className='no-underline font-bold block text-blue-600 dark:text-white'>Marina</a>
+                <span className='text-slate-500 dark:text-slate-400'>Graphic editor</span>
+              </div>
+              <button className='flex items-center justify-center rounded-full p-1 transition-all hover:bg-slate-200 dark:bg-slate-700'>
+                <svg width='26' height='26' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+                  <path d='M12,16A2,2 0 0,1 14,18A2,2 0 0,1 12,20A2,2 0 0,1 10,18A2,2 0 0,1 12,16M12,10A2,2 0 0,1 14,12A2,2 0 0,1 12,14A2,2 0 0,1 10,12A2,2 0 0,1 12,10M12,4A2,2 0 0,1 14,6A2,2 0 0,1 12,8A2,2 0 0,1 10,6A2,2 0 0,1 12,4Z' fill='currentColor' />
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div className='flex flex-col justify-between space-y-1 text-white'>
+            <div className='flex space-x-1'>
+              <a href='#' className='flex-1'>
+                <img src='https://images.pexels.com/photos/1585325/pexels-photo-1585325.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' className='object-cover w-full h-full' alt='Imagen' />
+              </a>
+              <a href='#' className='flex-1'>
+                <img src='https://images.pexels.com/photos/1289669/pexels-photo-1289669.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' className='object-cover w-full h-full' alt='Imagen' />
+              </a>
+            </div>
+            <div className='flex space-x-1'>
+              <a href='#' className='flex-1'>
+                <img src='https://images.pexels.com/photos/1206967/pexels-photo-1206967.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' className='object-cover w-full h-full' alt='Imagen' />
+              </a>
+              <a href='#' className='flex-1'>
+                <img src='https://images.pexels.com/photos/1309102/pexels-photo-1309102.jpeg?cs=srgb&dl=pexels-steve-johnson-1309102.jpg&fm=jpg' className='object-cover w-full h-full' alt='Imagen' />
+              </a>
+            </div>
+          </div>
+          <div className='flex justify-between p-4'>
+            <div className='flex items-center space-x-2'>
+              <svg width='26' height='26' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+                <path d='M20,4H16.83L15,2H9L7.17,4H4A2,2 0 0,0 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6A2,2 0 0,0 20,4M20,18H4V6H8.05L9.88,4H14.12L15.95,6H20V18M12,7A5,5 0 0,0 7,12A5,5 0 0,0 12,17A5,5 0 0,0 17,12A5,5 0 0,0 12,7M12,15A3,3 0 0,1 9,12A3,3 0 0,1 12,9A3,3 0 0,1 15,12A3,3 0 0,1 12,15Z' fill='currentColor' />
+              </svg>
+              <span className='font-medium'>353k</span>
+            </div>
+            <button className='inline-flex justify-center items-center rounded-md py-2 px-4 font-medium tracking-wide text-xs uppercase transition-all border-2 border-black text-black hover:bg-black hover:text-white dark:border-white dark:text-white dark:hover:bg-white dark:hover:text-black'>Visit gallery</button>
+          </div>
+        </div>
+
+        {/** card */}
         <div className='break-inside flex flex-col justify-between overflow-hidden rounded-xl mb-4 bg-white dark:bg-slate-800 dark:text-slate-50'>
           <div className='relative flex flex-col justify-between text-white bg-green-900 min-h-[14rem]'>
             <img src='https://images.pexels.com/photos/1988681/pexels-photo-1988681.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260' alt='Imagen' />
@@ -1551,7 +1596,7 @@ function App () {
           <p>Minim dolor in amet nulla laboris enim dolore consequat.</p>
           <div className='flex flex-col space-y-4'>
             <div className='flex items-center space-x-3'>
-              <img className='flex-none w-10 h-10 rounded-full object-cover' src='https://randomuser.me/api/portraits/men/24.jpg' alt='avatar' />
+              <img className='flex-none w-12 h-12 rounded-full object-cover' src='https://randomuser.me/api/portraits/men/24.jpg' alt='avatar' />
               <div className='flex-auto'>
                 <a href='#' className='no-underline text-sm font-bold block text-blue-600 dark:text-white'>Wade Warren</a>
                 <span className='text-sm text-slate-500 dark:text-slate-400'>Dog Trainer</span>
@@ -1561,7 +1606,7 @@ function App () {
               </button>
             </div>
             <div className='flex items-center space-x-3'>
-              <img className='flex-none w-10 h-10 rounded-full object-cover' src='https://randomuser.me/api/portraits/men/25.jpg' alt='avatar' />
+              <img className='flex-none w-12 h-12 rounded-full object-cover' src='https://randomuser.me/api/portraits/men/25.jpg' alt='avatar' />
               <div className='flex-auto'>
                 <a href='#' className='no-underline text-sm font-bold block text-blue-600 dark:text-white'>Robert Fox</a>
                 <span className='text-sm text-slate-500 dark:text-slate-400'>President of Sales</span>
@@ -1571,7 +1616,7 @@ function App () {
               </button>
             </div>
             <div className='flex items-center space-x-3'>
-              <img className='flex-none w-10 h-10 rounded-full object-cover' src='https://randomuser.me/api/portraits/women/25.jpg' alt='avatar' />
+              <img className='flex-none w-12 h-12 rounded-full object-cover' src='https://randomuser.me/api/portraits/women/25.jpg' alt='avatar' />
               <div className='flex-auto'>
                 <a href='#' className='no-underline text-sm font-bold block text-blue-600 dark:text-white'>Jane Cooper</a>
                 <span className='text-sm text-slate-500 dark:text-slate-400'>Nursing Assistant</span>
@@ -1581,7 +1626,7 @@ function App () {
               </button>
             </div>
             <div className='flex items-center space-x-3'>
-              <img className='flex-none w-10 h-10 rounded-full object-cover' src='https://randomuser.me/api/portraits/women/26.jpg' alt='avatar' />
+              <img className='flex-none w-12 h-12 rounded-full object-cover' src='https://randomuser.me/api/portraits/women/26.jpg' alt='avatar' />
               <div className='flex-auto'>
                 <a href='#' className='no-underline text-sm font-bold block text-blue-600 dark:text-white'>Carmen Ospina</a>
                 <span className='text-sm text-slate-500 dark:text-slate-400'>Software Tester</span>
@@ -1591,7 +1636,7 @@ function App () {
               </button>
             </div>
             <div className='flex items-center space-x-3'>
-              <img className='flex-none w-10 h-10 rounded-full object-cover' src='https://randomuser.me/api/portraits/women/27.jpg' alt='avatar' />
+              <img className='flex-none w-12 h-12 rounded-full object-cover' src='https://randomuser.me/api/portraits/women/27.jpg' alt='avatar' />
               <div className='flex-auto'>
                 <a href='#' className='no-underline text-sm font-bold block text-blue-600 dark:text-white'>Dianne Russell</a>
                 <span className='text-sm text-slate-500 dark:text-slate-400'>Web Designer</span>
