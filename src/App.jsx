@@ -1317,7 +1317,7 @@ function App () {
                 </svg>
               </button>
             </div>
-            <div className='flex items-center justify-between flex-wrap w-full bg-blue-600 rounded-lg py-2 px-3 text-sm text-white dark:text-slate400'>
+            <div className='grid grid-cols-7 place-items-center bg-blue-600 rounded-lg py-2 px-3 text-sm text-white dark:text-slate400'>
               <span>Lun</span>
               <span>Mar</span>
               <span>Mie</span>
@@ -1326,7 +1326,7 @@ function App () {
               <span>Sab</span>
               <span>Dom</span>
             </div>
-            <div className='flex items-center flex-wrap w-full text-slate-600 dark:text-slate-400'>
+            <div className='grid grid-cols-7 place-items-center w-full text-slate-600 dark:text-slate-400'>
               <span className='flex items-center justify-center w-9 h-9 cursor-pointer text-sm font-medium rounded-full pointer-events-none' />
               <span className='flex items-center justify-center w-9 h-9 cursor-pointer text-sm font-medium rounded-full hover:bg-slate-100 dark:hover:bg-slate-700 dark:hover:text-white'>1</span>
               <span className='flex items-center justify-center w-9 h-9 cursor-pointer text-sm font-medium rounded-full hover:bg-slate-100 dark:hover:bg-slate-700 dark:hover:text-white'>2</span>
@@ -1356,6 +1356,71 @@ function App () {
               <span className='flex items-center justify-center w-9 h-9 cursor-pointer text-sm font-medium rounded-full hover:bg-slate-100 dark:hover:bg-slate-700 dark:hover:text-white'>26</span>
               <span className='flex items-center justify-center w-9 h-9 cursor-pointer text-sm font-medium rounded-full hover:bg-slate-100 dark:hover:bg-slate-700 dark:hover:text-white'>27</span>
               <span className='flex items-center justify-center w-9 h-9 cursor-pointer text-sm font-medium rounded-full hover:bg-slate-100 dark:hover:bg-slate-700 dark:hover:text-white'>28</span>
+              <span className='flex items-center justify-center w-9 h-9 cursor-pointer text-sm font-medium rounded-full hover:bg-slate-100 dark:hover:bg-slate-700 dark:hover:text-white'>29</span>
+              <span className='flex items-center justify-center w-9 h-9 cursor-pointer text-sm font-medium rounded-full hover:bg-slate-100 dark:hover:bg-slate-700 dark:hover:text-white'>30</span>
+              <span className='flex items-center justify-center w-9 h-9 cursor-pointer text-sm font-medium rounded-full hover:bg-slate-100 dark:hover:bg-slate-700 dark:hover:text-white'>31</span>
+            </div>
+          </div>
+        </div>
+
+        {/** card */}
+        <div className='break-inside p-4 flex flex-col space-y-3 justify-between rounded-2xl mb-4 bg-white text-black dark:bg-slate-800 dark:text-white'>
+          <div className='flex items-center justify-between space-x-4'>
+            <button className='flex justify-center items-center py-1 px-3 rounded-lg font-medium hover:bg-slate-50 dark:hover:bg-slate-700'>
+              <span>Marzo 2022</span>
+            </button>
+            <div className='flex justify-between items-center'>
+              <button className='flex items-center justify-center rounded-full p-2 transition-all hover:bg-slate-50 dark:hover:bg-slate-700'>
+                <svg width='28' height='28' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+                  <path d='M15.41,16.58L10.83,12L15.41,7.41L14,6L8,12L14,18L15.41,16.58Z' fill='currentColor' />
+                </svg>
+              </button>
+              <button className='flex items-center justify-center rounded-full p-2 transition-all hover:bg-slate-50 dark:hover:bg-slate-700'>
+                <svg width='28' height='28' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+                  <path d='M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z' fill='currentColor' />
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div className='flex flex-col space-y-2'>
+            <div className='grid grid-cols-7 place-items-center items-center font-medium dark:text-slate400'>
+              <span>L</span>
+              <span>M</span>
+              <span>M</span>
+              <span>J</span>
+              <span>V</span>
+              <span>S</span>
+              <span className='text-red-500'>D</span>
+            </div>
+            <div className='grid grid-cols-7 place-items-center w-full text-slate-600 dark:text-slate-400'>
+              <span className='flex items-center justify-center w-9 h-9 cursor-pointer text-sm font-medium rounded-full hover:bg-slate-100 dark:hover:bg-slate-700 dark:hover:text-white'>1</span>
+              <span className='flex items-center justify-center w-9 h-9 cursor-pointer text-sm font-medium rounded-full hover:bg-slate-100 dark:hover:bg-slate-700 dark:hover:text-white'>2</span>
+              <span className='flex items-center justify-center w-9 h-9 cursor-pointer text-sm font-medium rounded-full hover:bg-slate-100 dark:hover:bg-slate-700 dark:hover:text-white'>3</span>
+              <span className='flex items-center justify-center w-9 h-9 cursor-pointer text-sm font-medium rounded-full hover:bg-slate-100 dark:hover:bg-slate-700 dark:hover:text-white'>4</span>
+              <span className='flex items-center justify-center w-9 h-9 cursor-pointer text-sm font-medium rounded-full hover:bg-slate-100 dark:hover:bg-slate-700 dark:hover:text-white'>5</span>
+              <span className='flex items-center justify-center w-9 h-9 cursor-pointer text-sm font-medium rounded-full hover:bg-slate-100 dark:hover:bg-slate-700 dark:hover:text-white'>6</span>
+              <span className='flex items-center justify-center w-9 h-9 cursor-pointer text-sm font-medium rounded-full hover:bg-slate-100 dark:hover:bg-slate-700 dark:hover:text-white text-red-500'>7</span>
+              <span className='flex items-center justify-center w-9 h-9 cursor-pointer text-sm font-medium rounded-full hover:bg-slate-100 dark:hover:bg-slate-700 dark:hover:text-white'>8</span>
+              <span className='flex items-center justify-center w-9 h-9 cursor-pointer text-sm font-medium rounded-full hover:bg-slate-100 dark:hover:bg-slate-700 dark:hover:text-white'>9</span>
+              <span className='flex items-center justify-center w-9 h-9 cursor-pointer text-sm font-medium rounded-full hover:bg-slate-100 dark:hover:bg-purple-600 dark:hover:text-white'>10</span>
+              <span className='flex items-center justify-center w-9 h-9 cursor-pointer text-sm font-medium rounded-full bg-purple-600 text-white hover:bg-purple-600 dark:hover:bg-purple-600 dark:hover:text-white'>11</span>
+              <span className='flex items-center justify-center w-9 h-9 cursor-pointer text-sm font-medium rounded-full hover:bg-slate-100 dark:hover:bg-slate-700 dark:hover:text-white'>12</span>
+              <span className='flex items-center justify-center w-9 h-9 cursor-pointer text-sm font-medium rounded-full hover:bg-slate-100 dark:hover:bg-slate-700 dark:hover:text-white'>13</span>
+              <span className='flex items-center justify-center w-9 h-9 cursor-pointer text-sm font-medium rounded-full hover:bg-slate-100 dark:hover:bg-slate-700 dark:hover:text-white text-red-500'>14</span>
+              <span className='flex items-center justify-center w-9 h-9 cursor-pointer text-sm font-medium rounded-full hover:bg-slate-100 dark:hover:bg-slate-700 dark:hover:text-white'>15</span>
+              <span className='flex items-center justify-center w-9 h-9 cursor-pointer text-sm font-medium rounded-full hover:bg-slate-100 dark:hover:bg-slate-700 dark:hover:text-white'>16</span>
+              <span className='flex items-center justify-center w-9 h-9 cursor-pointer text-sm font-medium rounded-full hover:bg-slate-100 dark:hover:bg-slate-700 dark:hover:text-white'>17</span>
+              <span className='flex items-center justify-center w-9 h-9 cursor-pointer text-sm font-medium rounded-full hover:bg-slate-100 dark:hover:bg-slate-700 dark:hover:text-white'>18</span>
+              <span className='flex items-center justify-center w-9 h-9 cursor-pointer text-sm font-medium rounded-full hover:bg-slate-100 dark:hover:bg-slate-700 dark:hover:text-white'>19</span>
+              <span className='flex items-center justify-center w-9 h-9 cursor-pointer text-sm font-medium rounded-full hover:bg-slate-100 dark:hover:bg-slate-700 dark:hover:text-white'>20</span>
+              <span className='flex items-center justify-center w-9 h-9 cursor-pointer text-sm font-medium rounded-full hover:bg-slate-100 dark:hover:bg-slate-700 dark:hover:text-white text-red-500'>21</span>
+              <span className='flex items-center justify-center w-9 h-9 cursor-pointer text-sm font-medium rounded-full hover:bg-slate-100 dark:hover:bg-slate-700 dark:hover:text-white'>22</span>
+              <span className='flex items-center justify-center w-9 h-9 cursor-pointer text-sm font-medium rounded-full hover:bg-slate-100 dark:hover:bg-slate-700 dark:hover:text-white'>23</span>
+              <span className='flex items-center justify-center w-9 h-9 cursor-pointer text-sm font-medium rounded-full hover:bg-slate-100 dark:hover:bg-slate-700 dark:hover:text-white'>24</span>
+              <span className='flex items-center justify-center w-9 h-9 cursor-pointer text-sm font-medium rounded-full hover:bg-slate-100 dark:hover:bg-slate-700 dark:hover:text-white'>25</span>
+              <span className='flex items-center justify-center w-9 h-9 cursor-pointer text-sm font-medium rounded-full hover:bg-slate-100 dark:hover:bg-slate-700 dark:hover:text-white'>26</span>
+              <span className='flex items-center justify-center w-9 h-9 cursor-pointer text-sm font-medium rounded-full hover:bg-slate-100 dark:hover:bg-slate-700 dark:hover:text-white'>27</span>
+              <span className='flex items-center justify-center w-9 h-9 cursor-pointer text-sm font-medium rounded-full hover:bg-slate-100 dark:hover:bg-slate-700 dark:hover:text-white text-red-500'>28</span>
               <span className='flex items-center justify-center w-9 h-9 cursor-pointer text-sm font-medium rounded-full hover:bg-slate-100 dark:hover:bg-slate-700 dark:hover:text-white'>29</span>
               <span className='flex items-center justify-center w-9 h-9 cursor-pointer text-sm font-medium rounded-full hover:bg-slate-100 dark:hover:bg-slate-700 dark:hover:text-white'>30</span>
               <span className='flex items-center justify-center w-9 h-9 cursor-pointer text-sm font-medium rounded-full hover:bg-slate-100 dark:hover:bg-slate-700 dark:hover:text-white'>31</span>
