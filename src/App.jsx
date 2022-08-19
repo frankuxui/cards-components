@@ -323,6 +323,29 @@ function App () {
         </div>
 
         {/** card */}
+        <div className='break-inside flex flex-col justify-between overflow-hidden rounded-xl mb-4 group bg-white dark:bg-slate-800 dark:text-slate-50'>
+          <div className='relative flex flex-col justify-between text-white bg-green-900 min-h-[14rem]'>
+            <img src='https://images.pexels.com/photos/699466/pexels-photo-699466.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' className='transition-all group-hover:scale-[1.1]' alt='Imagen' />
+            <div className='absolute top-0 left-0 w-full h-full'>
+              <div className='flex justify-end h-full flex-col'>
+                <div className='p-6 bg-gradient-to-t from-[#000000] to-[#00000000]'>
+                  <div className='flex items-center flex-col justify-center'>
+                    <div className='text-lg flex items-center justify-center space-x-2'>
+                      <span className='w-4 border border-white bg-white' />
+                      <span>PARIS</span>
+                      <span className='w-4 border border-white bg-white' />
+                    </div>
+                    <h3 className='text-3xl font-medium'>
+                      <div>TOURS FRANCE </div>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/** card */}
         <div className='break-inside flex flex-col justify-between overflow-hidden rounded-xl mb-4 bg-white dark:bg-slate-800 dark:text-slate-50'>
           <div className='relative flex flex-col justify-between text-white bg-green-900 min-h-[14rem]'>
             <img src='https://images.pexels.com/photos/1988681/pexels-photo-1988681.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260' alt='Imagen' />
