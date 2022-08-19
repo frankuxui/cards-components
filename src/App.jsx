@@ -1286,6 +1286,84 @@ function App () {
         </div>
 
         {/** card */}
+        <div className='break-inside p-4 flex flex-col space-y-3 justify-between rounded-2xl mb-4 bg-white text-black dark:bg-slate-800 dark:text-white'>
+          <div className='flex items-center space-x-4'>
+            <svg xmlns='http://www.w3.org/2000/svg' width='24' height='24'>
+              <path fill='currentColor' d='M7 11h2v2H7zm0 4h2v2H7zm4-4h2v2h-2zm0 4h2v2h-2zm4-4h2v2h-2zm0 4h2v2h-2z' />
+              <path fill='currentColor' d='M5 22h14c1.103 0 2-.897 2-2V6c0-1.103-.897-2-2-2h-2V2h-2v2H9V2H7v2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2zM19 8l.001 12H5V8h14z' />
+            </svg>
+            <div className='flex-auto'>
+              <div className='no-underline font-medium block'>Calendario</div>
+            </div>
+            <button className='flex items-center justify-center rounded-full p-1 transition-all hover:bg-slate-200 dark:hover:bg-slate-700'>
+              <svg width='24' height='24' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+                <path d='M12,16A2,2 0 0,1 14,18A2,2 0 0,1 12,20A2,2 0 0,1 10,18A2,2 0 0,1 12,16M12,10A2,2 0 0,1 14,12A2,2 0 0,1 12,14A2,2 0 0,1 10,12A2,2 0 0,1 12,10M12,4A2,2 0 0,1 14,6A2,2 0 0,1 12,8A2,2 0 0,1 10,6A2,2 0 0,1 12,4Z' fill='currentColor' />
+              </svg>
+            </button>
+          </div>
+          <div className='flex flex-col space-y-2'>
+            <div className='flex justify-between items-center'>
+              <button className='flex items-center justify-center rounded-full p-2 transition-all hover:bg-slate-50 dark:hover:bg-slate-700'>
+                <svg width='20' height='20' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+                  <path d='M15.41,16.58L10.83,12L15.41,7.41L14,6L8,12L14,18L15.41,16.58Z' fill='currentColor' />
+                </svg>
+              </button>
+              <button className='flex justify-center items-center py-1 px-3 rounded-lg hover:bg-slate-50 dark:hover:bg-slate-700'>
+                <span>Agosto 2022</span>
+              </button>
+              <button className='flex items-center justify-center rounded-full p-2 transition-all hover:bg-slate-50 dark:hover:bg-slate-700'>
+                <svg width='20' height='20' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+                  <path d='M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z' fill='currentColor' />
+                </svg>
+              </button>
+            </div>
+            <div className='flex items-center justify-between flex-wrap w-full bg-blue-600 rounded-lg py-2 px-3 text-sm text-white dark:text-slate400'>
+              <span>Lun</span>
+              <span>Mar</span>
+              <span>Mie</span>
+              <span>Jue</span>
+              <span>Vie</span>
+              <span>Sab</span>
+              <span>Dom</span>
+            </div>
+            <div className='flex items-center flex-wrap w-full text-slate-600 dark:text-slate-400'>
+              <span className='flex items-center justify-center w-9 h-9 cursor-pointer text-sm font-medium rounded-full pointer-events-none' />
+              <span className='flex items-center justify-center w-9 h-9 cursor-pointer text-sm font-medium rounded-full hover:bg-slate-100 dark:hover:bg-slate-700 dark:hover:text-white'>1</span>
+              <span className='flex items-center justify-center w-9 h-9 cursor-pointer text-sm font-medium rounded-full hover:bg-slate-100 dark:hover:bg-slate-700 dark:hover:text-white'>2</span>
+              <span className='flex items-center justify-center w-9 h-9 cursor-pointer text-sm font-medium rounded-full hover:bg-slate-100 dark:hover:bg-slate-700 dark:hover:text-white'>3</span>
+              <span className='flex items-center justify-center w-9 h-9 cursor-pointer text-sm font-medium rounded-full hover:bg-slate-100 dark:hover:bg-slate-700 dark:hover:text-white'>4</span>
+              <span className='flex items-center justify-center w-9 h-9 cursor-pointer text-sm font-medium rounded-full hover:bg-slate-100 dark:hover:bg-slate-700 dark:hover:text-white'>5</span>
+              <span className='flex items-center justify-center w-9 h-9 cursor-pointer text-sm font-medium rounded-full hover:bg-slate-100 dark:hover:bg-slate-700 dark:hover:text-white'>6</span>
+              <span className='flex items-center justify-center w-9 h-9 cursor-pointer text-sm font-medium rounded-full hover:bg-slate-100 dark:hover:bg-slate-700 dark:hover:text-white'>7</span>
+              <span className='flex items-center justify-center w-9 h-9 cursor-pointer text-sm font-medium rounded-full hover:bg-slate-100 dark:hover:bg-slate-700 dark:hover:text-white'>8</span>
+              <span className='flex items-center justify-center w-9 h-9 cursor-pointer text-sm font-medium rounded-full hover:bg-slate-100 dark:hover:bg-slate-700 dark:hover:text-white'>9</span>
+              <span className='flex items-center justify-center w-9 h-9 cursor-pointer text-sm font-medium rounded-full hover:bg-slate-100 dark:hover:bg-slate-700 dark:hover:text-white'>10</span>
+              <span className='flex items-center justify-center w-9 h-9 cursor-pointer text-sm font-medium rounded-full hover:bg-slate-100 dark:hover:bg-slate-700 dark:hover:text-white'>11</span>
+              <span className='flex items-center justify-center w-9 h-9 cursor-pointer text-sm font-medium rounded-full hover:bg-slate-100 dark:hover:bg-slate-700 dark:hover:text-white'>12</span>
+              <span className='flex items-center justify-center w-9 h-9 cursor-pointer text-sm font-medium rounded-full hover:bg-slate-100 dark:hover:bg-slate-700 dark:hover:text-white'>13</span>
+              <span className='flex items-center justify-center w-9 h-9 cursor-pointer text-sm font-medium rounded-full hover:bg-slate-100 dark:hover:bg-slate-700 dark:hover:text-white'>14</span>
+              <span className='flex items-center justify-center w-9 h-9 cursor-pointer text-sm font-medium rounded-full hover:bg-slate-100 dark:hover:bg-slate-700 dark:hover:text-white'>15</span>
+              <span className='flex items-center justify-center w-9 h-9 cursor-pointer text-sm font-medium rounded-full hover:bg-slate-100 dark:hover:bg-slate-700 dark:hover:text-white'>16</span>
+              <span className='flex items-center justify-center w-9 h-9 cursor-pointer text-sm font-medium rounded-full hover:bg-slate-100 dark:hover:bg-slate-700 dark:hover:text-white'>17</span>
+              <span className='flex items-center justify-center w-9 h-9 cursor-pointer text-sm font-medium rounded-full hover:bg-slate-100 dark:hover:bg-slate-700 dark:hover:text-white'>18</span>
+              <span className='flex items-center justify-center w-9 h-9 cursor-pointer text-sm font-medium rounded-full hover:bg-slate-100 dark:hover:bg-slate-700 dark:hover:text-white'>19</span>
+              <span className='flex items-center justify-center w-9 h-9 cursor-pointer text-sm font-medium rounded-full hover:bg-slate-100 dark:hover:bg-slate-700 dark:hover:text-white'>20</span>
+              <span className='flex items-center justify-center w-9 h-9 cursor-pointer text-sm font-medium rounded-full hover:bg-slate-100 dark:hover:bg-slate-700 dark:hover:text-white'>21</span>
+              <span className='flex items-center justify-center w-9 h-9 cursor-pointer text-sm font-medium rounded-full hover:bg-slate-100 dark:hover:bg-slate-700 dark:hover:text-white'>22</span>
+              <span className='flex items-center justify-center w-9 h-9 cursor-pointer text-sm font-medium rounded-full hover:bg-slate-100 dark:hover:bg-slate-700 dark:hover:text-white'>23</span>
+              <span className='flex items-center justify-center w-9 h-9 cursor-pointer text-sm font-medium rounded-full hover:bg-slate-100 dark:hover:bg-slate-700 dark:hover:text-white'>24</span>
+              <span className='flex items-center justify-center w-9 h-9 cursor-pointer text-sm font-medium rounded-full hover:bg-slate-100 dark:hover:bg-slate-700 dark:hover:text-white'>25</span>
+              <span className='flex items-center justify-center w-9 h-9 cursor-pointer text-sm font-medium rounded-full hover:bg-slate-100 dark:hover:bg-slate-700 dark:hover:text-white'>26</span>
+              <span className='flex items-center justify-center w-9 h-9 cursor-pointer text-sm font-medium rounded-full hover:bg-slate-100 dark:hover:bg-slate-700 dark:hover:text-white'>27</span>
+              <span className='flex items-center justify-center w-9 h-9 cursor-pointer text-sm font-medium rounded-full hover:bg-slate-100 dark:hover:bg-slate-700 dark:hover:text-white'>28</span>
+              <span className='flex items-center justify-center w-9 h-9 cursor-pointer text-sm font-medium rounded-full hover:bg-slate-100 dark:hover:bg-slate-700 dark:hover:text-white'>29</span>
+              <span className='flex items-center justify-center w-9 h-9 cursor-pointer text-sm font-medium rounded-full hover:bg-slate-100 dark:hover:bg-slate-700 dark:hover:text-white'>30</span>
+              <span className='flex items-center justify-center w-9 h-9 cursor-pointer text-sm font-medium rounded-full hover:bg-slate-100 dark:hover:bg-slate-700 dark:hover:text-white'>31</span>
+            </div>
+          </div>
+        </div>
+
+        {/** card */}
         <div className='break-inside p-6 flex flex-col justify-between rounded-2xl mb-4 space-y-8 bg-white text-black dark:bg-slate-800 dark:text-white'>
           <div className='flex justify-end'>
             <button className='flex items-center justify-center rounded-full p-2 transition-all hover:bg-slate-200 dark:hover:bg-slate-700'>
@@ -1309,12 +1387,12 @@ function App () {
             <span className='font-medium'>08:14</span>
           </div>
           <div className='flex justify-between items-center'>
-            <button className='flex justify-center items-center rounded-full p-3 transition-all hover:bg-slate-100 dark:hover:bg-slate-700'>
+            <button className='flex justify-center items-center rounded-full p-2 transition-all hover:bg-slate-100 dark:hover:bg-slate-700'>
               <svg width='26' height='26' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
                 <path d='M6,5.75L10.25,10H7V16H13.5L15.5,18H7A2,2 0 0,1 5,16V10H1.75L6,5.75M18,18.25L13.75,14H17V8H10.5L8.5,6H17A2,2 0 0,1 19,8V14H22.25L18,18.25Z' fill='currentColor' />
               </svg>
             </button>
-            <button className='flex justify-center items-center rounded-full p-3 transition-all hover:bg-slate-100 dark:hover:bg-slate-700'>
+            <button className='flex justify-center items-center rounded-full p-2 transition-all hover:bg-slate-100 dark:hover:bg-slate-700'>
               <svg width='26' height='26' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
                 <path d='M11.5,12L20,18V6M11,18V6L2.5,12L11,18Z' fill='currentColor' />
               </svg>
@@ -1324,12 +1402,12 @@ function App () {
                 <path d='M8,5.14V19.14L19,12.14L8,5.14Z' fill='currentColor' />
               </svg>
             </button>
-            <button className='flex justify-center items-center rounded-full p-3 transition-all hover:bg-slate-100 dark:hover:bg-slate-700'>
+            <button className='flex justify-center items-center rounded-full p-2 transition-all hover:bg-slate-100 dark:hover:bg-slate-700'>
               <svg width='26' height='26' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
                 <path d='M13,6V18L21.5,12M4,18L12.5,12L4,6V18Z' fill='currentColor' />
               </svg>
             </button>
-            <button className='flex justify-center items-center rounded-full p-3 transition-all hover:bg-slate-100 dark:hover:bg-slate-700'>
+            <button className='flex justify-center items-center rounded-full p-2 transition-all hover:bg-slate-100 dark:hover:bg-slate-700'>
               <svg width='26' height='26' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
                 <path d='M14.83,13.41L13.42,14.82L16.55,17.95L14.5,20H20V14.5L17.96,16.54L14.83,13.41M14.5,4L16.54,6.04L4,18.59L5.41,20L17.96,7.46L20,9.5V4M10.59,9.17L5.41,4L4,5.41L9.17,10.58L10.59,9.17Z' fill='currentColor' />
               </svg>
@@ -1341,11 +1419,11 @@ function App () {
         <div className='break-inside p-6 flex flex-col overflow-hidden justify-between rounded-2xl mb-4 space-y-8 bg-[#9fd597] text-black'>
           <div className='relative z-10 flex justify-between items-center'>
             <div className='flex space-x-1'>
-              <span className='px-4 py-2 rounded-full uppercase text-xs bg-black text-white'>Deep house</span>
-              <span className='px-4 py-2 rounded-full uppercase text-xs bg-black text-white'>House</span>
+              <span className='px-4 py-2 rounded-full text-xs bg-black text-white'>Deep house</span>
+              <span className='px-4 py-2 rounded-full text-xs bg-black text-white'>House</span>
             </div>
-            <button className='flex items-center justify-center rounded-full p-2 transition-all hover:bg-[#abf1a1]'>
-              <svg width='32' height='32' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+            <button className='flex items-center justify-center rounded-full p-1 transition-all hover:bg-[#abf1a1]'>
+              <svg width='28' height='28' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
                 <path d='M12,16A2,2 0 0,1 14,18A2,2 0 0,1 12,20A2,2 0 0,1 10,18A2,2 0 0,1 12,16M12,10A2,2 0 0,1 14,12A2,2 0 0,1 12,14A2,2 0 0,1 10,12A2,2 0 0,1 12,10M12,4A2,2 0 0,1 14,6A2,2 0 0,1 12,8A2,2 0 0,1 10,6A2,2 0 0,1 12,4Z' fill='currentColor' />
               </svg>
             </button>
@@ -1367,12 +1445,12 @@ function App () {
             <span className='font-medium'>04:14</span>
           </div>
           <div className='flex justify-between items-center'>
-            <button className='flex justify-center items-center rounded-full p-3 transition-all hover:bg-[#abf1a1]'>
+            <button className='flex justify-center items-center rounded-full p-2 transition-all hover:bg-[#abf1a1]'>
               <svg width='26' height='26' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
                 <path d='M6,5.75L10.25,10H7V16H13.5L15.5,18H7A2,2 0 0,1 5,16V10H1.75L6,5.75M18,18.25L13.75,14H17V8H10.5L8.5,6H17A2,2 0 0,1 19,8V14H22.25L18,18.25Z' fill='currentColor' />
               </svg>
             </button>
-            <button className='flex justify-center items-center rounded-full p-3 transition-all hover:bg-[#abf1a1]'>
+            <button className='flex justify-center items-center rounded-full p-2 transition-all hover:bg-[#abf1a1]'>
               <svg width='26' height='26' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
                 <path d='M11.5,12L20,18V6M11,18V6L2.5,12L11,18Z' fill='currentColor' />
               </svg>
@@ -1382,12 +1460,12 @@ function App () {
                 <path d='M8,5.14V19.14L19,12.14L8,5.14Z' fill='currentColor' />
               </svg>
             </button>
-            <button className='flex justify-center items-center rounded-full p-3 transition-all hover:bg-[#abf1a1]'>
+            <button className='flex justify-center items-center rounded-full p-2 transition-all hover:bg-[#abf1a1]'>
               <svg width='26' height='26' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
                 <path d='M13,6V18L21.5,12M4,18L12.5,12L4,6V18Z' fill='currentColor' />
               </svg>
             </button>
-            <button className='flex justify-center items-center rounded-full p-3 transition-all hover:bg-[#abf1a1]'>
+            <button className='flex justify-center items-center rounded-full p-2 transition-all hover:bg-[#abf1a1]'>
               <svg width='26' height='26' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
                 <path d='M14.83,13.41L13.42,14.82L16.55,17.95L14.5,20H20V14.5L17.96,16.54L14.83,13.41M14.5,4L16.54,6.04L4,18.59L5.41,20L17.96,7.46L20,9.5V4M10.59,9.17L5.41,4L4,5.41L9.17,10.58L10.59,9.17Z' fill='currentColor' />
               </svg>
