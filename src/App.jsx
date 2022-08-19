@@ -230,6 +230,73 @@ function App () {
         </div>
 
         {/** card */}
+        <div className='break-inside flex flex-col justify-between rounded-xl mb-4 overflow-hidden bg-white dark:bg-slate-800 dark:text-slate-50'>
+          <div className='flex flex-col justify-between space-y-1 text-white'>
+            <div className='flex space-x-1'>
+              <div className='flex-1 relative'>
+                <div className='absolute bottom-0 left-0 w-full p-6 bg-gradient-to-t from-[#000000] to-[#00000000]'>
+                  <div className='flex items-center flex-row justify-between'>
+                    <div className='mr-auto'>
+                      <h3 className='text-lg font-medium'>Card overlay caption</h3>
+                      <p>Alternative caption</p>
+                    </div>
+                    <button className='flex items-center justify-center hover:bg-[#ffffff27] rounded-full p-2 transition-all'>
+                      <svg width='26' height='26' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+                        <path d='M12,16A2,2 0 0,1 14,18A2,2 0 0,1 12,20A2,2 0 0,1 10,18A2,2 0 0,1 12,16M12,10A2,2 0 0,1 14,12A2,2 0 0,1 12,14A2,2 0 0,1 10,12A2,2 0 0,1 12,10M12,4A2,2 0 0,1 14,6A2,2 0 0,1 12,8A2,2 0 0,1 10,6A2,2 0 0,1 12,4Z' fill='currentColor' />
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+                <img src='https://images.pexels.com/photos/1289669/pexels-photo-1289669.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' className='object-cover w-full h-full' alt='Imagen' />
+              </div>
+            </div>
+            <div className='flex space-x-1'>
+              <a href='#' className='flex-1'>
+                <img src='https://images.pexels.com/photos/1206967/pexels-photo-1206967.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' className='object-cover w-full h-full' alt='Imagen' />
+              </a>
+              <a href='#' className='flex-1'>
+                <img src='https://images.pexels.com/photos/1309102/pexels-photo-1309102.jpeg?cs=srgb&dl=pexels-steve-johnson-1309102.jpg&fm=jpg' className='object-cover w-full h-full' alt='Imagen' />
+              </a>
+            </div>
+          </div>
+          <div className='flex justify-between p-4'>
+            <div className='flex items-center space-x-2'>
+              <svg width='26' height='26' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+                <path d='M20,4H16.83L15,2H9L7.17,4H4A2,2 0 0,0 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6A2,2 0 0,0 20,4M20,18H4V6H8.05L9.88,4H14.12L15.95,6H20V18M12,7A5,5 0 0,0 7,12A5,5 0 0,0 12,17A5,5 0 0,0 17,12A5,5 0 0,0 12,7M12,15A3,3 0 0,1 9,12A3,3 0 0,1 12,9A3,3 0 0,1 15,12A3,3 0 0,1 12,15Z' fill='currentColor' />
+              </svg>
+              <span className='font-medium'>353k</span>
+            </div>
+            <button className='inline-flex justify-center items-center rounded-md py-2 px-4 font-medium tracking-wide text-xs uppercase transition-all border-2 border-black text-black hover:bg-black hover:text-white dark:bg-white dark:text-white'>Buy now</button>
+          </div>
+        </div>
+
+        {/** card */}
+        <div className='break-inside flex flex-col justify-between rounded-xl mb-4 overflow-hidden bg-white dark:bg-slate-800 dark:text-slate-50'>
+          <div className='flex flex-row justify-between space-x-1 text-white'>
+            <a href='#' className='flex-1'>
+              <img src='https://images.pexels.com/photos/288100/pexels-photo-288100.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' className='object-cover w-full h-full' alt='Imagen' />
+            </a>
+            <div className='flex flex-1 flex-col space-y-1'>
+              <a href='#' className='flex-1'>
+                <img src='https://images.pexels.com/photos/2014745/pexels-photo-2014745.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' className='object-cover w-full h-full' alt='Imagen' />
+              </a>
+              <a href='#' className='flex-1'>
+                <img src='https://images.pexels.com/photos/3012723/pexels-photo-3012723.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' className='object-cover w-full h-full' alt='Imagen' />
+              </a>
+            </div>
+          </div>
+          <div className='flex justify-between p-4'>
+            <div className='flex items-center space-x-2'>
+              <svg width='28' height='28' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+                <path d='M12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2C17.5,2 22,6 22,11A6,6 0 0,1 16,17H14.2C13.9,17 13.7,17.2 13.7,17.5C13.7,17.6 13.8,17.7 13.8,17.8C14.2,18.3 14.4,18.9 14.4,19.5C14.5,20.9 13.4,22 12,22M12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20C12.3,20 12.5,19.8 12.5,19.5C12.5,19.3 12.4,19.2 12.4,19.1C12,18.6 11.8,18.1 11.8,17.5C11.8,16.1 12.9,15 14.3,15H16A4,4 0 0,0 20,11C20,7.1 16.4,4 12,4M6.5,10C7.3,10 8,10.7 8,11.5C8,12.3 7.3,13 6.5,13C5.7,13 5,12.3 5,11.5C5,10.7 5.7,10 6.5,10M9.5,6C10.3,6 11,6.7 11,7.5C11,8.3 10.3,9 9.5,9C8.7,9 8,8.3 8,7.5C8,6.7 8.7,6 9.5,6M14.5,6C15.3,6 16,6.7 16,7.5C16,8.3 15.3,9 14.5,9C13.7,9 13,8.3 13,7.5C13,6.7 13.7,6 14.5,6M17.5,10C18.3,10 19,10.7 19,11.5C19,12.3 18.3,13 17.5,13C16.7,13 16,12.3 16,11.5C16,10.7 16.7,10 17.5,10Z' fill='currentColor' />
+              </svg>
+              <span className='font-medium'>Paint</span>
+            </div>
+            <button className='inline-flex justify-center items-center rounded-md py-2 px-4 font-medium tracking-wide text-xs uppercase transition-all border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white dark:bg-white dark:text-white'>Join for free</button>
+          </div>
+        </div>
+
+        {/** card */}
         <div className='break-inside flex flex-col justify-between overflow-hidden rounded-xl mb-4 bg-white dark:bg-slate-800 dark:text-slate-50'>
           <div className='relative flex flex-col justify-between text-white bg-green-900 min-h-[14rem]'>
             <img src='https://images.pexels.com/photos/1988681/pexels-photo-1988681.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260' alt='Imagen' />
