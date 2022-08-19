@@ -1538,6 +1538,71 @@ function App () {
           </div>
         </div>
 
+        {/** card */}
+        <div className='break-inside p-4 flex flex-col justify-between rounded-2xl mb-4 space-y-4 bg-white text-black dark:bg-slate-800 dark:text-white'>
+          <div className='flex justify-between items-start space-x-1'>
+            <h3 className='text-xl font-medium'>These are our member suggestions</h3>
+            <button className='flex items-center justify-center rounded-full p-1 transition-all hover:bg-slate-200 dark:hover:bg-slate-700'>
+              <svg width='24' height='24' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+                <path d='M12,16A2,2 0 0,1 14,18A2,2 0 0,1 12,20A2,2 0 0,1 10,18A2,2 0 0,1 12,16M12,10A2,2 0 0,1 14,12A2,2 0 0,1 12,14A2,2 0 0,1 10,12A2,2 0 0,1 12,10M12,4A2,2 0 0,1 14,6A2,2 0 0,1 12,8A2,2 0 0,1 10,6A2,2 0 0,1 12,4Z' fill='currentColor' />
+              </svg>
+            </button>
+          </div>
+          <p>Minim dolor in amet nulla laboris enim dolore consequat.</p>
+          <div className='flex flex-col space-y-4'>
+            <div className='flex items-center space-x-3'>
+              <img className='flex-none w-10 h-10 rounded-full object-cover' src='https://randomuser.me/api/portraits/men/24.jpg' alt='avatar' />
+              <div className='flex-auto'>
+                <a href='#' className='no-underline text-sm font-bold block text-blue-600 dark:text-white'>Wade Warren</a>
+                <span className='text-sm text-slate-500 dark:text-slate-400'>Dog Trainer</span>
+              </div>
+              <button className='flex items-center justify-center rounded-md text-sm py-1 px-3 transition-all bg-purple-500 text-white hover:bg-purple-600 '>
+                Follow
+              </button>
+            </div>
+            <div className='flex items-center space-x-3'>
+              <img className='flex-none w-10 h-10 rounded-full object-cover' src='https://randomuser.me/api/portraits/men/25.jpg' alt='avatar' />
+              <div className='flex-auto'>
+                <a href='#' className='no-underline text-sm font-bold block text-blue-600 dark:text-white'>Robert Fox</a>
+                <span className='text-sm text-slate-500 dark:text-slate-400'>President of Sales</span>
+              </div>
+              <button className='flex items-center justify-center rounded-md text-sm py-1 px-3 transition-all bg-purple-500 text-white hover:bg-purple-600 '>
+                Follow
+              </button>
+            </div>
+            <div className='flex items-center space-x-3'>
+              <img className='flex-none w-10 h-10 rounded-full object-cover' src='https://randomuser.me/api/portraits/women/25.jpg' alt='avatar' />
+              <div className='flex-auto'>
+                <a href='#' className='no-underline text-sm font-bold block text-blue-600 dark:text-white'>Jane Cooper</a>
+                <span className='text-sm text-slate-500 dark:text-slate-400'>Nursing Assistant</span>
+              </div>
+              <button className='flex items-center justify-center rounded-md text-sm py-1 px-3 transition-all bg-purple-500 text-white hover:bg-purple-600 '>
+                Follow
+              </button>
+            </div>
+            <div className='flex items-center space-x-3'>
+              <img className='flex-none w-10 h-10 rounded-full object-cover' src='https://randomuser.me/api/portraits/women/26.jpg' alt='avatar' />
+              <div className='flex-auto'>
+                <a href='#' className='no-underline text-sm font-bold block text-blue-600 dark:text-white'>Carmen Ospina</a>
+                <span className='text-sm text-slate-500 dark:text-slate-400'>Software Tester</span>
+              </div>
+              <button className='flex items-center justify-center rounded-md text-sm py-1 px-3 transition-all bg-purple-500 text-white hover:bg-purple-600 '>
+                Follow
+              </button>
+            </div>
+            <div className='flex items-center space-x-3'>
+              <img className='flex-none w-10 h-10 rounded-full object-cover' src='https://randomuser.me/api/portraits/women/27.jpg' alt='avatar' />
+              <div className='flex-auto'>
+                <a href='#' className='no-underline text-sm font-bold block text-blue-600 dark:text-white'>Dianne Russell</a>
+                <span className='text-sm text-slate-500 dark:text-slate-400'>Web Designer</span>
+              </div>
+              <button className='flex items-center justify-center rounded-md text-sm py-1 px-3 transition-all bg-purple-500 text-white hover:bg-purple-600 '>
+                Follow
+              </button>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
   )
