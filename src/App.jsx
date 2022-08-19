@@ -1345,7 +1345,7 @@ function App () {
               <span className='px-4 py-2 rounded-full uppercase text-xs bg-black text-white'>House</span>
             </div>
             <button className='flex items-center justify-center rounded-full p-2 transition-all hover:bg-[#abf1a1]'>
-              <svg width='28' height='28' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+              <svg width='32' height='32' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
                 <path d='M12,16A2,2 0 0,1 14,18A2,2 0 0,1 12,20A2,2 0 0,1 10,18A2,2 0 0,1 12,16M12,10A2,2 0 0,1 14,12A2,2 0 0,1 12,14A2,2 0 0,1 10,12A2,2 0 0,1 12,10M12,4A2,2 0 0,1 14,6A2,2 0 0,1 12,8A2,2 0 0,1 10,6A2,2 0 0,1 12,4Z' fill='currentColor' />
               </svg>
             </button>
@@ -1377,7 +1377,7 @@ function App () {
                 <path d='M11.5,12L20,18V6M11,18V6L2.5,12L11,18Z' fill='currentColor' />
               </svg>
             </button>
-            <button className='flex justify-center items-center rounded-full p-3 transition-all bg-[#ffffff] hover:bg-[#abf1a1]'>
+            <button className='flex justify-center items-center rounded-full p-3 transition-all bg-[#abf1a1] hover:bg-[#abf1a1]'>
               <svg width='26' height='26' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
                 <path d='M8,5.14V19.14L19,12.14L8,5.14Z' fill='currentColor' />
               </svg>
