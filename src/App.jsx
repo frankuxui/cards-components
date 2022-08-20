@@ -1281,6 +1281,24 @@ function App () {
         </div>
 
         {/** card */}
+        <div className='break-inside relative overflow-hidden flex flex-col justify-between group rounded-[7rem] mb-4 bg-white text-black transition-all duration-1000 hover:sepia'>
+          <div className='absolute z-10 bottom-0 left-0 w-full p-12 bg-gradient-to-t from-[#ffffff] to-[#00000000] text-black'>
+            <div className='flex items-center flex-row justify-between'>
+              <div className='mr-auto space-y-2'>
+                <span className='text-sm py-1 px-3 rounded-lg text-white bg-black'>Artist</span>
+                <h3 className='font-bold text-2xl'>Oriana Tabares</h3>
+              </div>
+              <button className='flex items-center justify-center opacity-0 scale-[3] rounded-full blur-md p-2 transition-all duration-1000 group-hover:bg-white group-hover:text-black group-hover:scale-[1] group-hover:opacity-100 group-hover:blur-0'>
+                <svg width='18' height='18' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+                  <path d='M12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5C2,5.41 4.42,3 7.5,3C9.24,3 10.91,3.81 12,5.08C13.09,3.81 14.76,3 16.5,3C19.58,3 22,5.41 22,8.5C22,12.27 18.6,15.36 13.45,20.03L12,21.35Z' fill='currentColor' />
+                </svg>
+              </button>
+            </div>
+          </div>
+          <img src='https://images.pexels.com/photos/1499327/pexels-photo-1499327.jpeg?cs=srgb&dl=pexels-emily-garland-1499327.jpg&fm=jpg' className='w-[30rem] h-[35rem] transition-all object-cover w-wull group-hover:scale-[1.2] group-hover:rotate-1' />
+        </div>
+
+        {/** card */}
         <div className='break-inside flex flex-col justify-between rounded-xl mb-4 bg-white dark:bg-slate-800 dark:text-slate-50'>
           <div className='space-y-4'>
             <div className='p-4 flex justify-between flex-row items-center space-x-4'>
