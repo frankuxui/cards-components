@@ -1979,6 +1979,63 @@ function App () {
           </div>
         </div>
 
+        {/** card */}
+        <div className='break-inside flex flex-col justify-between overflow-hidden rounded-xl mb-4 bg-black text-white'>
+          <div className='relative flex flex-col justify-between text-white bg-green-900 min-h-[14rem]'>
+            <img src='https://images.pexels.com/photos/2387877/pexels-photo-2387877.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' alt='Imagen' />
+            <div className='absolute top-0 left-0 w-full h-full'>
+              <div className='flex justify-between h-full flex-col'>
+                <div className='p-6 bg-gradient-to-t from-[#00000000] to-[#000000]'>
+                  <div className='flex items-start flex-row justify-between'>
+                    <div className='mr-auto'>
+                      <h3 className='text-2xl font-bold'>Good night Frank</h3>
+                      <p>15 december, 2021</p>
+                    </div>
+                    <button className='flex items-center justify-center hover:bg-[#ffffff27] rounded-full p-2 transition-all'>
+                      <svg width='26' height='26' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+                        <path d='M12,16A2,2 0 0,1 14,18A2,2 0 0,1 12,20A2,2 0 0,1 10,18A2,2 0 0,1 12,16M12,10A2,2 0 0,1 14,12A2,2 0 0,1 12,14A2,2 0 0,1 10,12A2,2 0 0,1 12,10M12,4A2,2 0 0,1 14,6A2,2 0 0,1 12,8A2,2 0 0,1 10,6A2,2 0 0,1 12,4Z' fill='currentColor' />
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className='p-6 space-y-4'>
+            <div className='flex flex-col space-y-2'>
+              <h2 className='text-3xl font-bold'>
+                Programming
+                <br />
+                your dream
+              </h2>
+            </div>
+            <div className='flex-col pt-4 space-y-3'>
+              <div className='flex items-center justify-between'>
+                <div className='flex items-center justify-start space-x-2'>
+                  <span className='flex items-center justify-center rounded-full w-12 h-12 bg-gradient-to-tr from-[#d9ff00] to-[#3cff00]'>
+                    <svg width='20' height='18' viewBox='0 0 20 18' fill='none' xmlns='http://www.w3.org/2000/svg'>
+                      <path d='M10 0C11.2333 0 12.2222 1.00125 12.2222 2.25C12.2222 3.49875 11.2333 4.5 10 4.5C8.76667 4.5 7.77778 3.49875 7.77778 2.25C7.77778 1.00125 8.77778 0 10 0ZM20 13.5V11.25C17.5111 11.25 15.3778 10.17 13.7778 8.235L12.2889 6.435C12.0822 6.18128 11.8225 5.97706 11.5286 5.83701C11.2347 5.69697 10.9137 5.62456 10.5889 5.625H9.44444C8.76667 5.625 8.14444 5.9175 7.72222 6.435L6.23333 8.235C4.62222 10.17 2.48889 11.25 0 11.25V13.5C3.07778 13.5 5.76667 12.1838 7.77778 9.84375V12.375L3.46667 14.1187C2.72222 14.4225 2.22222 15.1875 2.22222 15.9862C2.22222 17.1 3.11111 18 4.21111 18H6.66667V17.4375C6.66667 16.6916 6.95932 15.9762 7.48026 15.4488C8.00119 14.9213 8.70773 14.625 9.44444 14.625H12.7778C13.0889 14.625 13.3333 14.8725 13.3333 15.1875C13.3333 15.5025 13.0889 15.75 12.7778 15.75H9.44444C8.52222 15.75 7.77778 16.5037 7.77778 17.4375V18H15.7889C16.8889 18 17.7778 17.1 17.7778 15.9862C17.7778 15.1875 17.2778 14.4225 16.5333 14.1187L12.2222 12.375V9.84375C14.2333 12.1838 16.9222 13.5 20 13.5Z' fill='black' />
+                    </svg>
+                  </span>
+                  <h5 className='font-medium'>Meditation</h5>
+                </div>
+                <span className='font-medium'>10.00 PM</span>
+              </div>
+              <div className='flex items-center justify-between'>
+                <div className='flex items-center justify-start space-x-2'>
+                  <span className='flex items-center justify-center rounded-full w-12 h-12 bg-gradient-to-tr from-[#00fffb] to-[#00ff62]'>
+                    <svg width='20' height='20' viewBox='0 0 20 20' fill='none' xmlns='http://www.w3.org/2000/svg'>
+                      <path d='M18 7.056V0.5H16V2.5H4V0.5H2V7.057C0.81 7.75 0 9.026 0 10.5V14.5C0 14.7652 0.105357 15.0196 0.292893 15.2071C0.48043 15.3946 0.734784 15.5 1 15.5H2V19.5H4V15.5H16V19.5H18V15.5H19C19.2652 15.5 19.5196 15.3946 19.7071 15.2071C19.8946 15.0196 20 14.7652 20 14.5V10.5C20 9.026 19.189 7.75 18 7.056ZM9 6.5H4V4.5H9V6.5ZM16 6.5H11V4.5H16V6.5Z' fill='black' />
+                    </svg>
+                  </span>
+                  <h5 className='font-medium'>Bedtime</h5>
+                </div>
+                <span className='font-medium'>11.00 PM </span>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
   )
