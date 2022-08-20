@@ -223,7 +223,7 @@ function App () {
               <svg width='26' height='26' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
                 <path d='M20,4H16.83L15,2H9L7.17,4H4A2,2 0 0,0 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6A2,2 0 0,0 20,4M20,18H4V6H8.05L9.88,4H14.12L15.95,6H20V18M12,7A5,5 0 0,0 7,12A5,5 0 0,0 12,17A5,5 0 0,0 17,12A5,5 0 0,0 12,7M12,15A3,3 0 0,1 9,12A3,3 0 0,1 12,9A3,3 0 0,1 15,12A3,3 0 0,1 12,15Z' fill='currentColor' />
               </svg>
-              <span className='font-medium'>353k</span>
+              <span className='font-medium'>18 k</span>
             </div>
             <button className='inline-flex justify-center items-center rounded-md py-2 px-4 font-medium tracking-wide text-xs uppercase transition-all border-2 border-black text-black hover:bg-black hover:text-white dark:border-white dark:text-white dark:hover:bg-white dark:hover:text-black'>Visit gallery</button>
           </div>
@@ -259,30 +259,58 @@ function App () {
               </a>
             </div>
           </div>
-          <div className='flex justify-between p-4'>
-            <div className='flex items-center space-x-2'>
-              <svg width='26' height='26' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
-                <path d='M20,4H16.83L15,2H9L7.17,4H4A2,2 0 0,0 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6A2,2 0 0,0 20,4M20,18H4V6H8.05L9.88,4H14.12L15.95,6H20V18M12,7A5,5 0 0,0 7,12A5,5 0 0,0 12,17A5,5 0 0,0 17,12A5,5 0 0,0 12,7M12,15A3,3 0 0,1 9,12A3,3 0 0,1 12,9A3,3 0 0,1 15,12A3,3 0 0,1 12,15Z' fill='currentColor' />
-              </svg>
-              <span className='font-medium'>353k</span>
-            </div>
-            <button className='inline-flex justify-center items-center rounded-md py-2 px-4 font-medium tracking-wide text-xs uppercase transition-all border-2 border-black text-black hover:bg-black hover:text-white dark:bg-white dark:text-white'>Buy now</button>
+          <div className='flex justify-between items-center p-4'>
+            <dl className='mt-4 text-sm font-medium flex items-center'>
+              <dt className='sr-only'>Reviews</dt>
+              <dd className='text-indigo-600 flex items-center dark:text-white'>
+                <svg width='26' height='26' fill='none' aria-hidden='true' className='mr-1 stroke-current dark:stroke-indigo-500'>
+                  <path d='m12 5 2 5h5l-4 4 2.103 5L12 16l-5.103 3L9 14l-4-4h5l2-5Z' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' />
+                </svg>
+                <span>4.89 <span className='text-slate-400 font-normal'>(128)</span></span>
+              </dd>
+              <dt className='sr-only'>Location</dt>
+            </dl>
+            <button className='inline-flex justify-center items-center rounded-md py-2 px-4 font-medium tracking-wide text-xs uppercase transition-all border-2 border-black text-black hover:bg-black hover:text-white dark:border-white dark:text-white dark:hover:bg-white dark:hover:text-black'>Buy now</button>
           </div>
         </div>
 
         {/** card */}
         <div className='break-inside flex flex-col justify-between rounded-xl mb-4 overflow-hidden bg-white dark:bg-slate-800 dark:text-slate-50'>
           <div className='flex flex-row justify-between space-x-1 text-white'>
-            <a href='#' className='flex-1'>
+            <div className='flex-1 relative group'>
+              <div className='absolute top-0 left-0 w-full h-full transition-all opacity-0 group-hover:opacity-100 bg-[#000000b0]'></div>
+              <div className='flex items-center justify-center absolute left-0 top-0 w-full h-full z-10'>
+                <button className='flex items-center p-3 rounded-full transition-all opacity-0 -translate-y-10 group-hover:translate-y-0 group-hover:opacity-100 text-white bg-[#ffffff27] hover:bg-white hover:text-black'>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox='0 0 24 24'>
+                    <path fill='currentColor' d="M10 18a7.952 7.952 0 0 0 4.897-1.688l4.396 4.396 1.414-1.414-4.396-4.396A7.952 7.952 0 0 0 18 10c0-4.411-3.589-8-8-8s-8 3.589-8 8 3.589 8 8 8zm0-14c3.309 0 6 2.691 6 6s-2.691 6-6 6-6-2.691-6-6 2.691-6 6-6z"></path>
+                  </svg>
+                </button>
+              </div>
               <img src='https://images.pexels.com/photos/288100/pexels-photo-288100.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' className='object-cover w-full h-full' alt='Imagen' />
-            </a>
+            </div>
             <div className='flex flex-1 flex-col space-y-1'>
-              <a href='#' className='flex-1'>
+              <div className='flex-1 relative group'>
+                <div className='absolute top-0 left-0 w-full h-full transition-all opacity-0 group-hover:opacity-100 bg-[#000000b0]'></div>
+                <div className='flex items-center justify-center absolute left-0 top-0 w-full h-full z-10'>
+                  <button className='flex items-center p-3 rounded-full transition-all opacity-0 -translate-y-10 group-hover:translate-y-0 group-hover:opacity-100 text-white bg-[#ffffff27] hover:bg-white hover:text-black'>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox='0 0 24 24'>
+                      <path fill='currentColor' d="M10 18a7.952 7.952 0 0 0 4.897-1.688l4.396 4.396 1.414-1.414-4.396-4.396A7.952 7.952 0 0 0 18 10c0-4.411-3.589-8-8-8s-8 3.589-8 8 3.589 8 8 8zm0-14c3.309 0 6 2.691 6 6s-2.691 6-6 6-6-2.691-6-6 2.691-6 6-6z"></path>
+                    </svg>
+                  </button>
+                </div>
                 <img src='https://images.pexels.com/photos/2014745/pexels-photo-2014745.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' className='object-cover w-full h-full' alt='Imagen' />
-              </a>
-              <a href='#' className='flex-1'>
+              </div>
+              <div className='flex-1 relative group'>
+                <div className='absolute top-0 left-0 w-full h-full transition-all opacity-0 group-hover:opacity-100 bg-[#000000b0]'></div>
+                <div className='flex items-center justify-center absolute left-0 top-0 w-full h-full z-10'>
+                  <button className='flex items-center p-3 rounded-full transition-all opacity-0 -translate-y-10 group-hover:translate-y-0 group-hover:opacity-100 text-white bg-[#ffffff27] hover:bg-white hover:text-black'>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox='0 0 24 24'>
+                      <path fill='currentColor' d="M10 18a7.952 7.952 0 0 0 4.897-1.688l4.396 4.396 1.414-1.414-4.396-4.396A7.952 7.952 0 0 0 18 10c0-4.411-3.589-8-8-8s-8 3.589-8 8 3.589 8 8 8zm0-14c3.309 0 6 2.691 6 6s-2.691 6-6 6-6-2.691-6-6 2.691-6 6-6z"></path>
+                    </svg>
+                  </button>
+                </div>
                 <img src='https://images.pexels.com/photos/3012723/pexels-photo-3012723.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' className='object-cover w-full h-full' alt='Imagen' />
-              </a>
+              </div>
             </div>
           </div>
           <div className='flex justify-between p-4'>
@@ -292,7 +320,7 @@ function App () {
               </svg>
               <span className='font-medium'>Paint</span>
             </div>
-            <button className='inline-flex justify-center items-center rounded-md py-2 px-4 font-medium tracking-wide text-xs uppercase transition-all border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white dark:bg-white dark:text-white'>Join for free</button>
+            <button className='inline-flex justify-center items-center rounded-md py-2 px-4 font-medium tracking-wide text-xs uppercase transition-all border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white  dark:text-blue-400 dark:hover:text-white'>Join for free</button>
           </div>
         </div>
 
@@ -1195,7 +1223,7 @@ function App () {
                   </a>
                   <a href='#' className='inline-block -m-1'>
                     <img
-                      class='w-9 h-9 rounded-full bg-slate-100 ring-2 ring-white dark:ring-slate-800'
+                      className='w-9 h-9 rounded-full bg-slate-100 ring-2 ring-white dark:ring-slate-800'
                       src='https://randomuser.me/api/portraits/men/48.jpg'
                       alt='avatar'
                     />
