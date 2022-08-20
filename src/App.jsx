@@ -278,11 +278,11 @@ function App () {
         <div className='break-inside flex flex-col justify-between rounded-xl mb-4 overflow-hidden bg-white dark:bg-slate-800 dark:text-slate-50'>
           <div className='flex flex-row justify-between space-x-1 text-white'>
             <div className='flex-1 relative group'>
-              <div className='absolute top-0 left-0 w-full h-full transition-all opacity-0 group-hover:opacity-100 bg-[#000000b0]'></div>
+              <div className='absolute top-0 left-0 w-full h-full transition-all opacity-0 group-hover:opacity-100 bg-[#000000b0]' />
               <div className='flex items-center justify-center absolute left-0 top-0 w-full h-full z-10'>
                 <button className='flex items-center p-3 rounded-full transition-all opacity-0 -translate-y-10 group-hover:translate-y-0 group-hover:opacity-100 text-white bg-[#ffffff27] hover:bg-white hover:text-black'>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox='0 0 24 24'>
-                    <path fill='currentColor' d="M10 18a7.952 7.952 0 0 0 4.897-1.688l4.396 4.396 1.414-1.414-4.396-4.396A7.952 7.952 0 0 0 18 10c0-4.411-3.589-8-8-8s-8 3.589-8 8 3.589 8 8 8zm0-14c3.309 0 6 2.691 6 6s-2.691 6-6 6-6-2.691-6-6 2.691-6 6-6z"></path>
+                  <svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'>
+                    <path fill='currentColor' d='M10 18a7.952 7.952 0 0 0 4.897-1.688l4.396 4.396 1.414-1.414-4.396-4.396A7.952 7.952 0 0 0 18 10c0-4.411-3.589-8-8-8s-8 3.589-8 8 3.589 8 8 8zm0-14c3.309 0 6 2.691 6 6s-2.691 6-6 6-6-2.691-6-6 2.691-6 6-6z' />
                   </svg>
                 </button>
               </div>
@@ -290,22 +290,22 @@ function App () {
             </div>
             <div className='flex flex-1 flex-col space-y-1'>
               <div className='flex-1 relative group'>
-                <div className='absolute top-0 left-0 w-full h-full transition-all opacity-0 group-hover:opacity-100 bg-[#000000b0]'></div>
+                <div className='absolute top-0 left-0 w-full h-full transition-all opacity-0 group-hover:opacity-100 bg-[#000000b0]' />
                 <div className='flex items-center justify-center absolute left-0 top-0 w-full h-full z-10'>
                   <button className='flex items-center p-3 rounded-full transition-all opacity-0 -translate-y-10 group-hover:translate-y-0 group-hover:opacity-100 text-white bg-[#ffffff27] hover:bg-white hover:text-black'>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox='0 0 24 24'>
-                      <path fill='currentColor' d="M10 18a7.952 7.952 0 0 0 4.897-1.688l4.396 4.396 1.414-1.414-4.396-4.396A7.952 7.952 0 0 0 18 10c0-4.411-3.589-8-8-8s-8 3.589-8 8 3.589 8 8 8zm0-14c3.309 0 6 2.691 6 6s-2.691 6-6 6-6-2.691-6-6 2.691-6 6-6z"></path>
+                    <svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'>
+                      <path fill='currentColor' d='M10 18a7.952 7.952 0 0 0 4.897-1.688l4.396 4.396 1.414-1.414-4.396-4.396A7.952 7.952 0 0 0 18 10c0-4.411-3.589-8-8-8s-8 3.589-8 8 3.589 8 8 8zm0-14c3.309 0 6 2.691 6 6s-2.691 6-6 6-6-2.691-6-6 2.691-6 6-6z' />
                     </svg>
                   </button>
                 </div>
                 <img src='https://images.pexels.com/photos/2014745/pexels-photo-2014745.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' className='object-cover w-full h-full' alt='Imagen' />
               </div>
               <div className='flex-1 relative group'>
-                <div className='absolute top-0 left-0 w-full h-full transition-all opacity-0 group-hover:opacity-100 bg-[#000000b0]'></div>
+                <div className='absolute top-0 left-0 w-full h-full transition-all opacity-0 group-hover:opacity-100 bg-[#000000b0]' />
                 <div className='flex items-center justify-center absolute left-0 top-0 w-full h-full z-10'>
                   <button className='flex items-center p-3 rounded-full transition-all opacity-0 -translate-y-10 group-hover:translate-y-0 group-hover:opacity-100 text-white bg-[#ffffff27] hover:bg-white hover:text-black'>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox='0 0 24 24'>
-                      <path fill='currentColor' d="M10 18a7.952 7.952 0 0 0 4.897-1.688l4.396 4.396 1.414-1.414-4.396-4.396A7.952 7.952 0 0 0 18 10c0-4.411-3.589-8-8-8s-8 3.589-8 8 3.589 8 8 8zm0-14c3.309 0 6 2.691 6 6s-2.691 6-6 6-6-2.691-6-6 2.691-6 6-6z"></path>
+                    <svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'>
+                      <path fill='currentColor' d='M10 18a7.952 7.952 0 0 0 4.897-1.688l4.396 4.396 1.414-1.414-4.396-4.396A7.952 7.952 0 0 0 18 10c0-4.411-3.589-8-8-8s-8 3.589-8 8 3.589 8 8 8zm0-14c3.309 0 6 2.691 6 6s-2.691 6-6 6-6-2.691-6-6 2.691-6 6-6z' />
                     </svg>
                   </button>
                 </div>
@@ -1307,6 +1307,106 @@ function App () {
                 </span>
                 <span>169</span>
               </a>
+            </div>
+          </div>
+        </div>
+
+        {/** card */}
+        <div className='break-inside flex flex-col justify-between rounded-xl mb-4 bg-white dark:bg-slate-800 dark:text-slate-50'>
+          <div className='space-y-4'>
+            <div className='p-4 flex justify-between flex-row items-center space-x-4'>
+              <div className='flex-auto flex flex-row space-x-4'>
+                <img className='flex-none w-10 h-10 rounded-full object-cover' src='https://randomuser.me/api/portraits/women/21.jpg' alt='avatar' />
+                <div className='flex flex-col'>
+                  <a href='#' className='text-smk font-bold block dark:text-white'>Alina Vargas</a>
+                  <span className='text-sm text-slate-500 dark:text-slate-400'>September 05, 2022</span>
+                </div>
+              </div>
+              <button className='flex items-center justify-center rounded-full p-1 transition-all hover:bg-slate-200 dark:hover:bg-slate-700'>
+                <svg width='26' height='26' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+                  <path d='M12,16A2,2 0 0,1 14,18A2,2 0 0,1 12,20A2,2 0 0,1 10,18A2,2 0 0,1 12,16M12,10A2,2 0 0,1 14,12A2,2 0 0,1 12,14A2,2 0 0,1 10,12A2,2 0 0,1 12,10M12,4A2,2 0 0,1 14,6A2,2 0 0,1 12,8A2,2 0 0,1 10,6A2,2 0 0,1 12,4Z' fill='currentColor' />
+                </svg>
+              </button>
+            </div>
+            <div className='p-4 bg-gradient-to-l from-[#1c00bd] to-[#be08c4] text-white text-2xl font-medium leading-snug'>
+              Minim dolor in amet nulla laboris enim dolore consculpa eiusmod proident...
+            </div>
+            <div className='px-4'>
+              <div className='flex justify-between items-center'>
+                <a className='inline-flex items-center' href='#'>
+                  <span className='-m-1 rounded-full border-2 border-white dark:border-slate-800'>
+                    <svg xmlns='http://www.w3.org/2000/svg' width='26' height='26' viewBox='0 0 16 16' fill='none'>
+                      <path fill='url(#a)' d='M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0Z' />
+                      <path fill='#fff' d='M12.162 7.338c.176.123.338.245.338.674 0 .43-.229.604-.474.725.1.163.132.36.089.546-.077.344-.392.611-.672.69.121.194.159.385.015.62-.185.295-.346.407-1.058.407H7.5c-.988 0-1.5-.546-1.5-1V7.665c0-1.23 1.467-2.275 1.467-3.13L7.361 3.47c-.005-.065.008-.224.058-.27.08-.079.301-.2.635-.2.218 0 .363.041.534.123.581.277.732.978.732 1.542 0 .271-.414 1.083-.47 1.364 0 0 .867-.192 1.879-.199 1.061-.006 1.749.19 1.749.842 0 .261-.219.523-.316.666ZM3.6 7h.8a.6.6 0 0 1 .6.6v3.8a.6.6 0 0 1-.6.6h-.8a.6.6 0 0 1-.6-.6V7.6a.6.6 0 0 1 .6-.6Z' />
+                      <defs>
+                        <linearGradient id='a' x1='8' x2='8' y2='16' gradientUnits='userSpaceOnUse'>
+                          <stop stopColor='#18AFFF' />
+                          <stop offset='1' stopColor='#0062DF' />
+                        </linearGradient>
+                      </defs>
+                    </svg>
+                  </span>
+                  <span className='-m-1 rounded-full border-2 border-white dark:border-slate-800'>
+                    <svg xmlns='http://www.w3.org/2000/svg' width='26' height='26' viewBox='0 0 16 16' fill='none'>
+                      <path fill='url(#b)' d='M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0Z' />
+                      <path fill='#fff' d='M10.473 4C8.275 4 8 5.824 8 5.824S7.726 4 5.528 4c-2.114 0-2.73 2.222-2.472 3.41C3.736 10.55 8 12.75 8 12.75s4.265-2.2 4.945-5.34c.257-1.188-.36-3.41-2.472-3.41Z' />
+                      <defs>
+                        <linearGradient id='b' x1='8' x2='8' y2='16' gradientUnits='userSpaceOnUse'>
+                          <stop stopColor='#FF6680' />
+                          <stop offset='1' stopColor='#E61739' />
+                        </linearGradient>
+                      </defs>
+                    </svg>
+                  </span>
+                  <span className='-m-1 rounded-full border-2 border-white dark:border-slate-800'>
+                    <svg xmlns='http://www.w3.org/2000/svg' width='26' height='26' viewBox='0 0 16 16' fill='none'>
+                      <path fill='url(#aa)' d='M16 8A8 8 0 1 1-.001 8 8 8 0 0 1 16 8' />
+                      <path fill='url(#bb)' d='M3 8.008C3 10.023 4.006 14 8 14c3.993 0 5-3.977 5-5.992C13 7.849 11.39 7 8 7c-3.39 0-5 .849-5 1.008Z' />
+                      <path fill='url(#cc)' d='M4.541 12.5c.804.995 1.907 1.5 3.469 1.5 1.563 0 2.655-.505 3.459-1.5-.551-.588-1.599-1.5-3.459-1.5s-2.917.912-3.469 1.5Z' />
+                      <path fill='#2A3755' d='M6.213 4.144c.263.188.502.455.41.788-.071.254-.194.369-.422.37-.78.012-1.708.256-2.506.613-.065.029-.197.088-.332.085-.124-.003-.251-.058-.327-.237-.067-.157-.073-.388.276-.598.545-.33 1.257-.48 1.909-.604-.41-.303-.85-.56-1.315-.768-.427-.194-.38-.457-.323-.6.127-.317.609-.196 1.078.026a9 9 0 0 1 1.552.925Zm3.577 0a8.955 8.955 0 0 1 1.55-.925c.47-.222.95-.343 1.078-.026.057.143.104.406-.323.6a7.028 7.028 0 0 0-1.313.768c.65.123 1.363.274 1.907.604.349.21.342.44.276.598-.077.18-.203.234-.327.237-.135.003-.267-.056-.332-.085-.797-.357-1.725-.6-2.504-.612-.228-.002-.351-.117-.422-.37-.091-.333.147-.6.41-.788v-.001Z' />
+                      <defs>
+                        <linearGradient id='aa' x1='8' x2='8' y1='1.64' y2='16' gradientUnits='userSpaceOnUse'>
+                          <stop stopColor='#FEEA70' />
+                          <stop offset='1' stopColor='#F69B30' />
+                        </linearGradient>
+                        <linearGradient id='bb' x1='8' x2='8' y1='7' y2='14' gradientUnits='userSpaceOnUse'>
+                          <stop stopColor='#472315' />
+                          <stop offset='1' stopColor='#8B3A0E' />
+                        </linearGradient>
+                        <linearGradient id='cc' x1='8.005' x2='8.005' y1='11' y2='13.457' gradientUnits='userSpaceOnUse'>
+                          <stop stopColor='#FC607C' />
+                          <stop offset='1' stopColor='#D91F3A' />
+                        </linearGradient>
+                      </defs>
+                    </svg>
+                  </span>
+                  <span className='font-bold ml-3'>237</span>
+                </a>
+                <a className='ml-auto' href='#'>23 comments</a>
+              </div>
+            </div>
+            <div className='p-4 flex flex-row justify-start items-center space-x-2'>
+              <img className='flex-none w-10 h-10 rounded-full object-cover' src='https://randomuser.me/api/portraits/men/27.jpg' alt='avatar' />
+              <div class='relative w-full'>
+                <input type='text' className='rounded-full pl-5 pr-[7rem] py-3 bg-slate-100 w-full h-10 dark:bg-slate-700 dark:text-white' placeholder='Write a comment' />
+                <div className='absolute right-3 top-1/2 -translate-y-1/2 flex items-center'>
+                  <button className='flex items-center justify-center p-1 rounded-full hover:bg-slate-200 dark:hover:bg-slate-600'>
+                    <svg width='20' height='20' viewBox='0 0 24 24'>
+                      <path d='M20,4H16.83L15,2H9L7.17,4H4A2,2 0 0,0 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6A2,2 0 0,0 20,4M20,18H4V6H8.05L9.88,4H14.12L15.95,6H20V18M12,7A5,5 0 0,0 7,12A5,5 0 0,0 12,17A5,5 0 0,0 17,12A5,5 0 0,0 12,7M12,15A3,3 0 0,1 9,12A3,3 0 0,1 12,9A3,3 0 0,1 15,12A3,3 0 0,1 12,15Z' fill='currentColor' />
+                    </svg>
+                  </button>
+                  <button className='flex items-center justify-center p-1 rounded-full hover:bg-slate-200 dark:hover:bg-slate-600'>
+                    <svg width='20' height='20' viewBox='0 0 24 24'>
+                      <path d='M12,2C6.47,2 2,6.47 2,12C2,17.53 6.47,22 12,22A10,10 0 0,0 22,12C22,6.47 17.5,2 12,2M12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4A8,8 0 0,1 20,12A8,8 0 0,1 12,20M13,9.94L14.06,11L15.12,9.94L16.18,11L17.24,9.94L15.12,7.82L13,9.94M8.88,9.94L9.94,11L11,9.94L8.88,7.82L6.76,9.94L7.82,11L8.88,9.94M12,17.5C14.33,17.5 16.31,16.04 17.11,14H6.89C7.69,16.04 9.67,17.5 12,17.5Z' fill='currentColor' />
+                    </svg>
+                  </button>
+                  <button className='flex items-center justify-center p-1 rounded-full hover:bg-slate-200 dark:hover:bg-slate-600'>
+                    <svg width='20' height='20' viewBox='0 0 24 24'>
+                      <path d='M5.5,2C3.56,2 2,3.56 2,5.5V18.5C2,20.44 3.56,22 5.5,22H16L22,16V5.5C22,3.56 20.44,2 18.5,2H5.5M5.75,4H18.25A1.75,1.75 0 0,1 20,5.75V15H18.5C16.56,15 15,16.56 15,18.5V20H5.75A1.75,1.75 0 0,1 4,18.25V5.75A1.75,1.75 0 0,1 5.75,4M14.44,6.77C14.28,6.77 14.12,6.79 13.97,6.83C13.03,7.09 12.5,8.05 12.74,9C12.79,9.15 12.86,9.3 12.95,9.44L16.18,8.56C16.18,8.39 16.16,8.22 16.12,8.05C15.91,7.3 15.22,6.77 14.44,6.77M8.17,8.5C8,8.5 7.85,8.5 7.7,8.55C6.77,8.81 6.22,9.77 6.47,10.7C6.5,10.86 6.59,11 6.68,11.16L9.91,10.28C9.91,10.11 9.89,9.94 9.85,9.78C9.64,9 8.95,8.5 8.17,8.5M16.72,11.26L7.59,13.77C8.91,15.3 11,15.94 12.95,15.41C14.9,14.87 16.36,13.25 16.72,11.26Z' fill='currentColor' />
+                    </svg>
+                  </button>
+                </div>
+              </div>
             </div>
           </div>
         </div>
