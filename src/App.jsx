@@ -260,7 +260,7 @@ function App () {
             </div>
           </div>
           <div className='flex justify-between items-center p-4'>
-            <dl className='mt-4 text-sm font-medium flex items-center'>
+            <dl className='text-sm font-medium flex items-center'>
               <dt className='sr-only'>Reviews</dt>
               <dd className='text-indigo-600 flex items-center dark:text-white'>
                 <svg width='26' height='26' fill='none' aria-hidden='true' className='mr-1 stroke-current dark:stroke-indigo-500'>
