@@ -1093,11 +1093,9 @@ function App () {
               <div className='absolute bottom-4 left-0 px-2 py-2 uppercase text-sm font-medium bg-white text-black'>
                 Sneakerlove
               </div>
-              <button className='absolute p-3 bg-[#ffffffcd] top-[49%] opacity-0 left-1/2 -translate-x-1/2 transition-all hover:bg-white group-hover:top-1/2 group-hover:opacity-100'>
-                <svg viewBox='0 0 24 24' width='32' height='32' aria-hidden='true'>
-                  <g>
-                    <path fill='currentColor' d='M9.5,3A6.5,6.5 0 0,1 16,9.5C16,11.11 15.41,12.59 14.44,13.73L14.71,14H15.5L20.5,19L19,20.5L14,15.5V14.71L13.73,14.44C12.59,15.41 11.11,16 9.5,16A6.5,6.5 0 0,1 3,9.5A6.5,6.5 0 0,1 9.5,3M9.5,5C7,5 5,7 5,9.5C5,12 7,14 9.5,14C12,14 14,12 14,9.5C14,7 12,5 9.5,5Z' />
-                  </g>
+              <button className='absolute p-3 bg-[#ffffffcd] top-[49%] opacity-0 left-1/2 -translate-x-1/2 transition-all hover:bg-white dark:text-black group-hover:opacity-100'>
+                <svg width='26' height='26' viewBox='0 0 18 19' fill='none' xmlns='http://www.w3.org/2000/ svg'>
+                  <path d='M17 17.5L13.2223 13.7156L17 17.5ZM15.3158 8.65789C15.3158 10.5563 14.5617 12.3769 13.2193 13.7193C11.8769 15.0617 10.0563 15.8158 8.15789 15.8158C6.2595 15.8158 4.43886 15.0617 3.0965 13.7193C1.75413 12.3769 1 10.5563 1 8.65789C1 6.7595 1.75413 4.93886 3.0965 3.5965C4.43886 2.25413 6.2595 1.5 8.15789 1.5C10.0563 1.5 11.8769 2.25413 13.2193 3.5965C14.5617 4.93886 15.3158 6.7595 15.3158 8.65789V8.65789Z' class='stroke-black dark:stroke-black' strokeWidth='2' strokeLinecap='round' />
                 </svg>
               </button>
             </div>
@@ -1968,7 +1966,7 @@ function App () {
                   <path d='M17 17.5L13.2223 13.7156L17 17.5ZM15.3158 8.65789C15.3158 10.5563 14.5617 12.3769 13.2193 13.7193C11.8769 15.0617 10.0563 15.8158 8.15789 15.8158C6.2595 15.8158 4.43886 15.0617 3.0965 13.7193C1.75413 12.3769 1 10.5563 1 8.65789C1 6.7595 1.75413 4.93886 3.0965 3.5965C4.43886 2.25413 6.2595 1.5 8.15789 1.5C10.0563 1.5 11.8769 2.25413 13.2193 3.5965C14.5617 4.93886 15.3158 6.7595 15.3158 8.65789V8.65789Z' class='stroke-black dark:stroke-white' strokeWidth='2' strokeLinecap='round' />
                 </svg>
               </span>
-              <input type='text' className='rounded-full pl-12 pr-[7rem] py-3 bg-slate-100 w-full h-12 dark:bg-slate-700 dark:text-white' placeholder='Search freelancers' />
+              <input type='text' className='rounded-full pl-12 pr-3 py-3 bg-slate-100 w-full h-12 dark:bg-slate-700 dark:text-white' placeholder='Search freelancers' />
             </div>
           </div>
           <div className='flex flex-col space-y-4'>
