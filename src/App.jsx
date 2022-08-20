@@ -1892,6 +1892,93 @@ function App () {
           </div>
         </div>
 
+        {/** card */}
+        <div className='break-inside p-4 flex flex-col justify-between rounded-2xl mb-4 space-y-8 bg-white text-black dark:bg-slate-800 dark:text-white'>
+          <div className='flex justify-between items-start'>
+            <div className='flex items-center justify-start space-x-2'>
+              <svg width='24' height='22' viewBox='0 0 20 18' fill='none' xmlns='http://www.w3.org/2000/svg'>
+                <path d='M19 4H15V1C15 0.734784 14.8946 0.48043 14.7071 0.292893C14.5196 0.105357 14.2652 0 14 0H6C5.73478 0 5.48043 0.105357 5.29289 0.292893C5.10536 0.48043 5 0.734784 5 1V8H1C0.734784 8 0.48043 8.10536 0.292893 8.29289C0.105357 8.48043 0 8.73478 0 9V17C0 17.2652 0.105357 17.5196 0.292893 17.7071C0.48043 17.8946 0.734784 18 1 18H19C19.2652 18 19.5196 17.8946 19.7071 17.7071C19.8946 17.5196 20 17.2652 20 17V5C20 4.73478 19.8946 4.48043 19.7071 4.29289C19.5196 4.10536 19.2652 4 19 4ZM4 16H2V14H4V16ZM4 12H2V10H4V12ZM9 16H7V14H9V16ZM9 12H7V10H9V12ZM9 8H7V6H9V8ZM9 4H7V2H9V4ZM13 16H11V14H13V16ZM13 12H11V10H13V12ZM13 8H11V6H13V8ZM13 4H11V2H13V4ZM18 16H16V14H18V16ZM18 12H16V10H18V12ZM18 8H16V6H18V8Z' fill='currentColor' />
+              </svg>
+              <h3 className='text-xl font-medium'>Freelancers</h3>
+            </div>
+            <button className='flex items-center justify-center rounded-full p-1 transition-all hover:bg-slate-200 dark:hover:bg-slate-700'>
+              <svg width='24' height='24' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+                <path d='M12,16A2,2 0 0,1 14,18A2,2 0 0,1 12,20A2,2 0 0,1 10,18A2,2 0 0,1 12,16M12,10A2,2 0 0,1 14,12A2,2 0 0,1 12,14A2,2 0 0,1 10,12A2,2 0 0,1 12,10M12,4A2,2 0 0,1 14,6A2,2 0 0,1 12,8A2,2 0 0,1 10,6A2,2 0 0,1 12,4Z' fill='currentColor' />
+              </svg>
+            </button>
+          </div>
+          <div className='flex flex-col'>
+            <div className='flex justify-between items-center mb-2'>
+              <h5 className='uppercase text-sm font-medium'>Search now</h5>
+              <button className='flex items-center justify-center rounded-lg w-10 h-10 transition-all hover:bg-slate-200 dark:hover:bg-slate-700'>
+                <svg width='16' height='10' viewBox='0 0 16 10' fill='none' xmlns='http://www.w3.org/2000/svg'>
+                  <path d='M3 4H13V6H3V4ZM0 0H16V2H0V0ZM6 8H10V10H6V8Z' fill='currentColor' />
+                </svg>
+              </button>
+            </div>
+            <div className='relative'>
+              <span className='absolute left-4 top-1/2 -translate-y-1/2'>
+                <svg width='18' height='19' viewBox='0 0 18 19' fill='none' xmlns='http://www.w3.org/2000/ svg'>
+                  <path d='M17 17.5L13.2223 13.7156L17 17.5ZM15.3158 8.65789C15.3158 10.5563 14.5617 12.3769 13.2193 13.7193C11.8769 15.0617 10.0563 15.8158 8.15789 15.8158C6.2595 15.8158 4.43886 15.0617 3.0965 13.7193C1.75413 12.3769 1 10.5563 1 8.65789C1 6.7595 1.75413 4.93886 3.0965 3.5965C4.43886 2.25413 6.2595 1.5 8.15789 1.5C10.0563 1.5 11.8769 2.25413 13.2193 3.5965C14.5617 4.93886 15.3158 6.7595 15.3158 8.65789V8.65789Z' class='stroke-black dark:stroke-white' strokeWidth='2' strokeLinecap='round' />
+                </svg>
+              </span>
+              <input type='text' className='rounded-full pl-12 pr-[7rem] py-3 bg-slate-100 w-full h-12 dark:bg-slate-700 dark:text-white' placeholder='Search freelancers' />
+            </div>
+          </div>
+          <div className='flex flex-col space-y-4'>
+            <div className='flex items-center space-x-3'>
+              <img className='flex-none w-12 h-12 rounded-full object-cover' src='https://randomuser.me/api/portraits/men/24.jpg' alt='avatar' />
+              <div className='flex-auto'>
+                <a href='#' className='no-underline text-sm font-bold block text-blue-600 dark:text-white'>Wade Warren</a>
+                <span className='text-sm text-slate-500 dark:text-slate-400'>Dog Trainer</span>
+              </div>
+              <button className='flex items-center justify-center rounded-md text-sm py-1 px-3 transition-all bg-white text-black border-2 border-black hover:bg-black hover:text-white dark:bg-slate-800 dark:border-white dark:text-white dark:hover:bg-white dark:hover:text-black'>
+                Contact
+              </button>
+            </div>
+            <div className='flex items-center space-x-3'>
+              <img className='flex-none w-12 h-12 rounded-full object-cover' src='https://randomuser.me/api/portraits/men/25.jpg' alt='avatar' />
+              <div className='flex-auto'>
+                <a href='#' className='no-underline text-sm font-bold block text-blue-600 dark:text-white'>Robert Fox</a>
+                <span className='text-sm text-slate-500 dark:text-slate-400'>President of Sales</span>
+              </div>
+              <button className='flex items-center justify-center rounded-md text-sm py-1 px-3 transition-all bg-white text-black border-2 border-black hover:bg-black hover:text-white dark:bg-slate-800 dark:border-white dark:text-white dark:hover:bg-white dark:hover:text-black'>
+                Contact
+              </button>
+            </div>
+            <div className='flex items-center space-x-3'>
+              <img className='flex-none w-12 h-12 rounded-full object-cover' src='https://randomuser.me/api/portraits/women/25.jpg' alt='avatar' />
+              <div className='flex-auto'>
+                <a href='#' className='no-underline text-sm font-bold block text-blue-600 dark:text-white'>Jane Cooper</a>
+                <span className='text-sm text-slate-500 dark:text-slate-400'>Nursing Assistant</span>
+              </div>
+              <button className='flex items-center justify-center rounded-md text-sm py-1 px-3 transition-all bg-white text-black border-2 border-black hover:bg-black hover:text-white dark:bg-slate-800 dark:border-white dark:text-white dark:hover:bg-white dark:hover:text-black'>
+                Contact
+              </button>
+            </div>
+            <div className='flex items-center space-x-3'>
+              <img className='flex-none w-12 h-12 rounded-full object-cover' src='https://randomuser.me/api/portraits/women/26.jpg' alt='avatar' />
+              <div className='flex-auto'>
+                <a href='#' className='no-underline text-sm font-bold block text-blue-600 dark:text-white'>Carmen Ospina</a>
+                <span className='text-sm text-slate-500 dark:text-slate-400'>Software Tester</span>
+              </div>
+              <button className='flex items-center justify-center rounded-md text-sm py-1 px-3 transition-all bg-white text-black border-2 border-black hover:bg-black hover:text-white dark:bg-slate-800 dark:border-white dark:text-white dark:hover:bg-white dark:hover:text-black'>
+                Contact
+              </button>
+            </div>
+            <div className='flex items-center space-x-3'>
+              <img className='flex-none w-12 h-12 rounded-full object-cover' src='https://randomuser.me/api/portraits/women/27.jpg' alt='avatar' />
+              <div className='flex-auto'>
+                <a href='#' className='no-underline text-sm font-bold block text-blue-600 dark:text-white'>Dianne Russell</a>
+                <span className='text-sm text-slate-500 dark:text-slate-400'>Web Designer</span>
+              </div>
+              <button className='flex items-center justify-center rounded-md text-sm py-1 px-3 transition-all bg-white text-black border-2 border-black hover:bg-black hover:text-white dark:bg-slate-800 dark:border-white dark:text-white dark:hover:bg-white dark:hover:text-black'>
+                Contact
+              </button>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
   )
