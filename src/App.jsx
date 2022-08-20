@@ -423,6 +423,34 @@ function App () {
         </div>
 
         {/** card */}
+        <div className='break-inside flex flex-col justify-between overflow-hidden rounded-xl mb-4 bg-white'>
+          <div className='relative flex flex-col justify-between text-white bg-green-900 min-h-[14rem]'>
+            <img src='https://images.pexels.com/photos/544268/pexels-photo-544268.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' alt='Imagen' />
+            <div className='absolute top-0 left-0 w-full h-full'>
+              <div className='flex justify-between h-full flex-col'>
+                <div className='flex space-x-2 p-6'>
+                  <span className='bg-[#c8ff00] px-3 py-1 rounded-md text-sm font-bold text-black'>FASHION</span>
+                  <span className='bg-[#00ffc3] px-3 py-1 rounded-md text-sm font-bold text-black'>TRENDS</span>
+                </div>
+                <div className='p-6 bg-gradient-to-t from-[#000000] to-[#00000000]'>
+                  <div className='flex items-center flex-row justify-between'>
+                    <div className='mr-auto'>
+                      <h3 className='text-xl font-medium'>Card overlay caption</h3>
+                      <p>Alternative caption</p>
+                    </div>
+                    <button className='flex items-center justify-center hover:bg-[#ffffff27] rounded-full p-2 transition-all'>
+                      <svg width='26' height='26' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+                        <path d='M12,16A2,2 0 0,1 14,18A2,2 0 0,1 12,20A2,2 0 0,1 10,18A2,2 0 0,1 12,16M12,10A2,2 0 0,1 14,12A2,2 0 0,1 12,14A2,2 0 0,1 10,12A2,2 0 0,1 12,10M12,4A2,2 0 0,1 14,6A2,2 0 0,1 12,8A2,2 0 0,1 10,6A2,2 0 0,1 12,4Z' fill='currentColor' />
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/** card */}
         <div className='break-inside relative flex flex-col p-6 justify-between rounded-xl mb-4 overflow-hidden bg-purple-600 text-white text-center text-lg'>
           <blockquote>
             <p className='mb-4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere.</p>
