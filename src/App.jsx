@@ -264,7 +264,7 @@ function App () {
               <dt className='sr-only'>Reviews</dt>
               <dd className='text-indigo-600 flex items-center dark:text-white'>
                 <svg width='26' height='26' fill='none' aria-hidden='true' className='mr-1 stroke-current dark:stroke-indigo-500'>
-                  <path d='m12 5 2 5h5l-4 4 2.103 5L12 16l-5.103 3L9 14l-4-4h5l2-5Z' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' />
+                  <path d='m12 5 2 5h5l-4 4 2.103 5L12 16l-5.103 3L9 14l-4-4h5l2-5Z' strokeWidth='2' strokeLinecap='round' strokeLinejoin='round' />
                 </svg>
                 <span>4.89 <span className='text-slate-400 font-normal'>(128)</span></span>
               </dd>
@@ -1095,7 +1095,7 @@ function App () {
               </div>
               <button className='absolute p-3 bg-[#ffffffcd] top-[49%] opacity-0 left-1/2 -translate-x-1/2 transition-all hover:bg-white dark:text-black group-hover:opacity-100'>
                 <svg width='26' height='26' viewBox='0 0 18 19' fill='none' xmlns='http://www.w3.org/2000/ svg'>
-                  <path d='M17 17.5L13.2223 13.7156L17 17.5ZM15.3158 8.65789C15.3158 10.5563 14.5617 12.3769 13.2193 13.7193C11.8769 15.0617 10.0563 15.8158 8.15789 15.8158C6.2595 15.8158 4.43886 15.0617 3.0965 13.7193C1.75413 12.3769 1 10.5563 1 8.65789C1 6.7595 1.75413 4.93886 3.0965 3.5965C4.43886 2.25413 6.2595 1.5 8.15789 1.5C10.0563 1.5 11.8769 2.25413 13.2193 3.5965C14.5617 4.93886 15.3158 6.7595 15.3158 8.65789V8.65789Z' class='stroke-black dark:stroke-black' strokeWidth='2' strokeLinecap='round' />
+                  <path d='M17 17.5L13.2223 13.7156L17 17.5ZM15.3158 8.65789C15.3158 10.5563 14.5617 12.3769 13.2193 13.7193C11.8769 15.0617 10.0563 15.8158 8.15789 15.8158C6.2595 15.8158 4.43886 15.0617 3.0965 13.7193C1.75413 12.3769 1 10.5563 1 8.65789C1 6.7595 1.75413 4.93886 3.0965 3.5965C4.43886 2.25413 6.2595 1.5 8.15789 1.5C10.0563 1.5 11.8769 2.25413 13.2193 3.5965C14.5617 4.93886 15.3158 6.7595 15.3158 8.65789V8.65789Z' className='stroke-black dark:stroke-black' strokeWidth='2' strokeLinecap='round' />
                 </svg>
               </button>
             </div>
@@ -1431,7 +1431,7 @@ function App () {
             </div>
             <div className='p-4 flex flex-row justify-start items-center space-x-2'>
               <img className='flex-none w-10 h-10 rounded-full object-cover' src='https://randomuser.me/api/portraits/men/27.jpg' alt='avatar' />
-              <div class='relative w-full'>
+              <div className='relative w-full'>
                 <input type='text' className='rounded-full pl-5 pr-[7rem] py-3 bg-slate-100 w-full h-10 dark:bg-slate-700 dark:text-white' placeholder='Write a comment' />
                 <div className='absolute right-3 top-1/2 -translate-y-1/2 flex items-center'>
                   <button className='flex items-center justify-center p-1 rounded-full hover:bg-slate-200 dark:hover:bg-slate-600'>
@@ -1872,6 +1872,84 @@ function App () {
         </div>
 
         {/** card */}
+        <div className='break-inside mb-4 rounded-xl bg-white dark:bg-slate-800'>
+          <div className='p-6 space-y-6'>
+            <div className='flex items-center space-x-4'>
+              <img src='https://images.pexels.com/photos/1001850/pexels-photo-1001850.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='cover' className='flex-none rounded-lg w-24 h-20 bg-slate-100 object-cover' loading='lazy' />
+              <div className='min-w-0 flex-auto space-y-1'>
+                <p className='text-cyan-500 dark:text-cyan-400 text-sm leading-6'>
+                  <abbr title='Episode'>Ep.</abbr> 33
+                </p>
+                <h2 className='text-slate-500 dark:text-slate-400 text-sm leading-6 truncate'>
+                  Minim dolor in amet nulla laboris enim
+                </h2>
+                <p className='text-slate-900 dark:text-slate-50 text-lg font-bold'>
+                  Full Stack Radio
+                </p>
+              </div>
+            </div>
+            <div className='space-y-2'>
+              <div className='relative'>
+                <div className='bg-slate-100 dark:bg-slate-700 rounded-full overflow-hidden'>
+                  <div className='bg-purple-500 dark:bg-purple-400 w-[35%] h-2' role='progressbar' ariaLabel='music progress' ariaValuenow='1456' ariaValuemin='0' aria-valuemax='4550' />
+                </div>
+                <div className='ring-purple-500 dark:ring-purple-400 ring-2 absolute left-[35%] top-1/2 w-4 h-4 -mt-2 -ml-2 flex items-center justify-center bg-white rounded-full shadow'>
+                  <div className='w-1.5 h-1.5 bg-purple-500 dark:bg-purple-400 rounded-full ring-1 ring-inset ring-slate-900/5' />
+                </div>
+              </div>
+              <div className='flex justify-between text-sm leading-6 font-medium tabular-nums'>
+                <div className='text-cyan-500 dark:text-slate-100'>24:16</div>
+                <div className='text-slate-500 dark:text-slate-400'>75:50</div>
+              </div>
+            </div>
+          </div>
+          <div className='bg-slate-50 text-slate-500 dark:bg-slate-700 dark:text-slate-200 rounded-b-xl flex items-center'>
+            <div className='flex-auto flex items-center justify-evenly'>
+              <button type='button' ariaLabel='Add to favorites' className='rounded-full p-2 hover:bg-slate-200 dark:hover:bg-slate-600'>
+                <svg width='24' height='24'>
+                  <path d='M7 6.931C7 5.865 7.853 5 8.905 5h6.19C16.147 5 17 5.865 17 6.931V19l-5-4-5 4V6.931Z' fill='currentColor' stroke='currentColor' strokeWidth='2' strokeLinecap='round' strokeLinejoin='round' />
+                </svg>
+              </button>
+              <button type='button' className='rounded-full p-2 hover:bg-slate-200 dark:hover:bg-slate-600' ariaLabel='Previous'>
+                <svg width='24' height='24' fill='none'>
+                  <path d='m10 12 8-6v12l-8-6Z' fill='currentColor' stroke='currentColor' strokeWidth='2' strokeLinecap='round' strokeLinejoin='round' />
+                  <path d='M6 6v12' stroke='currentColor' strokeWidth='2' strokeLinecap='round' strokeLinejoin='round' />
+                </svg>
+              </button>
+              <button type='button' ariaLabel='Rewind 10 seconds' className='rounded-full p-2 hover:bg-slate-200 dark:hover:bg-slate-600'>
+                <svg width='24' height='24' fill='none'>
+                  <path d='M6.492 16.95c2.861 2.733 7.5 2.733 10.362 0 2.861-2.734 2.861-7.166 0-9.9-2.862-2.733-7.501-2.733-10.362 0A7.096 7.096 0 0 0 5.5 8.226' stroke='currentColor' strokeWidth='2' strokeLinecap='round' strokeLinejoin='round' />
+                  <path d='M5 5v3.111c0 .491.398.889.889.889H9' stroke='currentColor' strokeWidth='2' strokeLinecap='round' strokeLinejoin='round' />
+                </svg>
+              </button>
+            </div>
+            <button type='button' className='bg-white text-slate-900 dark:bg-slate-600 dark:text-slate-200 flex-none -my-2 mx-auto w-16 h-16 rounded-full ring-1 ring-slate-900/5 shadow-md flex items-center justify-center' ariaLabel='Pause'>
+              <svg width='30' height='32' fill='currentColor'>
+                <rect x='6' y='4' width='4' height='24' rx='2' />
+                <rect x='20' y='4' width='4' height='24' rx='2' />
+              </svg>
+            </button>
+            <div className='flex-auto flex items-center justify-evenly'>
+              <button type='button' ariaLabel='Skip 10 seconds' className='rounded-full p-2 hover:bg-slate-200 dark:hover:bg-slate-600'>
+                <svg width='24' height='24' fill='none'>
+                  <path d='M17.509 16.95c-2.862 2.733-7.501 2.733-10.363 0-2.861-2.734-2.861-7.166 0-9.9 2.862-2.733 7.501-2.733 10.363 0 .38.365.711.759.991 1.176' stroke='currentColor' strokeWidth='2' strokeLinecap='round' strokeLinejoin='round' />
+                  <path d='M19 5v3.111c0 .491-.398.889-.889.889H15' stroke='currentColor' strokeWidth='2' strokeLinecap='round' strokeLinejoin='round' />
+                </svg>
+              </button>
+              <button type='button' className='rounded-full p-2 hover:bg-slate-200 dark:hover:bg-slate-600' ariaLabel='Next'>
+                <svg width='24' height='24' fill='none'>
+                  <path d='M14 12 6 6v12l8-6Z' fill='currentColor' stroke='currentColor' strokeWidth='2' strokeLinecap='round' strokeLinejoin='round' />
+                  <path d='M18 6v12' stroke='currentColor' strokeWidth='2' strokeLinecap='round' strokeLinejoin='round' />
+                </svg>
+              </button>
+              <button type='button' className='rounded-lg text-xs leading-6 font-semibold px-2 ring-2 ring-inset ring-slate-500 text-slate-500 dark:text-slate-100 dark:ring-0 dark:bg-slate-500'>
+                1x
+              </button>
+            </div>
+          </div>
+        </div>
+
+        {/** card */}
         <div className='break-inside p-4 flex flex-col justify-between rounded-2xl mb-4 space-y-4 bg-white text-black dark:bg-slate-800 dark:text-white'>
           <div className='flex justify-between items-start space-x-1'>
             <h3 className='text-xl font-medium'>These are our member suggestions</h3>
@@ -2002,7 +2080,7 @@ function App () {
             <div className='relative'>
               <span className='absolute left-4 top-1/2 -translate-y-1/2'>
                 <svg width='18' height='19' viewBox='0 0 18 19' fill='none' xmlns='http://www.w3.org/2000/ svg'>
-                  <path d='M17 17.5L13.2223 13.7156L17 17.5ZM15.3158 8.65789C15.3158 10.5563 14.5617 12.3769 13.2193 13.7193C11.8769 15.0617 10.0563 15.8158 8.15789 15.8158C6.2595 15.8158 4.43886 15.0617 3.0965 13.7193C1.75413 12.3769 1 10.5563 1 8.65789C1 6.7595 1.75413 4.93886 3.0965 3.5965C4.43886 2.25413 6.2595 1.5 8.15789 1.5C10.0563 1.5 11.8769 2.25413 13.2193 3.5965C14.5617 4.93886 15.3158 6.7595 15.3158 8.65789V8.65789Z' class='stroke-black dark:stroke-white' strokeWidth='2' strokeLinecap='round' />
+                  <path d='M17 17.5L13.2223 13.7156L17 17.5ZM15.3158 8.65789C15.3158 10.5563 14.5617 12.3769 13.2193 13.7193C11.8769 15.0617 10.0563 15.8158 8.15789 15.8158C6.2595 15.8158 4.43886 15.0617 3.0965 13.7193C1.75413 12.3769 1 10.5563 1 8.65789C1 6.7595 1.75413 4.93886 3.0965 3.5965C4.43886 2.25413 6.2595 1.5 8.15789 1.5C10.0563 1.5 11.8769 2.25413 13.2193 3.5965C14.5617 4.93886 15.3158 6.7595 15.3158 8.65789V8.65789Z' className='stroke-black dark:stroke-white' strokeWidth='2' strokeLinecap='round' />
                 </svg>
               </span>
               <input type='text' className='rounded-full pl-12 pr-3 py-3 bg-slate-100 w-full h-12 dark:bg-slate-700 dark:text-white' placeholder='Search freelancers' />
