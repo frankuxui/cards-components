@@ -1117,6 +1117,34 @@ function App () {
         </a>
 
         {/** card */}
+        <div className='break-inside rounded-xl mb-4 p-6 bg-white dark:bg-slate-800 dark:text-white'>
+          <div className='flex justify-between items-center'>
+            <div className='flex flex-col space-y-1'>
+              <h5 className='font-bold text-2xl'>Nike Air Max</h5>
+              <p className='text-slate-400'>Running shoes</p>
+            </div>
+            <span className='flex justify-center items-center w-16 h-16 rounded-full shadow-xl dark:bg-slate-700'>
+              <svg width='40' height='15' viewBox='0 0 40 15' fill='none' xmlns='http://www.w3.org/2000/svg'>
+                <path d='M40 0.5L10.7364 12.9585C8.30975 13.9851 6.27141 14.5 4.62306 14.5C2.75638 14.5 1.40137 13.8467 0.561361 12.5386C0.0330233 11.6987 -0.121978 10.6338 0.0946904 9.34228C0.311359 8.05077 0.88803 6.67593 1.82137 5.21277C2.59971 4.02958 3.87472 2.47476 5.64973 0.546661C5.04767 1.49432 4.60618 2.53485 4.34306 3.62629C3.87639 5.61772 4.29639 7.07922 5.60307 8.01244C6.22474 8.44739 7.07974 8.66569 8.16975 8.66569C9.03976 8.66569 10.0198 8.52571 11.1098 8.24574L40 0.5Z' fill='currentColor' />
+              </svg>
+            </span>
+          </div>
+          <div className='flex justify-center items-center'>
+            <div className='w-32 h-32 rounded-full relative flex items-center justify-center bg-gradient-to-tr from-[#00F5A0] to-[#00D9F5]'>
+              <img src='/img/nike.png' />
+            </div>
+          </div>
+          <div className='flex justify-between items-center'>
+            <h5 className='font-bold text-xl'>$95.99</h5>
+            <span className='flex justify-center items-center w-12 h-12 rounded-2xl bg-black text-white dark:bg-white dark:text-black'>
+              <svg width='20' height='20' viewBox='0 0 22 21'  xmlns='http://www.w3.org/2000/svg'>
+                <path d='M6 1.23792C3.239 1.23792 1 3.45391 1 6.18791C1 8.39491 1.875 13.6329 10.488 18.9279C10.6423 19.0218 10.8194 19.0714 11 19.0714C11.1806 19.0714 11.3577 19.0218 11.512 18.9279C20.125 13.6329 21 8.39491 21 6.18791C21 3.45391 18.761 1.23792 16 1.23792C13.239 1.23792 11 4.23792 11 4.23792C11 4.23792 8.761 1.23792 6 1.23792Z' stroke='currentColor' strokeWidth='2' strokeLinecap='round' strokeLinejoin='round' />
+              </svg>
+            </span>
+          </div>
+        </div>
+
+        {/** card */}
         <div className='break-inside p-6 flex flex-col justify-between rounded-xl mb-4 bg-[#fdc448] text-black'>
           <div className='space-y-4'>
             <div className='flex flex-col justify-center text-center space-y-4'>
@@ -2197,9 +2225,16 @@ function App () {
           </div>
         </div>
 
+        
+
       </div>
     </div>
   )
 }
 
 export default App
+
+//
+// {/** card */}
+// <div className='break-inside rounded-xl mb-4 p-6 bg-white dark:bg-slate-800 dark:text-white'>card</div>
+//
