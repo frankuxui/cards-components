@@ -1137,7 +1137,7 @@ function App () {
           <div className='flex justify-between items-center'>
             <h5 className='font-bold text-xl'>$95.99</h5>
             <span className='flex justify-center items-center w-12 h-12 rounded-2xl bg-black text-white dark:bg-white dark:text-black'>
-              <svg width='20' height='20' viewBox='0 0 22 21'  xmlns='http://www.w3.org/2000/svg'>
+              <svg width='20' height='20' viewBox='0 0 22 21' xmlns='http://www.w3.org/2000/svg'>
                 <path d='M6 1.23792C3.239 1.23792 1 3.45391 1 6.18791C1 8.39491 1.875 13.6329 10.488 18.9279C10.6423 19.0218 10.8194 19.0714 11 19.0714C11.1806 19.0714 11.3577 19.0218 11.512 18.9279C20.125 13.6329 21 8.39491 21 6.18791C21 3.45391 18.761 1.23792 16 1.23792C13.239 1.23792 11 4.23792 11 4.23792C11 4.23792 8.761 1.23792 6 1.23792Z' stroke='currentColor' strokeWidth='2' strokeLinecap='round' strokeLinejoin='round' />
               </svg>
             </span>
@@ -2225,7 +2225,25 @@ function App () {
           </div>
         </div>
 
-        
+        {/** card */}
+        <div className='break-inside overflow-hidden relative rounded-2xl mb-4 text-white saturate-0 group'>
+          <img src='https://images.pexels.com/photos/13159253/pexels-photo-13159253.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='Running' className='w-full h-[35rem] object-cover transition-all group-hover:scale-[1.02]' />
+          <div className='absolute top-0 left-0 w-full h-full transition-all bg-[#0000004a] group-hover:bg-[#0000001f]' />
+          <div className='absolute left-0 w-full bottom-0  z-10 flex flex-col items-start p-6 space-y-4'>
+            <h1 className='uppercase font-bold'>
+              <span className='text-5xl'>runnig</span>
+              <br />
+              <span className='text-4xl'>music</span>
+            </h1>
+            <button className='inline-flex items-center justify-center px-4 py-2 space-x-3 uppercase font-bold rounded-full bg-white text-black'>
+              <span>Play now</span>
+              <svg width='26' height='26' viewBox='0 0 28 28' fill='none' xmlns='http://www.w3.org/2000/svg'>
+                <path d='M14 26.25C10.7511 26.25 7.63526 24.9594 5.33794 22.6621C3.04062 20.3647 1.75 17.2489 1.75 14C1.75 10.7511 3.04062 7.63526 5.33794 5.33794C7.63526 3.04062 10.7511 1.75 14 1.75C17.2489 1.75 20.3647 3.04062 22.6621 5.33794C24.9594 7.63526 26.25 10.7511 26.25 14C26.25 17.2489 24.9594 20.3647 22.6621 22.6621C20.3647 24.9594 17.2489 26.25 14 26.25ZM14 28C17.713 28 21.274 26.525 23.8995 23.8995C26.525 21.274 28 17.713 28 14C28 10.287 26.525 6.72601 23.8995 4.10051C21.274 1.475 17.713 0 14 0C10.287 0 6.72601 1.475 4.10051 4.10051C1.475 6.72601 0 10.287 0 14C0 17.713 1.475 21.274 4.10051 23.8995C6.72601 26.525 10.287 28 14 28Z' fill='black' />
+                <path d='M10.9742 8.84625C11.1174 8.77255 11.278 8.73976 11.4386 8.7515C11.5992 8.76323 11.7534 8.81903 11.8842 8.91275L18.0093 13.2878C18.1227 13.3687 18.2151 13.4756 18.2789 13.5994C18.3427 13.7233 18.376 13.8607 18.376 14C18.376 14.1393 18.3427 14.2767 18.2789 14.4006C18.2151 14.5244 18.1227 14.6313 18.0093 14.7122L11.8842 19.0872C11.7534 19.1809 11.5993 19.2366 11.4388 19.2484C11.2783 19.2601 11.1177 19.2274 10.9747 19.1538C10.8316 19.0801 10.7116 18.9685 10.6278 18.8311C10.5441 18.6937 10.4999 18.5359 10.5 18.375V9.625C10.4998 9.46414 10.544 9.30635 10.6277 9.16897C10.7113 9.03158 10.8313 8.91992 10.9742 8.84625Z' fill='black' />
+              </svg>
+            </button>
+          </div>
+        </div>
 
       </div>
     </div>
