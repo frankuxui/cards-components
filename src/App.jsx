@@ -1937,6 +1937,45 @@ function App () {
         </div>
 
         {/** card */}
+        <div className='divide-y divide-slate-400/20 mb-4 rounded-lg bg-white text-[0.8125rem] leading-5 text-slate-900 shadow-xl shadow-black/5 dark:bg-slate-800 dark:text-white'>
+          <div className='flex items-center p-4'>
+            <img src='https://randomuser.me/api/portraits/men/33.jpg' alt='avatar' className='h-12 w-12 flex-none rounded-full' />
+            <div className='ml-4 flex-auto'>
+              <div className='font-medium'>Leonard Krasner</div>
+              <div className='text-slate-700 dark:text-slate-400'>@leonardkrasner</div>
+            </div>
+            <div className='pointer-events-auto cursor-pointer ml-4 flex-none rounded-md py-[0.3125rem] px-2 font-medium text-slate-700 shadow-sm ring-1 ring-slate-700/10 hover:bg-slate-50 dark:text-white dark:ring-slate-700 dark:hover:bg-slate-700'>
+              View
+            </div>
+          </div>
+          <div className='flex items-center p-4'>
+            <img src='https://randomuser.me/api/portraits/men/34.jpg' alt='avatar' className='h-12 w-12 flex-none rounded-full' />
+            <div className='ml-4 flex-auto'>
+              <div className='font-medium'>Floyd Miles</div>
+              <div className='text-slate-700 dark:text-slate-400'>@floydmiles</div>
+            </div>
+            <div className='pointer-events-auto cursor-pointer ml-4 flex-none rounded-md py-[0.3125rem] px-2 font-medium text-slate-700 shadow-sm ring-1 ring-slate-700/10 hover:bg-slate-50 dark:text-white dark:ring-slate-700 dark:hover:bg-slate-700'>
+              View
+            </div>
+          </div>
+          <div className='flex items-center p-4'>
+            <img src='https://randomuser.me/api/portraits/women/25.jpg' alt='avatar' className='h-12 w-12 flex-none rounded-full' />
+            <div className='ml-4 flex-auto'>
+              <div className='font-medium'>Emily Selman</div>
+              <div className='text-slate-700 dark:text-slate-400'>@emilyselman</div>
+            </div>
+            <div className='pointer-events-auto cursor-pointer ml-4 flex-none rounded-md py-[0.3125rem] px-2 font-medium text-slate-700 shadow-sm ring-1 ring-slate-700/10 hover:bg-slate-50 dark:text-white dark:ring-slate-700 dark:hover:bg-slate-700'>
+              View
+            </div>
+          </div>
+          <div className='p-4'>
+            <div className='pointer-events-auto cursor-pointer rounded-md py-2 px-4 text-center font-medium shadow-sm ring-1 ring-slate-700/10 hover:bg-slate-50 dark:text-white dark:hover:bg-slate-700'>
+              View all users
+            </div>
+          </div>
+        </div>
+
+        {/** card */}
         <div className='break-inside p-4 flex flex-col justify-between rounded-2xl mb-4 space-y-8 bg-white text-black dark:bg-slate-800 dark:text-white'>
           <div className='flex justify-between items-start'>
             <div className='flex items-center justify-start space-x-2'>
