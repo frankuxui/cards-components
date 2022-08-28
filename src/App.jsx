@@ -104,7 +104,7 @@ function App () {
         </div>
 
         {/** card */}
-        <div className='break-inside relative flex flex-col justify-between overflow-hidden rounded-xl mb-4 bg-white dark:bg-slate-800 dark:text-slate-50'>
+        <div className='break-inside relative flex flex-col justify-between overflow-hidden rounded-xl mb-4 text-sm bg-white dark:bg-slate-800 dark:text-slate-50'>
           <div className='relative flex flex-col justify-between text-white bg-black min-h-[10rem]'>
             <img src='https://images.pexels.com/photos/1742370/pexels-photo-1742370.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260' alt='Imagen' />
             <div className='absolute top-0 p-6'>
@@ -119,9 +119,9 @@ function App () {
             <p>Lorem ipsum dolor sit amt amet de consectetet, consectetur 😋 🤪 😬 adipiscing elit, sed do eiusmod.</p>
             <div className='pt-4'>
               <div className='flex items-center space-x-4'>
-                <img className='flex-none w-12 h-12 rounded-full object-cover' src='https://randomuser.me/api/portraits/women/44.jpg' alt='avatar' />
+                <img className='flex-none w-11 h-11 rounded-full object-cover' src='https://randomuser.me/api/portraits/women/44.jpg' alt='avatar' />
                 <div className='flex-auto'>
-                  <a href='#' className='no-underline font-bold block text-blue-600 dark:text-white'>Bessie Cooper</a>
+                  <a href='#' className='no-underline text-base font-bold block text-blue-600 dark:text-white'>Bessie Cooper</a>
                   <span className='text-slate-500 dark:text-slate-400'>Web designer</span>
                 </div>
               </div>
@@ -130,12 +130,12 @@ function App () {
         </div>
 
         {/** card */}
-        <div className='break-inside flex flex-col justify-between rounded-xl mb-4 overflow-hidden bg-white dark:bg-slate-800 dark:text-slate-50'>
+        <div className='break-inside flex flex-col justify-between rounded-xl mb-4 text-sm overflow-hidden bg-white dark:bg-slate-800 dark:text-slate-50'>
           <div className='p-4'>
             <div className='flex items-center space-x-4'>
-              <img className='flex-none w-14 h-14 rounded-full object-cover' src='https://randomuser.me/api/portraits/men/44.jpg' alt='avatar' />
+              <img className='flex-none w-12 h-12 rounded-full object-cover' src='https://randomuser.me/api/portraits/men/44.jpg' alt='avatar' />
               <div className='flex-auto'>
-                <a href='#' className='no-underline font-bold block text-blue-600 dark:text-white'>Tom</a>
+                <a href='#' className='no-underline text-base font-bold block text-blue-600 dark:text-white'>Tom</a>
                 <span className='text-slate-500 dark:text-slate-400'>Photography</span>
               </div>
               <button className='flex items-center justify-center rounded-full p-1 transition-all hover:bg-slate-200 dark:bg-slate-700'>
@@ -185,12 +185,12 @@ function App () {
         </div>
 
         {/** card */}
-        <div className='break-inside flex flex-col justify-between rounded-xl mb-4 overflow-hidden bg-white dark:bg-slate-800 dark:text-slate-50'>
+        <div className='break-inside flex flex-col justify-between rounded-xl mb-4 text-sm overflow-hidden bg-white dark:bg-slate-800 dark:text-slate-50'>
           <div className='p-4'>
             <div className='flex items-center space-x-4'>
-              <img className='flex-none w-14 h-14 rounded-full object-cover' src='https://randomuser.me/api/portraits/women/2.jpg' alt='avatar' />
+              <img className='flex-none w-12 h-12 rounded-full object-cover' src='https://randomuser.me/api/portraits/women/2.jpg' alt='avatar' />
               <div className='flex-auto'>
-                <a href='#' className='no-underline font-bold block text-blue-600 dark:text-white'>Marina</a>
+                <a href='#' className='no-underline text-base font-bold block text-blue-600 dark:text-white'>Marina</a>
                 <span className='text-slate-500 dark:text-slate-400'>Graphic editor</span>
               </div>
               <button className='flex items-center justify-center rounded-full p-1 transition-all hover:bg-slate-200 dark:bg-slate-700'>
@@ -223,14 +223,14 @@ function App () {
               <svg width='26' height='26' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
                 <path d='M20,4H16.83L15,2H9L7.17,4H4A2,2 0 0,0 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6A2,2 0 0,0 20,4M20,18H4V6H8.05L9.88,4H14.12L15.95,6H20V18M12,7A5,5 0 0,0 7,12A5,5 0 0,0 12,17A5,5 0 0,0 17,12A5,5 0 0,0 12,7M12,15A3,3 0 0,1 9,12A3,3 0 0,1 12,9A3,3 0 0,1 15,12A3,3 0 0,1 12,15Z' fill='currentColor' />
               </svg>
-              <span className='font-medium'>18 k</span>
+              <span className='text-base font-medium'>18 k</span>
             </div>
             <button className='inline-flex justify-center items-center rounded-md py-2 px-4 font-medium tracking-wide text-xs uppercase transition-all border-2 border-black text-black hover:bg-black hover:text-white dark:border-white dark:text-white dark:hover:bg-white dark:hover:text-black'>Visit gallery</button>
           </div>
         </div>
 
         {/** card */}
-        <div className='break-inside flex flex-col justify-between rounded-xl mb-4 overflow-hidden bg-white dark:bg-slate-800 dark:text-slate-50'>
+        <div className='break-inside flex flex-col justify-between rounded-xl mb-4 text-sm overflow-hidden bg-white dark:bg-slate-800 dark:text-slate-50'>
           <div className='flex flex-col justify-between space-y-1 text-white'>
             <div className='flex space-x-1'>
               <div className='flex-1 relative'>
@@ -374,7 +374,7 @@ function App () {
         </div>
 
         {/** card */}
-        <div className='break-inside flex flex-col justify-between overflow-hidden rounded-xl mb-4 bg-white dark:bg-slate-800 dark:text-slate-50'>
+        <div className='break-inside flex flex-col justify-between overflow-hidden rounded-xl mb-4 text-sm bg-white dark:bg-slate-800 dark:text-slate-50'>
           <div className='relative flex flex-col justify-between text-white bg-green-900 min-h-[14rem]'>
             <img src='https://images.pexels.com/photos/1988681/pexels-photo-1988681.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260' alt='Imagen' />
             <div className='absolute top-0 left-0 w-full h-full'>
@@ -409,7 +409,7 @@ function App () {
               <div className='flex items-center space-x-4'>
                 <img className='flex-none w-12 h-12 rounded-full object-cover' src='https://randomuser.me/api/portraits/women/45.jpg' alt='avatar' />
                 <div className='flex-auto'>
-                  <a href='#' className='no-underline font-bold block dark:text-white'>
+                  <a href='#' className='no-underline text-base font-bold block dark:text-white'>
                     Enmma
                   </a>
                   <span className='text-slate-500 dark:text-slate-400'>
@@ -423,7 +423,7 @@ function App () {
         </div>
 
         {/** card */}
-        <div className='break-inside flex flex-col justify-between overflow-hidden rounded-xl mb-4 bg-white'>
+        <div className='break-inside flex flex-col justify-between overflow-hidden rounded-xl mb-4 text-sm bg-white'>
           <div className='relative flex flex-col justify-between text-white bg-green-900 min-h-[14rem]'>
             <img src='https://images.pexels.com/photos/544268/pexels-photo-544268.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' alt='Imagen' />
             <div className='absolute top-0 left-0 w-full h-full'>
@@ -464,7 +464,7 @@ function App () {
         </div>
 
         {/** card */}
-        <div className='break-inside flex flex-col justify-between overflow-hidden rounded-xl mb-4 bg-white dark:bg-slate-800 dark:text-slate-50'>
+        <div className='break-inside flex flex-col justify-between overflow-hidden rounded-xl mb-4 text-sm bg-white dark:bg-slate-800 dark:text-slate-50'>
           <div className='relative flex flex-col justify-between text-white bg-green-900 min-h-[14rem]'>
             <img src='https://images.pexels.com/photos/1424981/pexels-photo-1424981.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500' alt='Imagen' />
             <div className='absolute top-0 left-0 bg-pink-600 rounded-br-xl p-4'>
@@ -477,14 +477,14 @@ function App () {
           </div>
           <div className='p-4 space-y-2'>
             <div className='flex flex-col'>
-              <h2 className='text-2xl font-bold'>New trends 🔥</h2>
+              <h2 className='text-xl font-bold'>New trends 🔥</h2>
             </div>
             <p>Minim dolor in amet nulla laboris enim dolore consequat proident fugiat culpa eiusmod proident sed excepteur.</p>
           </div>
         </div>
 
         {/** card */}
-        <div className='break-inside flex flex-col justify-between rounded-xl mb-4 overflow-hidden bg-white dark:bg-slate-800 dark:text-slate-50'>
+        <div className='break-inside flex flex-col justify-between rounded-xl mb-4 text-sm overflow-hidden bg-white dark:bg-slate-800 dark:text-slate-50'>
           <div className='p-5 space-y-4'>
             <div className='flex flex-col'>
               <h2 className='text-xl font-bold'>Exclusive</h2>
@@ -499,7 +499,7 @@ function App () {
           </div>
           <div className='p-4 space-y-4'>
             <div className='flex items-center space-x-4'>
-              <img className='flex-none w-14 h-14 rounded-full object-cover' src='https://randomuser.me/api/portraits/men/45.jpg' alt='avatar' />
+              <img className='flex-none w-12 h-12 rounded-full object-cover' src='https://randomuser.me/api/portraits/men/45.jpg' alt='avatar' />
               <div className='flex-auto'>
                 <a href='#' className='no-underline font-bold block dark:text-white'>Darrell Steward</a>
                 <span className='text-slate-500 dark:text-slate-400'>Marketing Manager</span>
@@ -509,7 +509,7 @@ function App () {
         </div>
 
         {/** card */}
-        <div className='break-inside flex flex-col justify-between rounded-xl mb-4 bg-white dark:bg-slate-800 dark:text-slate-50'>
+        <div className='break-inside flex flex-col justify-between rounded-xl mb-4 text-sm bg-white dark:bg-slate-800 dark:text-slate-50'>
           <div className='flex justify-between flex-row  items-center p-4'>
             <h2 className='text-xl font-bold'>Header</h2>
             <button className='flex items-center justify-center rounded-full p-1 transition-all hover:bg-slate-200 dark:hover:bg-slate-700 '>
@@ -520,7 +520,7 @@ function App () {
           </div>
           <div className='p-4 space-y-4'>
             <div className='flex items-center space-x-4'>
-              <img className='flex-none w-14 h-14 rounded-full object-cover' src='https://randomuser.me/api/portraits/men/46.jpg' alt='avatar' />
+              <img className='flex-none w-12 h-12 rounded-full object-cover' src='https://randomuser.me/api/portraits/men/46.jpg' alt='avatar' />
               <div className='flex-auto'>
                 <a href='#' className='no-underline font-bold block dark:text-white'>Ralph Edwards</a>
                 <span className='text-slate-500 dark:text-slate-400'>Dog Trainer</span>
@@ -533,15 +533,15 @@ function App () {
           </div>
           <div className='flex p-4 flex-row items-center justify-between'>
             <div className='flex space-x-1'>
-              <span className='px-3 py-1 rounded-full text-sm font-bold bg-slate-900 text-white dark:bg-white dark:text-black'>FASHION</span>
-              <span className='px-3 py-1 rounded-full text-sm font-bold bg-slate-900 text-white dark:bg-white dark:text-black'>TRENDS</span>
+              <span className='px-3 py-1 rounded-full text-xs font-medium bg-slate-900 text-white dark:bg-white dark:text-black'>FASHION</span>
+              <span className='px-3 py-1 rounded-full text-xs font-medium bg-slate-900 text-white dark:bg-white dark:text-black'>TRENDS</span>
             </div>
             <span className='text-sm'>April 23</span>
           </div>
         </div>
 
         {/** card */}
-        <div className='break-inside flex flex-col justify-between rounded-xl mb-4 overflow-hidden bg-white dark:bg-slate-800 dark:text-slate-50'>
+        <div className='break-inside flex flex-col justify-between rounded-xl mb-4 text-sm overflow-hidden bg-white dark:bg-slate-800 dark:text-slate-50'>
           <div className='flex justify-between items-center flex-col space-y-4'>
             <div className='flex flex-col items-center text-center p-6 space-y-2'>
               <img className='flex-none w-24 h-24 rounded-full object-cover' src='https://randomuser.me/api/portraits/women/47.jpg' alt='avatar' />
@@ -559,7 +559,7 @@ function App () {
         </div>
 
         {/** card */}
-        <div className='break-inside flex flex-col justify-between rounded-xl mb-4 overflow-hidden bg-white dark:bg-slate-800 dark:text-slate-50'>
+        <div className='break-inside flex flex-col justify-between rounded-xl mb-4 text-sm overflow-hidden bg-white dark:bg-slate-800 dark:text-slate-50'>
           <div className='min-h-[8rem] bg-blue-700'>
             <img src='https://images.pexels.com/photos/3757144/pexels-photo-3757144.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' className='w-full h-[12rem] object-cover' />
           </div>
@@ -660,7 +660,7 @@ function App () {
         </div>
 
         {/** card */}
-        <div className='break-inside flex flex-col justify-between overflow-hidden rounded-xl mb-4 bg-white dark:bg-slate-800 dark:text-slate-50'>
+        <div className='break-inside flex flex-col justify-between overflow-hidden rounded-xl mb-4 text-sm bg-white dark:bg-slate-800 dark:text-slate-50'>
           <div className='relative flex flex-col justify-between text-white bg-green-900 min-h-[14rem]'>
             <img src='https://images.pexels.com/photos/3584283/pexels-photo-3584283.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260' alt='Imagen' />
             <div className='absolute bottom-0 left-0 w-full p-6 bg-gradient-to-t from-[#000000] to-[#00000000]'>
@@ -679,9 +679,9 @@ function App () {
               <h2 className='text-2xl font-bold'>Hotel, Cromwell International</h2>
             </div>
             <div className='flex justify-between items-center flex-row'>
-              <span className='text-2xl font-bold'>€365.99</span>
+              <span className='text-xl font-bold'>€365.99</span>
               <button className='p-4 transition-all rounded-full hover:bg-slate-100 dark:hover:bg-slate-700'>
-                <svg width='24' height='24' viewBox='0 0 22 21' fill='none' xmlns='http://www.w3.org/2000/svg'>
+                <svg width='22' height='22' viewBox='0 0 22 21' fill='none' xmlns='http://www.w3.org/2000/svg'>
                   <path d='M6 1.23792C3.239 1.23792 1 3.45391 1 6.18791C1 8.39491 1.875 13.6329 10.488 18.9279C10.6423 19.0218 10.8194 19.0714 11 19.0714C11.1806 19.0714 11.3577 19.0218 11.512 18.9279C20.125 13.6329 21 8.39491 21 6.18791C21 3.45391 18.761 1.23792 16 1.23792C13.239 1.23792 11 4.23792 11 4.23792C11 4.23792 8.761 1.23792 6 1.23792Z' stroke='currentColor' strokeWidth='2' strokeLinecap='round' strokeLinejoin='round' />
                 </svg>
               </button>
@@ -726,10 +726,10 @@ function App () {
         </div>
 
         {/** card */}
-        <div className='break-inside flex flex-col justify-between rounded-xl mb-4 overflow-hidden bg-white dark:bg-slate-800 dark:text-slate-50'>
+        <div className='break-inside flex flex-col justify-between rounded-xl mb-4 text-sm overflow-hidden bg-white dark:bg-slate-800 dark:text-slate-50'>
           <div className='p-4 space-y-2'>
             <h2 className='text-2xl font-bold'>Vector pack</h2>
-            <p>Minim dolor in amet nulla laboris enim dolore consequat proident fugiat culpa eiusmod 🎭🎨.</p>
+            <p>Minim dolor in amet nulla laboris enim dolore consequat proident fugiat hola morsiculpa eiusmod 🎭🎨.</p>
           </div>
           <img src='https://images.pexels.com/photos/9669040/pexels-photo-9669040.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260' />
           <div className='flex justify-between p-4 bg-slate-100 dark:bg-slate-700'>
@@ -748,10 +748,10 @@ function App () {
         </div>
 
         {/** card */}
-        <div className='break-inside p-4 flex flex-col justify-between rounded-xl mb-4 bg-white dark:bg-slate-800 dark:text-slate-50'>
+        <div className='break-inside p-4 flex flex-col justify-between rounded-xl mb-4 text-sm bg-white dark:bg-slate-800 dark:text-slate-50'>
           <div className='space-y-4'>
             <div className='flex items-center space-x-4'>
-              <img className='flex-none w-14 h-14 rounded-full object-cover' src='https://randomuser.me/api/portraits/women/55.jpg' alt='avatar' />
+              <img className='flex-none w-12 h-12 rounded-full object-cover' src='https://randomuser.me/api/portraits/women/55.jpg' alt='avatar' />
               <div className='flex-auto'>
                 <a href='#' className='text-lg font-bold block dark:text-white'>Angelina Mconoor</a>
                 <span className='text-slate-500 dark:text-slate-400'>Dog Trainer</span>
@@ -823,13 +823,13 @@ function App () {
         </div>
 
         {/** card */}
-        <div className='break-inside p-6 flex flex-col justify-between rounded-xl mb-4 bg-white dark:bg-slate-800 dark:text-slate-50'>
+        <div className='break-inside p-6 flex flex-col justify-between rounded-xl mb-4 text-sm bg-white dark:bg-slate-800 dark:text-slate-50'>
           <div className='space-y-4'>
             <div className='flex justify-between flex-row items-center space-x-4'>
               <div className='flex-auto flex flex-row space-x-4'>
-                <img className='flex-none w-10 h-10 rounded-full object-cover' src='https://randomuser.me/api/portraits/men/33.jpg' alt='avatar' />
+                <img className='flex-none w-11 h-11 rounded-full object-cover' src='https://randomuser.me/api/portraits/men/33.jpg' alt='avatar' />
                 <div className='flex flex-col'>
-                  <a href='#' className='text-smk font-bold block dark:text-white'>Lorenzo Jimenez</a>
+                  <a href='#' className='text-base font-bold block dark:text-white'>Lorenzo Jimenez</a>
                   <a href='#' className='font-medium text-sm underline text-green-500 dark:text-slate-300'>Publication</a>
                 </div>
               </div>
@@ -886,7 +886,7 @@ function App () {
         </div>
 
         {/** card */}
-        <div className='break-inside p-6 flex flex-col justify-between rounded-xl mb-4 bg-white dark:bg-slate-800 dark:text-slate-50'>
+        <div className='break-inside p-6 flex flex-col justify-between rounded-xl mb-4 text-sm bg-white dark:bg-slate-800 dark:text-slate-50'>
           <div className='flex justify-between'>
             <div className='flex items-center space-x-1'>
               <svg viewBox='0 0 24 24' width='26' height='26'>
@@ -922,7 +922,7 @@ function App () {
         </div>
 
         {/** card */}
-        <div className='break-inside p-4 flex flex-col justify-between rounded-xl mb-4 bg-white dark:bg-slate-800 dark:text-slate-50 group'>
+        <div className='break-inside p-4 flex flex-col justify-between rounded-xl mb-4 text-sm bg-white dark:bg-slate-800 dark:text-slate-50 group'>
           <div className='flex justify-between'>
             <div className='flex items-center space-x-2'>
               <svg viewBox='0 0 24 24' width='28' height='28'>
@@ -976,13 +976,13 @@ function App () {
         </div>
 
         {/** card */}
-        <div className='break-inside p-4 flex flex-col justify-between rounded-xl mb-4 bg-white dark:bg-slate-800 dark:text-slate-50'>
+        <div className='break-inside p-4 flex flex-col justify-between rounded-xl mb-4 text-sm bg-white dark:bg-slate-800 dark:text-slate-50'>
           <div className='space-y-4'>
             <div className='flex justify-between flex-row items-center space-x-4'>
               <div className='flex-auto flex flex-row space-x-4'>
                 <img className='flex-none w-12 h-12 rounded-full object-cover' src='https://randomuser.me/api/portraits/women/33.jpg' alt='avatar' />
                 <div className='flex flex-col'>
-                  <a href='#' className='text-smk font-bold block dark:text-white'>Emma Johnson </a>
+                  <a href='#' className='text-base font-bold block dark:text-white'>Emma Johnson </a>
                   <span>Electronic technician</span>
                 </div>
               </div>
@@ -999,7 +999,7 @@ function App () {
         </div>
 
         {/** card */}
-        <a href='#' className='break-inside flex flex-col justify-between rounded-xl mb-4 text-black dark:text-white'>
+        <a href='#' className='break-inside flex flex-col justify-between rounded-xl mb-4 text-sm text-black dark:text-white'>
           <div className='space-y-4'>
             <div className='flex items-center space-x-4'>
               <img src='https://images.pexels.com/photos/315987/pexels-photo-315987.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' className='object-cover rounded-lg' alt='Image' />
@@ -1117,7 +1117,7 @@ function App () {
         </a>
 
         {/** card */}
-        <div className='break-inside rounded-xl mb-4 p-6 bg-white dark:bg-slate-800 dark:text-white'>
+        <div className='break-inside rounded-xl mb-4 text-sm p-6 bg-white dark:bg-slate-800 dark:text-white'>
           <div className='flex justify-between items-center'>
             <div className='flex flex-col space-y-1'>
               <h5 className='font-bold text-2xl'>Nike Air Max</h5>
@@ -1222,7 +1222,7 @@ function App () {
         </a>
 
         {/** card */}
-        <div className='break-inside flex flex-col justify-between overflow-hidden rounded-xl mb-4 bg-white dark:bg-slate-800 dark:text-slate-50'>
+        <div className='break-inside flex flex-col justify-between overflow-hidden rounded-xl mb-4 text-sm bg-white dark:bg-slate-800 dark:text-slate-50'>
           <div className='p-6 flex justify-between'>
             <div className='flex items-center space-x-2'>
               <svg viewBox='0 0 24 24' width='28' height='28'>
@@ -1250,7 +1250,7 @@ function App () {
               <p>This impressive paella is a perfect party dish and a fun meal to cook together with your guests..</p>
             </div>
             <div className='flex flex-row items-center justify-between space-x-2'>
-              <a href='#' className='inline-flex justify-center items-center rounded-md font-medium text-lg underline'>Views</a>
+              <a href='#' className='inline-flex justify-center items-center rounded-md font-medium text-base underline'>Views</a>
               <div className='col-start-2 row-start-1 row-end-3'>
                 <dt className='sr-only'>Users</dt>
                 <dd className='flex justify-start -space-x-1.5'>
@@ -1325,14 +1325,14 @@ function App () {
         </div>
 
         {/** card */}
-        <div className='break-inside flex flex-col justify-between rounded-xl mb-4 bg-white dark:bg-slate-800 dark:text-slate-50'>
+        <div className='break-inside flex flex-col justify-between rounded-xl mb-4 text-sm bg-white dark:bg-slate-800 dark:text-slate-50'>
           <div className='space-y-4'>
             <div className='p-4 flex justify-between flex-row items-center space-x-4'>
               <div className='flex-auto flex flex-row space-x-4'>
-                <img className='flex-none w-10 h-10 rounded-full object-cover' src='https://randomuser.me/api/portraits/men/27.jpg' alt='avatar' />
+                <img className='flex-none w-12 h-12 rounded-full object-cover' src='https://randomuser.me/api/portraits/men/27.jpg' alt='avatar' />
                 <div className='flex flex-col'>
-                  <a href='#' className='text-smk font-bold block dark:text-white'>Robert Jones</a>
-                  <span className='text-xs text-slate-500 dark:text-slate-400'>January 22, 2021</span>
+                  <a href='#' className='text-base font-bold block dark:text-white'>Robert Jones</a>
+                  <span className='text-slate-500 dark:text-slate-400'>January 22, 2021</span>
                 </div>
               </div>
               <button className='flex items-center justify-center rounded-full p-1 transition-all hover:bg-slate-200 dark:hover:bg-slate-700'>
@@ -1390,7 +1390,7 @@ function App () {
               <div className='flex-auto flex flex-row space-x-4'>
                 <img className='flex-none w-10 h-10 rounded-full object-cover' src='https://randomuser.me/api/portraits/women/21.jpg' alt='avatar' />
                 <div className='flex flex-col'>
-                  <a href='#' className='text-smk font-bold block dark:text-white'>Alina Vargas</a>
+                  <a href='#' className='text-base font-bold block dark:text-white'>Alina Vargas</a>
                   <span className='text-sm text-slate-500 dark:text-slate-400'>September 05, 2022</span>
                 </div>
               </div>
@@ -1484,7 +1484,7 @@ function App () {
         </div>
 
         {/** card */}
-        <div className='break-inside flex flex-col justify-between rounded-xl mb-4 bg-white dark:bg-slate-800 dark:text-slate-50'>
+        <div className='break-inside flex flex-col justify-between rounded-xl mb-4 text-sm bg-white dark:bg-slate-800 dark:text-slate-50'>
           <div className='space-y-4'>
             <div className='pt-6 pr-6 pl-6 pb-4 flex justify-between flex-row items-center space-x-4 border-b dark:border-b-slate-700'>
               <h1 className='text-2xl font-bold'>Web trends</h1>
@@ -1541,7 +1541,7 @@ function App () {
         </div>
 
         {/** card */}
-        <div className='break-inside flex flex-col justify-between rounded-xl mb-4 overflow-hidden bg-white dark:bg-slate-800 dark:text-slate-50'>
+        <div className='break-inside flex flex-col justify-between rounded-xl mb-4 text-sm overflow-hidden bg-white dark:bg-slate-800 dark:text-slate-50'>
           <div className='p-4 bg-yellow-50 dark:bg-slate-700'>
             <div className='flex justify-between items-center flex-col space-y-4'>
               <div className='flex flex-col items-center text-center space-y-2'>
@@ -1900,7 +1900,7 @@ function App () {
         </div>
 
         {/** card */}
-        <div className='break-inside mb-4 rounded-xl bg-white dark:bg-slate-800'>
+        <div className='break-inside mb-4 text-sm rounded-xl bg-white dark:bg-slate-800'>
           <div className='p-6 space-y-6'>
             <div className='flex items-center space-x-4'>
               <img src='https://images.pexels.com/photos/1001850/pexels-photo-1001850.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='cover' className='flex-none rounded-lg w-24 h-20 bg-slate-100 object-cover' loading='lazy' />
@@ -2116,7 +2116,7 @@ function App () {
           </div>
           <div className='flex flex-col space-y-4'>
             <div className='flex items-center space-x-3'>
-              <img className='flex-none w-12 h-12 rounded-full object-cover' src='https://randomuser.me/api/portraits/men/24.jpg' alt='avatar' />
+              <img className='flex-none w-11 h-11 rounded-full object-cover' src='https://randomuser.me/api/portraits/men/24.jpg' alt='avatar' />
               <div className='flex-auto'>
                 <a href='#' className='no-underline text-sm font-bold block text-blue-600 dark:text-white'>Wade Warren</a>
                 <span className='text-sm text-slate-500 dark:text-slate-400'>Dog Trainer</span>
@@ -2126,7 +2126,7 @@ function App () {
               </button>
             </div>
             <div className='flex items-center space-x-3'>
-              <img className='flex-none w-12 h-12 rounded-full object-cover' src='https://randomuser.me/api/portraits/men/25.jpg' alt='avatar' />
+              <img className='flex-none w-11 h-11 rounded-full object-cover' src='https://randomuser.me/api/portraits/men/25.jpg' alt='avatar' />
               <div className='flex-auto'>
                 <a href='#' className='no-underline text-sm font-bold block text-blue-600 dark:text-white'>Robert Fox</a>
                 <span className='text-sm text-slate-500 dark:text-slate-400'>President of Sales</span>
@@ -2136,7 +2136,7 @@ function App () {
               </button>
             </div>
             <div className='flex items-center space-x-3'>
-              <img className='flex-none w-12 h-12 rounded-full object-cover' src='https://randomuser.me/api/portraits/women/25.jpg' alt='avatar' />
+              <img className='flex-none w-11 h-11 rounded-full object-cover' src='https://randomuser.me/api/portraits/women/25.jpg' alt='avatar' />
               <div className='flex-auto'>
                 <a href='#' className='no-underline text-sm font-bold block text-blue-600 dark:text-white'>Jane Cooper</a>
                 <span className='text-sm text-slate-500 dark:text-slate-400'>Nursing Assistant</span>
@@ -2146,7 +2146,7 @@ function App () {
               </button>
             </div>
             <div className='flex items-center space-x-3'>
-              <img className='flex-none w-12 h-12 rounded-full object-cover' src='https://randomuser.me/api/portraits/women/26.jpg' alt='avatar' />
+              <img className='flex-none w-11 h-11 rounded-full object-cover' src='https://randomuser.me/api/portraits/women/26.jpg' alt='avatar' />
               <div className='flex-auto'>
                 <a href='#' className='no-underline text-sm font-bold block text-blue-600 dark:text-white'>Carmen Ospina</a>
                 <span className='text-sm text-slate-500 dark:text-slate-400'>Software Tester</span>
@@ -2156,7 +2156,7 @@ function App () {
               </button>
             </div>
             <div className='flex items-center space-x-3'>
-              <img className='flex-none w-12 h-12 rounded-full object-cover' src='https://randomuser.me/api/portraits/women/27.jpg' alt='avatar' />
+              <img className='flex-none w-11 h-11 rounded-full object-cover' src='https://randomuser.me/api/portraits/women/27.jpg' alt='avatar' />
               <div className='flex-auto'>
                 <a href='#' className='no-underline text-sm font-bold block text-blue-600 dark:text-white'>Dianne Russell</a>
                 <span className='text-sm text-slate-500 dark:text-slate-400'>Web Designer</span>
@@ -2201,7 +2201,7 @@ function App () {
             <div className='flex-col pt-4 space-y-3'>
               <div className='flex items-center justify-between'>
                 <div className='flex items-center justify-start space-x-2'>
-                  <span className='flex items-center justify-center rounded-full w-12 h-12 bg-gradient-to-tr from-[#d9ff00] to-[#3cff00]'>
+                  <span className='flex items-center justify-center rounded-full w-11 h-11 bg-gradient-to-tr from-[#d9ff00] to-[#3cff00]'>
                     <svg width='20' height='18' viewBox='0 0 20 18' fill='none' xmlns='http://www.w3.org/2000/svg'>
                       <path d='M10 0C11.2333 0 12.2222 1.00125 12.2222 2.25C12.2222 3.49875 11.2333 4.5 10 4.5C8.76667 4.5 7.77778 3.49875 7.77778 2.25C7.77778 1.00125 8.77778 0 10 0ZM20 13.5V11.25C17.5111 11.25 15.3778 10.17 13.7778 8.235L12.2889 6.435C12.0822 6.18128 11.8225 5.97706 11.5286 5.83701C11.2347 5.69697 10.9137 5.62456 10.5889 5.625H9.44444C8.76667 5.625 8.14444 5.9175 7.72222 6.435L6.23333 8.235C4.62222 10.17 2.48889 11.25 0 11.25V13.5C3.07778 13.5 5.76667 12.1838 7.77778 9.84375V12.375L3.46667 14.1187C2.72222 14.4225 2.22222 15.1875 2.22222 15.9862C2.22222 17.1 3.11111 18 4.21111 18H6.66667V17.4375C6.66667 16.6916 6.95932 15.9762 7.48026 15.4488C8.00119 14.9213 8.70773 14.625 9.44444 14.625H12.7778C13.0889 14.625 13.3333 14.8725 13.3333 15.1875C13.3333 15.5025 13.0889 15.75 12.7778 15.75H9.44444C8.52222 15.75 7.77778 16.5037 7.77778 17.4375V18H15.7889C16.8889 18 17.7778 17.1 17.7778 15.9862C17.7778 15.1875 17.2778 14.4225 16.5333 14.1187L12.2222 12.375V9.84375C14.2333 12.1838 16.9222 13.5 20 13.5Z' fill='black' />
                     </svg>
@@ -2212,7 +2212,7 @@ function App () {
               </div>
               <div className='flex items-center justify-between'>
                 <div className='flex items-center justify-start space-x-2'>
-                  <span className='flex items-center justify-center rounded-full w-12 h-12 bg-gradient-to-tr from-[#00fffb] to-[#00ff62]'>
+                  <span className='flex items-center justify-center rounded-full w-11 h-11 bg-gradient-to-tr from-[#00fffb] to-[#00ff62]'>
                     <svg width='20' height='20' viewBox='0 0 20 20' fill='none' xmlns='http://www.w3.org/2000/svg'>
                       <path d='M18 7.056V0.5H16V2.5H4V0.5H2V7.057C0.81 7.75 0 9.026 0 10.5V14.5C0 14.7652 0.105357 15.0196 0.292893 15.2071C0.48043 15.3946 0.734784 15.5 1 15.5H2V19.5H4V15.5H16V19.5H18V15.5H19C19.2652 15.5 19.5196 15.3946 19.7071 15.2071C19.8946 15.0196 20 14.7652 20 14.5V10.5C20 9.026 19.189 7.75 18 7.056ZM9 6.5H4V4.5H9V6.5ZM16 6.5H11V4.5H16V6.5Z' fill='black' />
                     </svg>
