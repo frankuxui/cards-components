@@ -1841,6 +1841,77 @@ function App () {
           </div>
         </div>
 
+        {/** Card */}
+        <div className='mb-4 space-y-6 pb-6 break-inside rounded-xl overflow-hidden flex flex-col bg-clip-border text-sm bg-white dark:bg-slate-800 dark:text-white'>
+          <div className='flex relative flex-col justify-between'>
+            <div className='flex items-center justify-between absolute top-0 left-0 w-full p-6'>
+              <button className='flex items-center justify-center rounded-full w-9 h-9 transition-all bg-white text-black'>
+                <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' strokeWidth={2} stroke='currentColor' width='22' height='22'>
+                  <path strokeLinecap='round' strokeLinejoin='round' d='M6 18L18 6M6 6l12 12' />
+                </svg>
+              </button>
+              <button className='flex items-center justify-center rounded-full w-9 h-9 transition-all bg-white text-black'>
+                <svg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 24 24' fill='none' stroke='currentColor' strokeWidth='2' strokeLinecap='round' strokeLinejoin='round'>
+                  <path d='M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8' />
+                  <polyline points='16 6 12 2 8 6' />
+                  <line x1='12' y1='2' x2='12' y2='15' />
+                </svg>
+              </button>
+            </div>
+            <div className='flex flex-col items-center justify-between absolute bottom-0 left-0 w-full p-6 bg-gradient-to-t from-[#000000] to-[#00000000] text-white'>
+              <h4 className='uppercase font-medium'>Proximo concierto</h4>
+              <h5 className='text-3xl font-bold my-1'>Marianna</h5>
+              <p>9 sep.2022 | Salou, Tarragona</p>
+              <div className='flex items-center mt-5 w-full gap-2'>
+                <button className='flex flex-1 items-center justify-center rounded-md px-4 py-2 space-x-2 transition-all font-medium bg-white text-black'>
+                  <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' strokeWidth={1.5} stroke='currentColor' width='18' height='18'>
+                    <path strokeLinecap='round' strokeLinejoin='round' d='M16.5 6v.75m0 3v.75m0 3v.75m0 3V18m-9-5.25h5.25M7.5 15h3M3.375 5.25c-.621 0-1.125.504-1.125 1.125v3.026a2.999 2.999 0 010 5.198v3.026c0 .621.504 1.125 1.125 1.125h17.25c.621 0 1.125-.504 1.125-1.125v-3.026a2.999 2.999 0 010-5.198V6.375c0-.621-.504-1.125-1.125-1.125H3.375z' />
+                  </svg>
+                  <span>Entradas</span>
+                </button>
+                <button className='flex flex-1 items-center justify-center rounded-md px-4 py-2 space-x-2 transition-all font-medium bg-white text-black'>
+                  <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' strokeWidth={1.5} stroke='currentColor' width='18' height='18'>
+                    <path strokeLinecap='round' strokeLinejoin='round' d='M14.857 17.082a23.848 23.848 0 005.454-1.31A8.967 8.967 0 0118 9.75v-.7V9A6 6 0 006 9v.75a8.967 8.967 0 01-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 01-5.714 0m5.714 0a3 3 0 11-5.714 0' />
+                  </svg>
+                  <span>Recuérdame</span>
+                </button>
+              </div>
+            </div>
+            <img src='https://images.pexels.com/photos/2505336/pexels-photo-2505336.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' alt='cover' className='object-cover' />
+          </div>
+          <div className='px-6 flex justify-between items-center'>
+            <a className='inline-flex items-center' href='#'>
+              <span className='-m-1 rounded-full border-2 border-white dark:border-slate-800'>
+                <svg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 16 16' fill='none'>
+                  <path fill='url(#a12)' d='M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0Z' />
+                  <path fill='#fff' d='M12.162 7.338c.176.123.338.245.338.674 0 .43-.229.604-.474.725.1.163.132.36.089.546-.077.344-.392.611-.672.69.121.194.159.385.015.62-.185.295-.346.407-1.058.407H7.5c-.988 0-1.5-.546-1.5-1V7.665c0-1.23 1.467-2.275 1.467-3.13L7.361 3.47c-.005-.065.008-.224.058-.27.08-.079.301-.2.635-.2.218 0 .363.041.534.123.581.277.732.978.732 1.542 0 .271-.414 1.083-.47 1.364 0 0 .867-.192 1.879-.199 1.061-.006 1.749.19 1.749.842 0 .261-.219.523-.316.666ZM3.6 7h.8a.6.6 0 0 1 .6.6v3.8a.6.6 0 0 1-.6.6h-.8a.6.6 0 0 1-.6-.6V7.6a.6.6 0 0 1 .6-.6Z' />
+                  <defs>
+                    <linearGradient id='a12' x1='8' x2='8' y2='16' gradientUnits='userSpaceOnUse'>
+                      <stop stopColor='#18AFFF' />
+                      <stop offset='1' stopColor='#0062DF' />
+                    </linearGradient>
+                  </defs>
+                </svg>
+              </span>
+              <span className='-m-1 rounded-full border-2 border-white dark:border-slate-800'>
+                <svg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 16 16' fill='none'>
+                  <path fill='url(#b1231)' d='M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0Z' />
+                  <path fill='#fff' d='M10.473 4C8.275 4 8 5.824 8 5.824S7.726 4 5.528 4c-2.114 0-2.73 2.222-2.472 3.41C3.736 10.55 8 12.75 8 12.75s4.265-2.2 4.945-5.34c.257-1.188-.36-3.41-2.472-3.41Z' />
+                  <defs>
+                    <linearGradient id='b1231' x1='8' x2='8' y2='16' gradientUnits='userSpaceOnUse'>
+                      <stop stopColor='#FF6680' />
+                      <stop offset='1' stopColor='#E61739' />
+                    </linearGradient>
+                  </defs>
+                </svg>
+              </span>
+              <span className='font-bold ml-3'>33</span>
+            </a>
+            <a className='ml-auto' href='#'>1 comentario</a>
+          </div>
+        </div>
+        {/** End Card */}
+
         {/** card */}
         <div className='break-inside p-6 flex flex-col overflow-hidden justify-between rounded-2xl mb-4 space-y-8 bg-[#9fd597] text-black'>
           <div className='relative z-10 flex justify-between items-center'>
