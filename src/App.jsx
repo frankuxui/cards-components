@@ -2386,6 +2386,48 @@ function App () {
           </div>
         </div>
 
+        {/** card */}
+        <div className='break-inside p-4 flex flex-col justify-between rounded-2xl mb-4 text-sm space-y-4 bg-white text-black dark:bg-slate-800 dark:text-slate-100'>
+          <div className='flex justify-between items-start'>
+            <div className='flex items-center justify-start space-x-2'>
+              <h3 className='text-2xl font-bold'>$39</h3>
+              <span>/ month</span>
+            </div>
+          </div>
+          <div className='flex flex-col'>
+            <h1 className='text-2xl font-bold text-pink-600'>Basic License</h1>
+            <p>Our goverment backed plan designed to keep your business legaly and secure</p>
+            <div className='w-full h-[2px] my-4 bg-slate-200 dark:bg-slate-700' />
+            <ul className='list-none'>
+              <li className='flex items-center justify-start py-1 space-x-2'>
+                <svg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24' fill='none' className='stroke-pink-600' stroke='currentColor' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'>
+                  <polyline points='20 6 9 17 4 12' />
+                </svg>
+                <span>Secure your customer usage</span>
+              </li>
+              <li className='flex items-center justify-start py-1 space-x-2'>
+                <svg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24' fill='none' className='stroke-pink-600' stroke='currentColor' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'>
+                  <polyline points='20 6 9 17 4 12' />
+                </svg>
+                <span>View basic analytics</span>
+              </li>
+              <li className='flex items-center justify-start py-1 space-x-2'>
+                <svg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24' fill='none' className='stroke-pink-600' stroke='currentColor' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'>
+                  <polyline points='20 6 9 17 4 12' />
+                </svg>
+                <span>Up to 350 customer profiles</span>
+              </li>
+              <li className='flex items-center justify-start py-1 space-x-2'>
+                <svg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24' fill='none' className='stroke-pink-600' stroke='currentColor' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'>
+                  <polyline points='20 6 9 17 4 12' />
+                </svg>
+                <span>Custom network name</span>
+              </li>
+            </ul>
+            <buttn className='flex items-center justify-center rounded-md flex-none w-full cursor-pointer py-2 px-3 mt-4 uppercase text-sm bg-pink-600 text-white'>Your current plan</buttn>
+          </div>
+        </div>
+
       </div>
     </div>
   )
