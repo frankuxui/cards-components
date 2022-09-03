@@ -1974,15 +1974,15 @@ function App () {
         <div className='break-inside mb-4 text-sm rounded-xl bg-white dark:bg-slate-800'>
           <div className='p-6 space-y-6'>
             <div className='flex items-center space-x-4'>
-              <img src='https://images.pexels.com/photos/1001850/pexels-photo-1001850.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='cover' className='flex-none rounded-lg w-24 h-20 bg-slate-100 object-cover' loading='lazy' />
-              <div className='min-w-0 flex-auto space-y-1'>
+              <img src='https://images.pexels.com/photos/1001850/pexels-photo-1001850.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='cover' className='flex-none rounded-lg w-20 h-20 bg-slate-100 object-cover' loading='lazy' />
+              <div className='min-w-0 flex-auto'>
                 <p className='text-cyan-500 dark:text-cyan-400 leading-6'>
                   <abbr title='Episode'>Ep.</abbr> 33
                 </p>
                 <h2 className='text-slate-500 dark:text-slate-400 leading-6 truncate'>
                   Minim dolor in amet nulla laboris enim
                 </h2>
-                <p className='text-slate-900 dark:text-slate-50 text-base font-bold'>
+                <p className='text-slate-900 dark:text-slate-50 text-sm font-bold'>
                   Full Stack Radio
                 </p>
               </div>
@@ -2002,41 +2002,40 @@ function App () {
               </div>
             </div>
           </div>
-          <div className='bg-slate-50 text-slate-500 dark:bg-slate-700 dark:text-slate-200 rounded-b-xl flex items-center'>
+          <div className='bg-slate-50 text-black dark:bg-slate-700 dark:text-slate-200 rounded-b-xl flex items-center py-2'>
             <div className='flex-auto flex items-center justify-evenly'>
               <button type='button' ariaLabel='Add to favorites' className='rounded-full p-2 hover:bg-slate-200 dark:hover:bg-slate-600'>
-                <svg width='24' height='24'>
+                <svg width='18' height='18' viewBox='0 0 24 24'>
                   <path d='M7 6.931C7 5.865 7.853 5 8.905 5h6.19C16.147 5 17 5.865 17 6.931V19l-5-4-5 4V6.931Z' fill='currentColor' stroke='currentColor' strokeWidth='2' strokeLinecap='round' strokeLinejoin='round' />
                 </svg>
               </button>
               <button type='button' className='rounded-full p-2 hover:bg-slate-200 dark:hover:bg-slate-600' ariaLabel='Previous'>
-                <svg width='24' height='24' fill='none'>
+                <svg width='18' height='18' fill='none' viewBox='0 0 24 24'>
                   <path d='m10 12 8-6v12l-8-6Z' fill='currentColor' stroke='currentColor' strokeWidth='2' strokeLinecap='round' strokeLinejoin='round' />
                   <path d='M6 6v12' stroke='currentColor' strokeWidth='2' strokeLinecap='round' strokeLinejoin='round' />
                 </svg>
               </button>
               <button type='button' ariaLabel='Rewind 10 seconds' className='rounded-full p-2 hover:bg-slate-200 dark:hover:bg-slate-600'>
-                <svg width='24' height='24' fill='none'>
+                <svg width='18' height='18' fill='none' viewBox='0 0 24 24'>
                   <path d='M6.492 16.95c2.861 2.733 7.5 2.733 10.362 0 2.861-2.734 2.861-7.166 0-9.9-2.862-2.733-7.501-2.733-10.362 0A7.096 7.096 0 0 0 5.5 8.226' stroke='currentColor' strokeWidth='2' strokeLinecap='round' strokeLinejoin='round' />
                   <path d='M5 5v3.111c0 .491.398.889.889.889H9' stroke='currentColor' strokeWidth='2' strokeLinecap='round' strokeLinejoin='round' />
                 </svg>
               </button>
             </div>
-            <button type='button' className='bg-white text-slate-900 dark:bg-slate-600 dark:text-slate-200 flex-none -my-2 mx-auto w-16 h-16 rounded-full ring-1 ring-slate-900/5 shadow-md flex items-center justify-center' ariaLabel='Pause'>
-              <svg width='30' height='32' fill='currentColor'>
-                <rect x='6' y='4' width='4' height='24' rx='2' />
-                <rect x='20' y='4' width='4' height='24' rx='2' />
+            <button type='button' className='bg-white text-slate-900 dark:bg-slate-600 dark:text-slate-200 flex-none -my-2 mx-auto w-12 h-12 rounded-full ring-1 ring-slate-900/5 shadow-md flex items-center justify-center' ariaLabel='Pause'>
+              <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' strokeWidth={2.5} stroke='currentColor' width='28' height='28'>
+                <path strokeLinecap='round' strokeLinejoin='round' d='M15.75 5.25v13.5m-7.5-13.5v13.5' />
               </svg>
             </button>
             <div className='flex-auto flex items-center justify-evenly'>
               <button type='button' ariaLabel='Skip 10 seconds' className='rounded-full p-2 hover:bg-slate-200 dark:hover:bg-slate-600'>
-                <svg width='24' height='24' fill='none'>
+                <svg width='18' height='18' fill='none' viewBox='0 0 24 24'>
                   <path d='M17.509 16.95c-2.862 2.733-7.501 2.733-10.363 0-2.861-2.734-2.861-7.166 0-9.9 2.862-2.733 7.501-2.733 10.363 0 .38.365.711.759.991 1.176' stroke='currentColor' strokeWidth='2' strokeLinecap='round' strokeLinejoin='round' />
                   <path d='M19 5v3.111c0 .491-.398.889-.889.889H15' stroke='currentColor' strokeWidth='2' strokeLinecap='round' strokeLinejoin='round' />
                 </svg>
               </button>
               <button type='button' className='rounded-full p-2 hover:bg-slate-200 dark:hover:bg-slate-600' ariaLabel='Next'>
-                <svg width='24' height='24' fill='none'>
+                <svg width='18' height='18' fill='none' viewBox='0 0 24 24'>
                   <path d='M14 12 6 6v12l8-6Z' fill='currentColor' stroke='currentColor' strokeWidth='2' strokeLinecap='round' strokeLinejoin='round' />
                   <path d='M18 6v12' stroke='currentColor' strokeWidth='2' strokeLinecap='round' strokeLinejoin='round' />
                 </svg>
@@ -2312,6 +2311,38 @@ function App () {
                 <path d='M14 26.25C10.7511 26.25 7.63526 24.9594 5.33794 22.6621C3.04062 20.3647 1.75 17.2489 1.75 14C1.75 10.7511 3.04062 7.63526 5.33794 5.33794C7.63526 3.04062 10.7511 1.75 14 1.75C17.2489 1.75 20.3647 3.04062 22.6621 5.33794C24.9594 7.63526 26.25 10.7511 26.25 14C26.25 17.2489 24.9594 20.3647 22.6621 22.6621C20.3647 24.9594 17.2489 26.25 14 26.25ZM14 28C17.713 28 21.274 26.525 23.8995 23.8995C26.525 21.274 28 17.713 28 14C28 10.287 26.525 6.72601 23.8995 4.10051C21.274 1.475 17.713 0 14 0C10.287 0 6.72601 1.475 4.10051 4.10051C1.475 6.72601 0 10.287 0 14C0 17.713 1.475 21.274 4.10051 23.8995C6.72601 26.525 10.287 28 14 28Z' fill='black' />
                 <path d='M10.9742 8.84625C11.1174 8.77255 11.278 8.73976 11.4386 8.7515C11.5992 8.76323 11.7534 8.81903 11.8842 8.91275L18.0093 13.2878C18.1227 13.3687 18.2151 13.4756 18.2789 13.5994C18.3427 13.7233 18.376 13.8607 18.376 14C18.376 14.1393 18.3427 14.2767 18.2789 14.4006C18.2151 14.5244 18.1227 14.6313 18.0093 14.7122L11.8842 19.0872C11.7534 19.1809 11.5993 19.2366 11.4388 19.2484C11.2783 19.2601 11.1177 19.2274 10.9747 19.1538C10.8316 19.0801 10.7116 18.9685 10.6278 18.8311C10.5441 18.6937 10.4999 18.5359 10.5 18.375V9.625C10.4998 9.46414 10.544 9.30635 10.6277 9.16897C10.7113 9.03158 10.8313 8.91992 10.9742 8.84625Z' fill='black' />
               </svg>
+            </button>
+          </div>
+        </div>
+
+        {/** card */}
+        <div className='break-inside overflow-hidden relative rounded-[4rem] mb-4 text-white'>
+          <img src='https://images.pexels.com/photos/994605/pexels-photo-994605.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' alt='Running' className='w-full h-[20rem] object-cover' />
+          <div className='flex items-center justify-between absolute z-10 top-0 left-0 w-full p-6'>
+            <button className='flex items-center justify-center rounded-xl w-9 h-9 transition-all bg-white text-black'>
+              <svg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 24 24' fill='none' stroke='#000000' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'>
+                <path d='M15 18l-6-6 6-6' />
+              </svg>
+            </button>
+            <button className='flex items-center justify-center rounded-xl w-9 h-9 transition-all bg-white text-black'>
+              <svg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24' fill='none' stroke='#000000' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'>
+                <path d='M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z' />
+              </svg>
+            </button>
+          </div>
+          <div className='absolute top-0 left-0 w-full h-full transition-all bg-[#0000004a]' />
+          <div className='absolute left-0 w-full bottom-0 z-10 flex flex-row items-center justify-between p-6 bg-gradient-to-t from-[#000000d7] to-[#00000000]'>
+            <div className='flex flex-col'>
+              <span>1.2km away</span>
+              <h1 className='uppercase text-lg font-bold'>
+                Salou Beach
+              </h1>
+            </div>
+            <button className='inline-flex items-center justify-center px-4 py-2 text-sm space-x-3 uppercase font-bold rounded-lg bg-[#000000af] text-white'>
+              <svg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24' fill='white' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'>
+                <polygon points='12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2' />
+              </svg>
+              <span>4.9</span>
             </button>
           </div>
         </div>
