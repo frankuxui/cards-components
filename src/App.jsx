@@ -2424,7 +2424,49 @@ function App () {
                 <span>Custom network name</span>
               </li>
             </ul>
-            <buttn className='flex items-center justify-center rounded-md flex-none w-full cursor-pointer py-2 px-3 mt-4 uppercase text-sm bg-pink-600 text-white'>Your current plan</buttn>
+            <button className='flex items-center justify-center rounded-md flex-none w-full cursor-pointer py-2 px-3 mt-4 uppercase text-sm font-medium bg-pink-600 text-white'>Your current plan</button>
+          </div>
+        </div>
+
+        {/** card */}
+        <div className='break-inside p-4 flex flex-col justify-between rounded-2xl mb-4 text-sm space-y-4 bg-white text-black dark:bg-slate-800 dark:text-slate-100'>
+          <div className='flex justify-between items-start'>
+            <div className='flex items-center justify-start space-x-2'>
+              <h3 className='text-2xl font-bold'>$60</h3>
+              <span>/ month</span>
+            </div>
+          </div>
+          <div className='flex flex-col'>
+            <h1 className='text-2xl font-bold text-blue-600'>Social License</h1>
+            <p>Unlimited analytics, plans, demographic insights. All you need to grow-up your business</p>
+            <div className='w-full h-[2px] my-4 bg-slate-200 dark:bg-slate-700' />
+            <ul className='list-none'>
+              <li className='flex items-center justify-start py-1 space-x-2'>
+                <svg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24' fill='none' className='stroke-blue-600' stroke='currentColor' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'>
+                  <polyline points='20 6 9 17 4 12' />
+                </svg>
+                <span>Add your own branding</span>
+              </li>
+              <li className='flex items-center justify-start py-1 space-x-2'>
+                <svg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24' fill='none' className='stroke-blue-600' stroke='currentColor' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'>
+                  <polyline points='20 6 9 17 4 12' />
+                </svg>
+                <span>View popularity analytics</span>
+              </li>
+              <li className='flex items-center justify-start py-1 space-x-2'>
+                <svg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24' fill='none' className='stroke-blue-600' stroke='currentColor' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'>
+                  <polyline points='20 6 9 17 4 12' />
+                </svg>
+                <span>Up to 1500 customer profiles</span>
+              </li>
+              <li className='flex items-center justify-start py-1 space-x-2'>
+                <svg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24' fill='none' className='stroke-blue-600' stroke='currentColor' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'>
+                  <polyline points='20 6 9 17 4 12' />
+                </svg>
+                <span>View demographic insights</span>
+              </li>
+            </ul>
+            <button className='flex items-center justify-center rounded-md flex-none w-full cursor-pointer py-2 px-3 mt-4 uppercase text-sm font-medium bg-blue-600 text-white'>upgrade to social</button>
           </div>
         </div>
 
