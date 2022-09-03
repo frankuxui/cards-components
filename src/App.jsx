@@ -622,6 +622,64 @@ function App () {
         </div>
 
         {/** card */}
+        <div className='break-inside flex flex-col justify-between overflow-hidden rounded-xl space-y-2 p-6 text-sm mb-4 text-[#a2b3cd] bg-[#0F1722]'>
+          <div className='flex items-center justify-between'>
+            <div className='relative'>
+              <span className='absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 font-medium text-lg'>77%</span>
+              <svg width='120' height='120' viewBox='0 0 164 164' fill='none' xmlns='http://www.w3.org/2000/svg'>
+                <path d='M148.37 130.493C159.89 114.682 165.339 95.2547 163.721 75.7588C162.103 56.263 153.526 37.9996 139.557 24.304C125.588 10.6083 107.158 2.3943 87.6343 1.16188C68.1103 -0.0705276 48.7943 5.76093 33.214 17.5913C17.6336 29.4217 6.82839 46.4616 2.77161 65.5993C-1.28516 84.7369 1.67719 104.695 11.1177 121.83C20.5581 138.964 35.8468 152.131 54.1917 158.926C72.5366 165.721 92.7136 165.69 111.038 158.84L102.477 135.938C89.6495 140.733 75.5256 140.755 62.6842 135.998C49.8428 131.242 39.1407 122.025 32.5324 110.031C25.924 98.0367 23.8504 84.0658 26.6901 70.6695C29.5299 57.2732 37.0935 45.3452 47.9998 37.0639C58.906 28.7827 72.4272 24.7006 86.094 25.5633C99.7608 26.426 112.661 32.1758 122.44 41.7628C132.218 51.3497 138.222 64.1341 139.355 77.7812C140.487 91.4283 136.673 105.027 128.609 116.095L148.37 130.493Z' fill='#202C3E' />
+                <path d='M151.775 82.5C158.527 82.5 164.094 88.0034 163.085 94.6793C161.944 102.228 159.745 109.599 156.537 116.571C151.619 127.256 144.447 136.751 135.513 144.402C126.58 152.053 116.095 157.68 104.781 160.895C93.4665 164.111 81.5902 164.839 69.9676 163.031C58.345 161.222 47.2517 156.919 37.4496 150.417C27.6475 143.915 19.3689 135.368 13.1825 125.364C6.99618 115.36 3.04861 104.135 1.611 92.4609C0.673001 84.8438 0.818048 77.153 2.02503 69.6147C3.09247 62.948 10.0687 59.3965 16.5011 61.4483C22.9335 63.5 26.3414 70.3963 25.7044 77.1178C25.3159 81.2184 25.3714 85.3608 25.8777 89.4726C26.884 97.6446 29.6473 105.502 33.9778 112.505C38.3082 119.508 44.1032 125.491 50.9647 130.042C57.8262 134.593 65.5915 137.605 73.7273 138.871C81.8631 140.138 90.1766 139.628 98.0966 137.377C106.017 135.126 113.356 131.187 119.609 125.831C125.863 120.475 130.884 113.829 134.326 106.35C136.058 102.586 137.369 98.6564 138.245 94.6318C139.681 88.0345 145.023 82.5 151.775 82.5Z' fill='#FBF0B8' />
+                <path d='M48.3573 142.777C45.0297 148.652 37.497 150.783 32.1856 146.615C20.707 137.607 11.7946 125.631 6.48053 111.882C1.16649 98.1328 -0.292327 83.2756 2.14437 68.8894C3.27189 62.2326 10.2801 58.7441 16.6937 60.8538C23.1073 62.9635 26.4527 69.8903 25.7552 76.6059C24.8289 85.5248 26.0124 94.5965 29.2864 103.067C32.5604 111.538 37.7856 119.048 44.4695 125.025C49.5021 129.526 51.6849 136.902 48.3573 142.777Z' fill='#497578' />
+                <path d='M92.9732 150.979C93.9939 157.653 89.3952 163.988 82.6436 164C67.9343 164.026 53.4092 160.068 40.6565 152.438C27.9037 144.808 17.5487 133.881 10.6169 120.907C7.4352 114.952 10.8434 107.904 17.207 105.648C23.5706 103.392 30.4552 106.824 34.013 112.562C38.7814 120.253 45.3439 126.751 53.2095 131.457C61.0751 136.163 69.9038 138.873 78.9353 139.439C85.6737 139.861 91.9525 144.305 92.9732 150.979Z' fill='#81244F' />
+                <path d='M137.415 124.73C142.767 128.846 143.825 136.602 138.956 141.279C128.969 150.871 116.649 157.81 103.123 161.348C89.5966 164.885 75.4575 164.868 62.0531 161.394C55.5174 159.7 52.6423 152.418 55.2938 146.209C57.9454 140 65.1335 137.26 71.7646 138.531C80.0631 140.121 88.6633 139.857 96.936 137.693C105.209 135.53 112.837 131.549 119.294 126.099C124.454 121.745 132.063 120.614 137.415 124.73Z' fill='#D07581' />
+              </svg>
+            </div>
+            <div className='flex flex-col'>
+              <ul className='list-none space-y-1'>
+                <li className='flex items-center justify-start space-x-2 text-[#B2BDCC]'>
+                  <span className='w-3 h-3 rounded-sm bg-[#497578]' />
+                  <span>Documents</span>
+                </li>
+                <li className='flex items-center justify-start space-x-2 text-[#B2BDCC]'>
+                  <span className='w-3 h-3 rounded-sm bg-[#81244F]' />
+                  <span>Videos</span>
+                </li>
+                <li className='flex items-center justify-start space-x-2 text-[#B2BDCC]'>
+                  <span className='w-3 h-3 rounded-sm bg-[#D07581]' />
+                  <span>Photos</span>
+                </li>
+                <li className='flex items-center justify-start space-x-2 text-[#B2BDCC]'>
+                  <span className='w-3 h-3 rounded-sm bg-[#FBF0B8]' />
+                  <span>Music</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className=''>
+            <h1 className='text-xl font-bold text-white'>Storage of your device</h1>
+            <div className='flex items-center justify-between mt-3'>
+              <div className='flex flex-col space-y-2'>
+                <span className='text-[#4D607A]'>Used storage</span>
+                <div className='flex items-center justify-start space-x-2'>
+                  <div className='flex items-center pl-1'>
+                    <span className='w-5 h-5 -m-1 rounded-full bg-[#497578]' />
+                    <span className='w-5 h-5 -m-1 rounded-full bg-[#81244F]' />
+                    <span className='w-5 h-5 -m-1 rounded-full bg-[#D07581]' />
+                    <span className='w-5 h-5 -m-1 rounded-full bg-[#FBF0B8]' />
+                  </div>
+                  <span className='text-lg font-medium'>137GB</span>
+                </div>
+              </div>
+              <button className='flex items-center justify-center rounded-full w-10 h-10 transition-all bg-[#192434] text-[#D4DEEB]'>
+                <svg width='20' height='20' viewBox='0 0 24 24'>
+                  <path fill='currentColor' d='M12,15.5A3.5,3.5 0 0,1 8.5,12A3.5,3.5 0 0,1 12,8.5A3.5,3.5 0 0,1 15.5,12A3.5,3.5 0 0,1 12,15.5M19.43,12.97C19.47,12.65 19.5,12.33 19.5,12C19.5,11.67 19.47,11.34 19.43,11L21.54,9.37C21.73,9.22 21.78,8.95 21.66,8.73L19.66,5.27C19.54,5.05 19.27,4.96 19.05,5.05L16.56,6.05C16.04,5.66 15.5,5.32 14.87,5.07L14.5,2.42C14.46,2.18 14.25,2 14,2H10C9.75,2 9.54,2.18 9.5,2.42L9.13,5.07C8.5,5.32 7.96,5.66 7.44,6.05L4.95,5.05C4.73,4.96 4.46,5.05 4.34,5.27L2.34,8.73C2.21,8.95 2.27,9.22 2.46,9.37L4.57,11C4.53,11.34 4.5,11.67 4.5,12C4.5,12.33 4.53,12.65 4.57,12.97L2.46,14.63C2.27,14.78 2.21,15.05 2.34,15.27L4.34,18.73C4.46,18.95 4.73,19.03 4.95,18.95L7.44,17.94C7.96,18.34 8.5,18.68 9.13,18.93L9.5,21.58C9.54,21.82 9.75,22 10,22H14C14.25,22 14.46,21.82 14.5,21.58L14.87,18.93C15.5,18.67 16.04,18.34 16.56,17.94L19.05,18.95C19.27,19.03 19.54,18.95 19.66,18.73L21.66,15.27C21.78,15.05 21.73,14.78 21.54,14.63L19.43,12.97Z' />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        {/** card */}
         <div className='break-inside relative min-h-[30rem] flex flex-col justify-between rounded-xl mb-4 overflow-hidden bg-white dark:bg-slate-800 dark:text-slate-50'>
           <img src='https://uploads.codesandbox.io/uploads/user/82fa41fe-2514-4525-afb4-b7eef7e3afc6/lagC-img-1.png' className='absolute object-cover w-wull' />
           <div className='absolute top-0 left-0 p-8 flex flex-col space-y-1'>
@@ -1401,7 +1459,7 @@ function App () {
               </button>
             </div>
             <div className='p-4 bg-gradient-to-l from-[#1c00bd] to-[#be08c4] text-white text-2xl font-medium leading-snug'>
-              Minim dolor in amet nulla laboris enim dolore consculpa eiusmod proident...
+              Minim dolor in amet nulla laboris enim dolore consculius...
             </div>
             <div className='px-4'>
               <div className='flex justify-between items-center'>
@@ -1485,16 +1543,16 @@ function App () {
 
         {/** card */}
         <div className='break-inside flex flex-col justify-between rounded-xl mb-4 text-sm bg-white dark:bg-slate-800 dark:text-slate-50'>
-          <div className='space-y-4'>
-            <div className='pt-6 pr-6 pl-6 pb-4 flex justify-between flex-row items-center space-x-4 border-b dark:border-b-slate-700'>
-              <h1 className='text-2xl font-bold'>Web trends</h1>
+          <div className='space-y-2'>
+            <div className='pt-6 pr-6 pl-6 pb-3 flex justify-between flex-row items-center space-x-4 border-b dark:border-b-slate-700'>
+              <h1 className='text-xl font-bold'>Web trends</h1>
               <button className='flex items-center justify-center rounded-full p-2 transition-all hover:bg-slate-200 dark:hover:bg-slate-700'>
-                <svg width='26' height='26' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+                <svg width='22' height='22' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
                   <path d='M20.71,7.04C20.37,7.38 20.04,7.71 20.03,8.04C20,8.36 20.34,8.69 20.66,9C21.14,9.5 21.61,9.95 21.59,10.44C21.57,10.93 21.06,11.44 20.55,11.94L16.42,16.08L15,14.66L19.25,10.42L18.29,9.46L16.87,10.87L13.12,7.12L16.96,3.29C17.35,2.9 18,2.9 18.37,3.29L20.71,5.63C21.1,6 21.1,6.65 20.71,7.04M3,17.25L12.56,7.68L16.31,11.43L6.75,21H3V17.25Z' fill='currentColor' />
                 </svg>
               </button>
             </div>
-            <div className='pt-4 pr-6 pl-6 pb-0 space-y-2'>
+            <div className='pt-3 pr-6 pl-6 pb-0 space-y-2'>
               <h1 className='text-xl font-medium'>News</h1>
               <p>14 May 2014</p>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmodelit <a href='#' className='font-medium text-blue-600 dark:text-slate-100'>#ui</a> <a href='#' className='font-medium text-blue-600 dark:text-slate-100'>#uxui</a> <a href='#' className='font-medium text-blue-600 dark:text-slate-100'>#userinterface</a> <a href='#' className='font-medium text-blue-600 dark:text-slate-100'>#webdeveloper</a> <a href='#' className='font-medium text-blue-600 dark:text-slate-100'>#card</a> </p>
@@ -1506,7 +1564,7 @@ function App () {
             </div>
             <div className='p-4 flex flex-row justify-evenly'>
               <a href='#' className='flex items-center font-medium space-x-1 group'>
-                <span className='p-3 rounded-full group-hover:bg-slate-100 dark:group-hover:bg-slate-700'>
+                <span className='p-2 rounded-full group-hover:bg-slate-100 dark:group-hover:bg-slate-700'>
                   <svg viewBox='0 0 24 24' width='20' height='20' aria-hidden='true'>
                     <g>
                       <path fill='currentColor' d='M14.046 2.242l-4.148-.01h-.002c-4.374 0-7.8 3.427-7.8 7.802 0 4.098 3.186 7.206 7.465 7.37v3.828c0 .108.044.286.12.403.142.225.384.347.632.347.138 0 .277-.038.402-.118.264-.168 6.473-4.14 8.088-5.506 1.902-1.61 3.04-3.97 3.043-6.312v-.017c-.006-4.367-3.43-7.787-7.8-7.788zm3.787 12.972c-1.134.96-4.862 3.405-6.772 4.643V16.67c0-.414-.335-.75-.75-.75h-.396c-3.66 0-6.318-2.476-6.318-5.886 0-3.534 2.768-6.302 6.3-6.302l4.147.01h.002c3.532 0 6.3 2.766 6.302 6.296-.003 1.91-.942 3.844-2.514 5.176z' />
@@ -1516,7 +1574,7 @@ function App () {
                 <span>43</span>
               </a>
               <a href='#' className='flex items-center font-medium space-x-1 group'>
-                <span className='p-3 rounded-full group-hover:bg-slate-100 dark:group-hover:bg-slate-700'>
+                <span className='p-2 rounded-full group-hover:bg-slate-100 dark:group-hover:bg-slate-700'>
                   <svg viewBox='0 0 24 24' width='20' height='20' aria-hidden='true'>
                     <g>
                       <path fill='currentColor' d='M17.53 7.47l-5-5c-.293-.293-.768-.293-1.06 0l-5 5c-.294.293-.294.768 0 1.06s.767.294 1.06 0l3.72-3.72V15c0 .414.336.75.75.75s.75-.336.75-.75V4.81l3.72 3.72c.146.147.338.22.53.22s.384-.072.53-.22c.293-.293.293-.767 0-1.06z' />
@@ -1527,7 +1585,7 @@ function App () {
                 <span>82</span>
               </a>
               <a href='#' className='flex items-center font-medium space-x-1 group'>
-                <span className='p-3 rounded-full group-hover:bg-slate-100 dark:group-hover:bg-slate-700'>
+                <span className='p-2 rounded-full group-hover:bg-slate-100 dark:group-hover:bg-slate-700'>
                   <svg viewBox='0 0 24 24' width='20' height='20' aria-hidden='true'>
                     <g>
                       <path fill='currentColor' d='M12 21.638h-.014C9.403 21.59 1.95 14.856 1.95 8.478c0-3.064 2.525-5.754 5.403-5.754 2.29 0 3.83 1.58 4.646 2.73.814-1.148 2.354-2.73 4.645-2.73 2.88 0 5.404 2.69 5.404 5.755 0 6.376-7.454 13.11-10.037 13.157H12zM7.354 4.225c-2.08 0-3.903 1.988-3.903 4.255 0 5.74 7.034 11.596 8.55 11.658 1.518-.062 8.55-5.917 8.55-11.658 0-2.267-1.823-4.255-3.903-4.255-2.528 0-3.94 2.936-3.952 2.965-.23.562-1.156.562-1.387 0-.014-.03-1.425-2.965-3.954-2.965z' />
@@ -2546,6 +2604,45 @@ function App () {
           <div className='font-medium space-y-2'>
             <span>135 Works / 45% </span>
             <div className='relative rounded-full overflo-hidden flex-1 h-1 bg-[#dabb6b]'>
+              <div className='absolute rounded-full left-0 w-1/2 h-full bg-black' />
+            </div>
+          </div>
+        </div>
+
+        {/** card */}
+        <div className='break-inside p-6 flex flex-col justify-between rounded-2xl mb-4 text-sm space-y-3 bg-[#aff2ff] text-black'>
+          <div className='flex justify-between items-start mb-3'>
+            <div className='col-start-2 row-start-1 row-end-3'>
+              <dt className='sr-only'>Users</dt>
+              <dd className='flex justify-start'>
+                <span className='relative z-10 w-9 h-9 -m-1 rounded-full flex items-center justify-center text-sm font-medium bg-black text-white'>+3</span>
+                <a href='#' className='inline-block relative -m-1'>
+                  <img
+                    className='w-9 h-9 rounded-full'
+                    src='https://randomuser.me/api/portraits/men/37.jpg'
+                    alt='avatar'
+                  />
+                </a>
+                <a href='#' className='inline-block -m-1'>
+                  <img
+                    className='w-9 h-9 rounded-full'
+                    src='https://randomuser.me/api/portraits/men/12.jpg'
+                    alt='avatar'
+                  />
+                </a>
+              </dd>
+            </div>
+            <button className='flex items-center justify-center rounded-full p-1 transition-all hover:bg-[#87dff1]'>
+              <svg width='26' height='26' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+                <path d='M12,16A2,2 0 0,1 14,18A2,2 0 0,1 12,20A2,2 0 0,1 10,18A2,2 0 0,1 12,16M12,10A2,2 0 0,1 14,12A2,2 0 0,1 12,14A2,2 0 0,1 10,12A2,2 0 0,1 12,10M12,4A2,2 0 0,1 14,6A2,2 0 0,1 12,8A2,2 0 0,1 10,6A2,2 0 0,1 12,4Z' fill='currentColor' />
+              </svg>
+            </button>
+          </div>
+          <h1 className='text-xl font-bold'>Web Design templates Selection</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitsed do eiusmod.</p>
+          <div className='font-medium space-y-2'>
+            <span>135 Works / 45% </span>
+            <div className='relative rounded-full overflo-hidden flex-1 h-1 bg-[#85d5e6]'>
               <div className='absolute rounded-full left-0 w-1/2 h-full bg-black' />
             </div>
           </div>
