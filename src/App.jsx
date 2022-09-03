@@ -618,7 +618,7 @@ function App () {
             </a>
             <a href='#' className='flex items-center font-medium space-x-3'>
               <span>
-                <svg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'>
+                <svg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 24 24' fill='none' stroke='currentColor' strokeWidth='2' strokeLinecap='round' strokeLinejoin='round'>
                   <circle cx='18' cy='5' r='3' />
                   <circle cx='6' cy='12' r='3' />
                   <circle cx='18' cy='19' r='3' />
@@ -944,8 +944,8 @@ function App () {
               </div>
             </div>
             <div className='space-y-4 text-center'>
-              <h4 className='text-3xl font-extrabold leading-snug text-transparent bg-clip-text bg-gradient-to-tr from-[#81d200] to-[#24d3ff]'>Web Design templates Selection</h4>
-              <p>Minim dolor in amet nulla laboris enim dolore consequat proident.</p>
+              <h4 className='text-2xl font-extrabold leading-snug text-transparent bg-clip-text bg-gradient-to-tr from-[#81d200] to-[#24d3ff]'>Web Design templates Selection</h4>
+              <p>Minim dolor in amet nulla laboris enim dolore consequ.</p>
               <button className='py-2 px-4 font-bold rounded-full uppercase text-black bg-gradient-to-tr from-[#81d200] to-[#24ffd7] hover:shadow-2xl'>VIEW PROFILE</button>
             </div>
           </div>
@@ -1366,25 +1366,9 @@ function App () {
                   <img className='flex-none w-10 h-10 rounded-full object-cover' src='https://randomuser.me/api/portraits/women/33.jpg' alt='avatar' />
                   <div className='flex flex-col'>
                     <span>Magical Graphics</span>
-                    <a href='#' className='text-sm font-bold block dark:text-white'>Phill Garner</a>
+                    <span className='text-sm font-bold block dark:text-white'>Phill Garner</span>
                   </div>
                 </div>
-                <button className='flex items-center justify-center'>
-                  <svg viewBox='0 0 24 24' width='20' height='20' aria-hidden='true'>
-                    <g>
-                      <path fill='currentColor' d='M12 21.638h-.014C9.403 21.59 1.95 14.856 1.95 8.478c0-3.064 2.525-5.754 5.403-5.754 2.29 0 3.83 1.58 4.646 2.73.814-1.148 2.354-2.73 4.645-2.73 2.88 0 5.404 2.69 5.404 5.755 0 6.376-7.454 13.11-10.037 13.157H12zM7.354 4.225c-2.08 0-3.903 1.988-3.903 4.255 0 5.74 7.034 11.596 8.55 11.658 1.518-.062 8.55-5.917 8.55-11.658 0-2.267-1.823-4.255-3.903-4.255-2.528 0-3.94 2.936-3.952 2.965-.23.562-1.156.562-1.387 0-.014-.03-1.425-2.965-3.954-2.965z' />
-                    </g>
-                  </svg>
-                  19
-                </button>
-                <button className='flex items-center justify-center'>
-                  <svg viewBox='0 0 24 24' width='20' height='20' aria-hidden='true'>
-                    <g>
-                      <path fill='currentColor' d='M12 21.638h-.014C9.403 21.59 1.95 14.856 1.95 8.478c0-3.064 2.525-5.754 5.403-5.754 2.29 0 3.83 1.58 4.646 2.73.814-1.148 2.354-2.73 4.645-2.73 2.88 0 5.404 2.69 5.404 5.755 0 6.376-7.454 13.11-10.037 13.157H12zM7.354 4.225c-2.08 0-3.903 1.988-3.903 4.255 0 5.74 7.034 11.596 8.55 11.658 1.518-.062 8.55-5.917 8.55-11.658 0-2.267-1.823-4.255-3.903-4.255-2.528 0-3.94 2.936-3.952 2.965-.23.562-1.156.562-1.387 0-.014-.03-1.425-2.965-3.954-2.965z' />
-                    </g>
-                  </svg>
-                  19
-                </button>
               </div>
             </div>
           </div>
@@ -2159,7 +2143,7 @@ function App () {
             <div className='space-y-2'>
               <div className='relative'>
                 <div className='bg-slate-100 dark:bg-slate-700 rounded-full overflow-hidden'>
-                  <div className='bg-purple-500 dark:bg-purple-400 w-[35%] h-2' role='progressbar' ariaLabel='music progress' ariaValuenow='1456' ariaValuemin='0' aria-valuemax='4550' />
+                  <div className='bg-purple-500 dark:bg-purple-400 w-[35%] h-2' role='progressbar' aria-label='music progress' aria-valuenow='1456' aria-valuemin='0' aria-valuemax='4550' />
                 </div>
                 <div className='ring-purple-500 dark:ring-purple-400 ring-2 absolute left-[35%] top-1/2 w-4 h-4 -mt-2 -ml-2 flex items-center justify-center bg-white rounded-full shadow'>
                   <div className='w-1.5 h-1.5 bg-purple-500 dark:bg-purple-400 rounded-full ring-1 ring-inset ring-slate-900/5' />
@@ -2173,37 +2157,37 @@ function App () {
           </div>
           <div className='bg-slate-50 text-black dark:bg-slate-700 dark:text-slate-200 rounded-b-xl flex items-center py-2'>
             <div className='flex-auto flex items-center justify-evenly'>
-              <button type='button' ariaLabel='Add to favorites' className='rounded-full p-2 hover:bg-slate-200 dark:hover:bg-slate-600'>
+              <button type='button' aria-label='Add to favorites' className='rounded-full p-2 hover:bg-slate-200 dark:hover:bg-slate-600'>
                 <svg width='18' height='18' viewBox='0 0 24 24'>
                   <path d='M7 6.931C7 5.865 7.853 5 8.905 5h6.19C16.147 5 17 5.865 17 6.931V19l-5-4-5 4V6.931Z' fill='currentColor' stroke='currentColor' strokeWidth='2' strokeLinecap='round' strokeLinejoin='round' />
                 </svg>
               </button>
-              <button type='button' className='rounded-full p-2 hover:bg-slate-200 dark:hover:bg-slate-600' ariaLabel='Previous'>
+              <button type='button' className='rounded-full p-2 hover:bg-slate-200 dark:hover:bg-slate-600' aria-label='Previous'>
                 <svg width='18' height='18' fill='none' viewBox='0 0 24 24'>
                   <path d='m10 12 8-6v12l-8-6Z' fill='currentColor' stroke='currentColor' strokeWidth='2' strokeLinecap='round' strokeLinejoin='round' />
                   <path d='M6 6v12' stroke='currentColor' strokeWidth='2' strokeLinecap='round' strokeLinejoin='round' />
                 </svg>
               </button>
-              <button type='button' ariaLabel='Rewind 10 seconds' className='rounded-full p-2 hover:bg-slate-200 dark:hover:bg-slate-600'>
+              <button type='button' aria-label='Rewind 10 seconds' className='rounded-full p-2 hover:bg-slate-200 dark:hover:bg-slate-600'>
                 <svg width='18' height='18' fill='none' viewBox='0 0 24 24'>
                   <path d='M6.492 16.95c2.861 2.733 7.5 2.733 10.362 0 2.861-2.734 2.861-7.166 0-9.9-2.862-2.733-7.501-2.733-10.362 0A7.096 7.096 0 0 0 5.5 8.226' stroke='currentColor' strokeWidth='2' strokeLinecap='round' strokeLinejoin='round' />
                   <path d='M5 5v3.111c0 .491.398.889.889.889H9' stroke='currentColor' strokeWidth='2' strokeLinecap='round' strokeLinejoin='round' />
                 </svg>
               </button>
             </div>
-            <button type='button' className='bg-white text-slate-900 dark:bg-slate-600 dark:text-slate-200 flex-none -my-2 mx-auto w-12 h-12 rounded-full ring-1 ring-slate-900/5 shadow-md flex items-center justify-center' ariaLabel='Pause'>
+            <button type='button' className='bg-white text-slate-900 dark:bg-slate-600 dark:text-slate-200 flex-none -my-2 mx-auto w-12 h-12 rounded-full ring-1 ring-slate-900/5 shadow-md flex items-center justify-center' aria-label='Pause'>
               <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' strokeWidth={2.5} stroke='currentColor' width='28' height='28'>
                 <path strokeLinecap='round' strokeLinejoin='round' d='M15.75 5.25v13.5m-7.5-13.5v13.5' />
               </svg>
             </button>
             <div className='flex-auto flex items-center justify-evenly'>
-              <button type='button' ariaLabel='Skip 10 seconds' className='rounded-full p-2 hover:bg-slate-200 dark:hover:bg-slate-600'>
+              <button type='button' aria-label='Skip 10 seconds' className='rounded-full p-2 hover:bg-slate-200 dark:hover:bg-slate-600'>
                 <svg width='18' height='18' fill='none' viewBox='0 0 24 24'>
                   <path d='M17.509 16.95c-2.862 2.733-7.501 2.733-10.363 0-2.861-2.734-2.861-7.166 0-9.9 2.862-2.733 7.501-2.733 10.363 0 .38.365.711.759.991 1.176' stroke='currentColor' strokeWidth='2' strokeLinecap='round' strokeLinejoin='round' />
                   <path d='M19 5v3.111c0 .491-.398.889-.889.889H15' stroke='currentColor' strokeWidth='2' strokeLinecap='round' strokeLinejoin='round' />
                 </svg>
               </button>
-              <button type='button' className='rounded-full p-2 hover:bg-slate-200 dark:hover:bg-slate-600' ariaLabel='Next'>
+              <button type='button' className='rounded-full p-2 hover:bg-slate-200 dark:hover:bg-slate-600' aria-label='Next'>
                 <svg width='18' height='18' fill='none' viewBox='0 0 24 24'>
                   <path d='M14 12 6 6v12l8-6Z' fill='currentColor' stroke='currentColor' strokeWidth='2' strokeLinecap='round' strokeLinejoin='round' />
                   <path d='M18 6v12' stroke='currentColor' strokeWidth='2' strokeLinecap='round' strokeLinejoin='round' />
@@ -2489,12 +2473,12 @@ function App () {
           <img src='https://images.pexels.com/photos/994605/pexels-photo-994605.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' alt='Running' className='w-full h-[20rem] object-cover' />
           <div className='flex items-center justify-between absolute z-10 top-0 left-0 w-full p-6'>
             <button className='flex items-center justify-center rounded-xl w-9 h-9 transition-all bg-white text-black'>
-              <svg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 24 24' fill='none' stroke='#000000' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'>
+              <svg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 24 24' fill='none' stroke='#000000' strokeWidth='2.5' strokeLinecap='round' strokeLinejoin='round'>
                 <path d='M15 18l-6-6 6-6' />
               </svg>
             </button>
             <button className='flex items-center justify-center rounded-xl w-9 h-9 transition-all bg-white text-black'>
-              <svg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24' fill='none' stroke='#000000' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'>
+              <svg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24' fill='none' stroke='#000000' strokeWidth='2.5' strokeLinecap='round' strokeLinejoin='round'>
                 <path d='M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z' />
               </svg>
             </button>
@@ -2508,7 +2492,7 @@ function App () {
               </h1>
             </div>
             <button className='inline-flex items-center justify-center px-4 py-2 text-sm space-x-3 uppercase font-bold rounded-lg bg-[#000000af] text-white'>
-              <svg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24' fill='white' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'>
+              <svg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24' fill='white' stroke='white' strokeWidth='2' strokeLinecap='round' strokeLinejoin='round'>
                 <polygon points='12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2' />
               </svg>
               <span>4.9</span>
@@ -2569,25 +2553,25 @@ function App () {
             <div className='w-full h-[2px] my-4 bg-slate-200 dark:bg-slate-700' />
             <ul className='list-none'>
               <li className='flex items-center justify-start py-1 space-x-2'>
-                <svg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24' fill='none' className='stroke-pink-600' stroke='currentColor' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'>
+                <svg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24' fill='none' className='stroke-pink-600' stroke='currentColor' strokeWidth='3' strokeLinecap='round' strokeLinejoin='round'>
                   <polyline points='20 6 9 17 4 12' />
                 </svg>
                 <span>Secure your customer usage</span>
               </li>
               <li className='flex items-center justify-start py-1 space-x-2'>
-                <svg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24' fill='none' className='stroke-pink-600' stroke='currentColor' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'>
+                <svg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24' fill='none' className='stroke-pink-600' stroke='currentColor' strokeWidth='3' strokeLinecap='round' strokeLinejoin='round'>
                   <polyline points='20 6 9 17 4 12' />
                 </svg>
                 <span>View basic analytics</span>
               </li>
               <li className='flex items-center justify-start py-1 space-x-2'>
-                <svg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24' fill='none' className='stroke-pink-600' stroke='currentColor' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'>
+                <svg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24' fill='none' className='stroke-pink-600' stroke='currentColor' strokeWidth='3' strokeLinecap='round' strokeLinejoin='round'>
                   <polyline points='20 6 9 17 4 12' />
                 </svg>
                 <span>Up to 350 customer profiles</span>
               </li>
               <li className='flex items-center justify-start py-1 space-x-2'>
-                <svg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24' fill='none' className='stroke-pink-600' stroke='currentColor' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'>
+                <svg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24' fill='none' className='stroke-pink-600' stroke='currentColor' strokeWidth='3' strokeLinecap='round' strokeLinejoin='round'>
                   <polyline points='20 6 9 17 4 12' />
                 </svg>
                 <span>Custom network name</span>
@@ -2611,25 +2595,25 @@ function App () {
             <div className='w-full h-[2px] my-4 bg-slate-200 dark:bg-slate-700' />
             <ul className='list-none'>
               <li className='flex items-center justify-start py-1 space-x-2'>
-                <svg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24' fill='none' className='stroke-blue-600' stroke='currentColor' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'>
+                <svg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24' fill='none' className='stroke-blue-600' stroke='currentColor' strokeWidth='3' strokeLinecap='round' strokeLinejoin='round'>
                   <polyline points='20 6 9 17 4 12' />
                 </svg>
                 <span>Add your own branding</span>
               </li>
               <li className='flex items-center justify-start py-1 space-x-2'>
-                <svg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24' fill='none' className='stroke-blue-600' stroke='currentColor' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'>
+                <svg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24' fill='none' className='stroke-blue-600' stroke='currentColor' strokeWidth='3' strokeLinecap='round' strokeLinejoin='round'>
                   <polyline points='20 6 9 17 4 12' />
                 </svg>
                 <span>View popularity analytics</span>
               </li>
               <li className='flex items-center justify-start py-1 space-x-2'>
-                <svg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24' fill='none' className='stroke-blue-600' stroke='currentColor' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'>
+                <svg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24' fill='none' className='stroke-blue-600' stroke='currentColor' strokeWidth='3' strokeLinecap='round' strokeLinejoin='round'>
                   <polyline points='20 6 9 17 4 12' />
                 </svg>
                 <span>Up to 1500 customer profiles</span>
               </li>
               <li className='flex items-center justify-start py-1 space-x-2'>
-                <svg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24' fill='none' className='stroke-blue-600' stroke='currentColor' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'>
+                <svg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24' fill='none' className='stroke-blue-600' stroke='currentColor' strokeWidth='3' strokeLinecap='round' strokeLinejoin='round'>
                   <polyline points='20 6 9 17 4 12' />
                 </svg>
                 <span>View demographic insights</span>
@@ -2653,25 +2637,25 @@ function App () {
             <div className='w-full h-[2px] my-4 bg-slate-200 dark:bg-slate-700' />
             <ul className='list-none'>
               <li className='flex items-center justify-start py-1 space-x-2'>
-                <svg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24' fill='none' className='stroke-green-600' stroke='currentColor' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'>
+                <svg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24' fill='none' className='stroke-green-600' stroke='currentColor' strokeWidth='3' strokeLinecap='round' strokeLinejoin='round'>
                   <polyline points='20 6 9 17 4 12' />
                 </svg>
                 <span>Collect marketing data</span>
               </li>
               <li className='flex items-center justify-start py-1 space-x-2'>
-                <svg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24' fill='none' className='stroke-green-600' stroke='currentColor' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'>
+                <svg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24' fill='none' className='stroke-green-600' stroke='currentColor' strokeWidth='3' strokeLinecap='round' strokeLinejoin='round'>
                   <polyline points='20 6 9 17 4 12' />
                 </svg>
                 <span>Design your emails</span>
               </li>
               <li className='flex items-center justify-start py-1 space-x-2'>
-                <svg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24' fill='none' className='stroke-green-600' stroke='currentColor' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'>
+                <svg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24' fill='none' className='stroke-green-600' stroke='currentColor' strokeWidth='3' strokeLinecap='round' strokeLinejoin='round'>
                   <polyline points='20 6 9 17 4 12' />
                 </svg>
                 <span>Email campaigns & interactions</span>
               </li>
               <li className='flex items-center justify-start py-1 space-x-2'>
-                <svg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24' fill='none' className='stroke-green-600' stroke='currentColor' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'>
+                <svg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24' fill='none' className='stroke-green-600' stroke='currentColor' strokeWidth='3' strokeLinecap='round' strokeLinejoin='round'>
                   <polyline points='20 6 9 17 4 12' />
                 </svg>
                 <span>View your customer’s profiles</span>
@@ -2715,7 +2699,7 @@ function App () {
           <div className='font-medium space-y-2'>
             <span>135 Works / 45% </span>
             <div className='relative rounded-full overflo-hidden flex-1 h-1 bg-[#dabb6b]'>
-              <div className='absolute rounded-full left-0 w-1/2 h-full bg-black' />
+              <div className='absolute rounded-full left-0 w-1/3 h-full bg-black' />
             </div>
           </div>
         </div>
