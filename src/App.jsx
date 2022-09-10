@@ -1057,6 +1057,18 @@ function App () {
         </div>
 
         {/** card */}
+        <div className='break-inside flex flex-col justify-between mb-4 gap-4'>
+          <div className='flex flex-row flex-1 gap-4'>
+            <div className='flex-1 flex items-center justify-center p-6 font-bold text-2xl rounded-xl bg-gradient-to-r from-[#9400D3] to-[#4B0082] text-white'>Html</div>
+            <div className='flex-1 flex items-center justify-center p-6 font-bold text-2xl rounded-xl bg-gradient-to-r from-[#EC008C] to-[#FC6767] text-white'>css</div>
+          </div>
+          <div className='flex flex-row flex-1 gap-4'>
+            <div className='flex-1 flex items-center justify-center p-6 font-bold text-2xl rounded-xl bg-gradient-to-r from-[#FF8008] to-[#FFC837] text-black'>React</div>
+            <div className='flex-1 flex items-center justify-center p-6 font-bold text-2xl rounded-xl bg-gradient-to-r from-[#DCE35B] to-[#45B649] text-black'>SASS</div>
+          </div>
+        </div>
+
+        {/** card */}
         <div className='break-inside p-6 flex flex-col justify-between rounded-xl mb-4 text-sm bg-white dark:bg-slate-800 dark:text-slate-50'>
           <div className='flex justify-between'>
             <div className='flex items-center space-x-1'>
