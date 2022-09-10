@@ -793,6 +793,30 @@ function App () {
         </div>
 
         {/** card */}
+        <div className='break-inside relative flex flex-col justify-between overflow-hidden rounded-xl space-y-2 pt-6 text-sm mb-4 text-black bg-white dark:bg-slate-800 dark:text-slate-100'>
+          <span className='absolute right-4 top-4 flex items-center justify-center rounded-xl px-3 py-2 text-[#4318FF] bg-[#F4F7FE] dark:bg-slate-600 dark:text-[#b7a7ff]'>
+            <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M1.9 5.7H2.17143C3.21643 5.7 4.07143 6.555 4.07143 7.6V17.1C4.07143 18.145 3.21643 19 2.17143 19H1.9C0.855 19 0 18.145 0 17.1V7.6C0 6.555 0.855 5.7 1.9 5.7ZM9.5 0C10.545 0 11.4 0.855 11.4 1.9V17.1C11.4 18.145 10.545 19 9.5 19C8.455 19 7.6 18.145 7.6 17.1V1.9C7.6 0.855 8.455 0 9.5 0ZM17.1 10.8571C18.145 10.8571 19 11.7121 19 12.7571V17.1C19 18.145 18.145 19 17.1 19C16.055 19 15.2 18.145 15.2 17.1V12.7571C15.2 11.7121 16.055 10.8571 17.1 10.8571Z" fill="currentColor"/>
+            </svg>
+          </span>
+          <div className='flex flex-col justify-center items-center px-6 text-center space-y-2 text-base'>
+            <h1>Expected earnings</h1>
+            <h2 className='text-2xl font-extrabold'>Є682.5</h2>
+            <div className='flex items-center text-center px-4 py-2 font-medium rounded-full bg-[#FFF2FF] dark:bg-slate-600 dark:text-white'>+2.45%</div>
+          </div>
+          <svg width="100%" height="150" viewBox="0 0 360 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M49.7798 68.0559C41.0968 76.4527 -1.29671 51.7288 -6 47.0639L-3.40355 199.006L368.337 214C370.689 152.857 372.353 28.2711 360.197 19.0746C345.001 7.57901 337.404 29.0708 334.69 35.5683C331.977 42.0658 322.751 47.0639 315.154 45.0647C307.556 43.0654 291.275 68.0559 279.879 74.0536C268.483 80.0512 252.745 47.0639 245.69 41.566C238.635 36.0682 232.665 48.0635 229.952 47.0639C227.238 46.0643 215.842 14.5763 207.702 15.0761C199.561 15.5759 192.506 45.0647 186.537 41.566C180.567 38.0674 174.055 64.5572 153.976 82.0505C133.896 99.5438 125.756 15.576 114.902 11.5775C104.048 7.57903 100.792 25.0723 89.9386 41.566C79.0849 58.0597 74.2007 45.5645 70.9445 41.566C67.6884 37.5676 60.6335 57.5599 49.7798 68.0559Z" fill="url(#paint0_linear_70_1065)" stroke="#4318FF" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round"/>
+            <path d="M50.6618 67.7115C42.0028 76.1281 -1.30967 62.7908 -6 58.1149L-2.37498 198.97L368.342 214C370.687 152.712 372.346 27.8329 360.224 18.6147C345.07 7.09195 328.972 12.525 334.788 35.1473C336.549 42.0007 319.186 37.1512 311.609 35.1473C304.033 33.1433 290.659 82.1624 279.294 88.1742C267.929 94.186 265.108 42.0833 258.073 36.5724C251.037 31.0616 233.044 47.672 230.338 46.67C227.632 45.668 218.442 1.50324 210.324 2.00423C202.206 2.50522 184.279 61.6218 167.398 49.1749C161.818 45.0601 161.128 94.1861 152.929 96.19C144.73 98.194 131.961 28.5566 125.323 55.109C118.685 81.6614 112.641 9.38489 107.592 7.51515C96.768 3.50724 101.534 24.6266 90.71 41.1592C79.8862 57.6918 75.6303 36.5724 72.3832 32.5645C69.136 28.5566 61.4857 57.1908 50.6618 67.7115Z" stroke="#E200E7" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round"/>
+            <defs>
+            <linearGradient id="paint0_linear_70_1065" x1="183.823" y1="-8.49254" x2="183.823" y2="173.516" gradientUnits="userSpaceOnUse">
+              <stop stopColor="currentColor" className='text-[#fb00ff96] dark:text-[#fb00ff33]'/>
+              <stop offset="72165" stopColor="currentColor" className='text-[#ffffff]' stopOpacity="0"/>
+            </linearGradient>
+            </defs>
+            </svg>
+        </div>
+
+        {/** card */}
         <div className='break-inside relative min-h-[30rem] flex flex-col justify-between rounded-xl mb-4 overflow-hidden bg-white dark:bg-slate-800 dark:text-slate-50'>
           <img src='https://uploads.codesandbox.io/uploads/user/82fa41fe-2514-4525-afb4-b7eef7e3afc6/lagC-img-1.png' className='absolute object-cover w-wull' />
           <div className='absolute top-0 left-0 p-8 flex flex-col space-y-1'>
