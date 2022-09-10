@@ -1215,6 +1215,40 @@ function App () {
         </a>
 
         {/** card */}
+        <a href='#' className='break-inside flex flex-col justify-between overflow-hidden rounded-xl mb-4 text-black dark:text-white group'>
+          <div className='bg-white dark:bg-slate-800'>
+            <div className='relative'>
+              <img src='https://images.pexels.com/photos/1335077/pexels-photo-1335077.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' className='object-cover' alt='Image' />
+              <div className='p-6 absolute top-0 left-0 w-full flex justify-end'>
+                <button className='flex items-center justify-center text-white rounded-full p-2 transition-all group-hover:bg-white group-hover:text-black'>
+                  <svg width='18' height='18' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+                    <path d='M12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5C2,5.41 4.42,3 7.5,3C9.24,3 10.91,3.81 12,5.08C13.09,3.81 14.76,3 16.5,3C19.58,3 22,5.41 22,8.5C22,12.27 18.6,15.36 13.45,20.03L12,21.35Z' fill='currentColor' />
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <div className='flex flex-col text-sm'>
+              <div className='flex justify-between font-medium py-3 px-4 border-t border-slate-200 dark:border-slate-600'>
+                <span>Opel Astra</span>
+                <span className='line-through'>19.490 €</span>
+              </div>
+              <div className='flex flex-col p-4 space-y-2 border-t border-slate-200 dark:border-slate-600'>
+                <div className='flex justify-between items-center font-bold'>
+                  <span>GS-LINE 1.2T 130CV 5P</span>
+                  <span className='text-blue-600 dark:text-blue-400'>19.490 €</span>
+                </div>
+                <div className='flex justify-between items-center text-slate-500'>
+                  <span>2020 · 40.418 km · 130CV · Gasolina · Manual</span>
+                </div>
+              </div>
+              <div className='flex text-lg font-bold p-4 border-t border-slate-200 dark:border-slate-600'>
+                <span>230 € /mes</span>
+              </div>
+            </div>
+          </div>
+        </a>
+
+        {/** card */}
         <a href='#' className='break-inside flex flex-col justify-between rounded-xl mb-4 text-black dark:text-white group'>
           <div className='flex flex-col'>
             <div className='relative'>
@@ -1380,7 +1414,7 @@ function App () {
         <a href='#' className='break-inside flex flex-col justify-between rounded-xl mb-4 text-black dark:text-white group'>
           <div className='space-y-4'>
             <div className='relative'>
-              <img src='https://images.pexels.com/photos/1161547/pexels-photo-1161547.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' className='object-cover rounded-lg saturate-100' alt='Image' />
+              <img src='https://images.pexels.com/photos/1565982/pexels-photo-1565982.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' className='object-cover rounded-lg saturate-100' alt='Image' />
               <div className='p-6 absolute top-0 left-0 w-full flex justify-end'>
                 <button className='flex items-center justify-center text-white rounded-full p-2 transition-all group-hover:bg-white group-hover:text-black'>
                   <svg width='18' height='18' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
@@ -1394,8 +1428,8 @@ function App () {
                 <div className='flex-auto flex flex-row space-x-4'>
                   <img className='flex-none w-10 h-10 rounded-full object-cover' src='https://randomuser.me/api/portraits/women/33.jpg' alt='avatar' />
                   <div className='flex flex-col'>
-                    <span>Magical Graphics</span>
-                    <span className='text-sm font-bold block dark:text-white'>Phill Garner</span>
+                    <span>Food party</span>
+                    <span className='text-sm font-bold block dark:text-white'>Angellica Garner</span>
                   </div>
                 </div>
               </div>
@@ -1778,8 +1812,8 @@ function App () {
         <div className='break-inside p-6 flex flex-col justify-between rounded-xl mb-4 space-y-4 overflow-hidden bg-[#00cba0]'>
           <h1 className='text-xl font-extrabold leading-snug'>The future in card designs</h1>
           <div className='flex space-x-1'>
-            <span className='px-3 py-1 rounded-full uppercase text-xs font-medium bg-black text-white'>future</span>
-            <span className='px-3 py-1 rounded-full uppercase text-xs font-medium bg-black text-white'>sience</span>
+            <span className='px-3 py-1 rounded-full uppercase text-xs bg-black text-white'>future</span>
+            <span className='px-3 py-1 rounded-full uppercase text-xs bg-black text-white'>sience</span>
           </div>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing</p>
           <div className='flex items-center justify-between'>
@@ -1972,7 +2006,7 @@ function App () {
         </div>
 
         {/** card */}
-        <div className='break-inside p-6 flex flex-col justify-between rounded-2xl mb-4 space-y-8 bg-white text-black dark:bg-slate-800 dark:text-white'>
+        <div className='break-inside p-6 flex flex-col justify-between rounded-2xl mb-4 space-y-4 bg-white text-black dark:bg-slate-800 dark:text-white'>
           <div className='flex justify-end'>
             <button className='flex items-center justify-center rounded-full p-2 transition-all hover:bg-slate-200 dark:hover:bg-slate-700'>
               <svg width='26' height='26' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
