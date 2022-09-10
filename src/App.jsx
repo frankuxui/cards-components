@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react'
 import './App.css'
 import nike from './img/nike.png'
+import student from './img/student.png'
 
 function App () {
   const buttonThemenRef = useRef(null)
@@ -1287,7 +1288,7 @@ function App () {
         </a>
 
         {/** card */}
-        <div className='break-inside rounded-xl mb-4 text-sm p-6 bg-white dark:bg-slate-800 dark:text-white'>
+        <div className='break-inside relative rounded-xl mb-4 text-sm p-6 bg-white dark:bg-slate-800 dark:text-white'>
           <div className='flex justify-between items-center'>
             <div className='flex flex-col space-y-1'>
               <h5 className='font-bold text-lg'>Nike Air Max</h5>
@@ -1299,10 +1300,9 @@ function App () {
               </svg>
             </span>
           </div>
-          <div className='flex justify-center items-center'>
-            <div className='w-[110px] h-[110px] rounded-full relative flex items-center justify-center bg-gradient-to-tr from-[#00F5A0] to-[#00D9F5]'>
-              <img src={nike} alt='Nike' className='w-[128px] h-[94px] object-cover' />
-            </div>
+          <div className='flex relative justify-center items-center'>
+            <div className='w-[115px] h-[115px] rounded-full relative flex items-center justify-center bg-gradient-to-tr from-[#00F5A0] to-[#00D9F5]' />
+            <img src={nike} alt='Nike' className='absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[148px] h-[114px] object-cover' />
           </div>
           <div className='flex justify-between items-center'>
             <h5 className='font-bold text-xl'>$95.99</h5>
@@ -1311,6 +1311,34 @@ function App () {
                 <path d='M6 1.23792C3.239 1.23792 1 3.45391 1 6.18791C1 8.39491 1.875 13.6329 10.488 18.9279C10.6423 19.0218 10.8194 19.0714 11 19.0714C11.1806 19.0714 11.3577 19.0218 11.512 18.9279C20.125 13.6329 21 8.39491 21 6.18791C21 3.45391 18.761 1.23792 16 1.23792C13.239 1.23792 11 4.23792 11 4.23792C11 4.23792 8.761 1.23792 6 1.23792Z' stroke='currentColor' strokeWidth='2' strokeLinecap='round' strokeLinejoin='round' />
               </svg>
             </span>
+          </div>
+        </div>
+
+        {/** card */}
+        <div className='break-inside rounded-xl mb-4 text-sm p-6 bg-white dark:bg-slate-800 dark:text-white'>
+          <div className='flex justify-center items-center'>
+            <img src={student} alt='Nike' className='object-cover' />
+          </div>
+          <div className='flex items-center justify-start space-x-2 mt-6'>
+            <svg width='24' height='26' viewBox='0 0 27 29' fill='none' xmlns='http://www.w3.org/2000/svg' className='mt-[-2px]'>
+              <path d='M21.5038 8.87648C21.4683 11.1936 20.6975 14.3309 17.0838 15.5473C18.2154 12.8555 18.3881 10.2794 17.5864 7.87131C16.515 4.63843 12.9398 2.11318 10.561 0.738018C9.74858 0.266268 8.70642 0.852101 8.72183 1.79098C8.75267 3.50531 8.23158 6.01052 5.70171 8.54039C2.33163 11.9074 0.625 15.3869 0.625 18.8804C0.625 23.2664 3.70833 28.875 9.875 28.875C3.64513 22.6451 8.33333 17.3387 8.33333 17.3387C9.63758 26.4561 16.0232 28.875 19.125 28.875C21.7628 28.875 26.8333 26.9479 26.8333 18.9343C26.8333 14.1043 24.7798 10.4382 23.1565 8.29835C22.6215 7.59227 21.5161 7.9931 21.5038 8.87648Z' fill='currentColor' />
+            </svg>
+            <h3 className='text-xl font-bold'>Trends</h3>
+          </div>
+          <p className='mt-3'>Lorem ipsum dolor sit amet ons ec tetur adip iscing elit...</p>
+          <div className='flex justify-between flex-row items-center space-x-4 mt-6'>
+            <div className='flex-auto flex flex-row space-x-4'>
+              <img className='flex-none w-12 h-12 rounded-full object-cover' src='https://randomuser.me/api/portraits/men/27.jpg' alt='avatar' />
+              <div className='flex flex-col'>
+                <a href='#' className='text-base font-bold block dark:text-white'>Mathíaz Estradas</a>
+                <span className='text-slate-500 dark:text-slate-400'>Web Development</span>
+              </div>
+            </div>
+            <button className='flex items-center justify-center rounded-full p-1 transition-all hover:bg-slate-200 dark:hover:bg-slate-700'>
+              <svg width='26' height='26' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+                <path d='M12,16A2,2 0 0,1 14,18A2,2 0 0,1 12,20A2,2 0 0,1 10,18A2,2 0 0,1 12,16M12,10A2,2 0 0,1 14,12A2,2 0 0,1 12,14A2,2 0 0,1 10,12A2,2 0 0,1 12,10M12,4A2,2 0 0,1 14,6A2,2 0 0,1 12,8A2,2 0 0,1 10,6A2,2 0 0,1 12,4Z' fill='currentColor' />
+              </svg>
+            </button>
           </div>
         </div>
 
