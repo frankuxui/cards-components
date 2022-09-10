@@ -819,7 +819,7 @@ function App () {
           </div>
           <div className='p-6 flex  justify-between items-center'>
             <div className='flex flex-row items-center space-x-2'>
-              <svg width='24' height='24' viewBox='0 0 22 21' fill='none' xmlns='http://www.w3.org/2000/svg'>
+              <svg width='20' height='20' viewBox='0 0 22 21' fill='none' xmlns='http://www.w3.org/2000/svg'>
                 <path d='M6 1.23792C3.239 1.23792 1 3.45391 1 6.18791C1 8.39491 1.875 13.6329 10.488 18.9279C10.6423 19.0218 10.8194 19.0714 11 19.0714C11.1806 19.0714 11.3577 19.0218 11.512 18.9279C20.125 13.6329 21 8.39491 21 6.18791C21 3.45391 18.761 1.23792 16 1.23792C13.239 1.23792 11 4.23792 11 4.23792C11 4.23792 8.761 1.23792 6 1.23792Z' stroke='currentColor' strokeWidth='2' strokeLinecap='round' strokeLinejoin='round' />
               </svg>
               <span className='text-xl font-bold'>35k</span>
@@ -1300,7 +1300,7 @@ function App () {
           </div>
           <div className='flex justify-center items-center'>
             <div className='w-32 h-32 rounded-full relative flex items-center justify-center bg-gradient-to-tr from-[#00F5A0] to-[#00D9F5]'>
-              <img src='/img/nike.png' />
+              <img src='./img/nike.png' />
             </div>
           </div>
           <div className='flex justify-between items-center'>
@@ -1560,7 +1560,7 @@ function App () {
               <div className='flex justify-between items-center'>
                 <a className='inline-flex items-center' href='#'>
                   <span className='-m-1 rounded-full border-2 border-white dark:border-slate-800'>
-                    <svg xmlns='http://www.w3.org/2000/svg' width='26' height='26' viewBox='0 0 16 16' fill='none'>
+                    <svg xmlns='http://www.w3.org/2000/svg' width='22' height='22' viewBox='0 0 16 16' fill='none'>
                       <path fill='url(#a)' d='M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0Z' />
                       <path fill='#fff' d='M12.162 7.338c.176.123.338.245.338.674 0 .43-.229.604-.474.725.1.163.132.36.089.546-.077.344-.392.611-.672.69.121.194.159.385.015.62-.185.295-.346.407-1.058.407H7.5c-.988 0-1.5-.546-1.5-1V7.665c0-1.23 1.467-2.275 1.467-3.13L7.361 3.47c-.005-.065.008-.224.058-.27.08-.079.301-.2.635-.2.218 0 .363.041.534.123.581.277.732.978.732 1.542 0 .271-.414 1.083-.47 1.364 0 0 .867-.192 1.879-.199 1.061-.006 1.749.19 1.749.842 0 .261-.219.523-.316.666ZM3.6 7h.8a.6.6 0 0 1 .6.6v3.8a.6.6 0 0 1-.6.6h-.8a.6.6 0 0 1-.6-.6V7.6a.6.6 0 0 1 .6-.6Z' />
                       <defs>
@@ -1572,7 +1572,7 @@ function App () {
                     </svg>
                   </span>
                   <span className='-m-1 rounded-full border-2 border-white dark:border-slate-800'>
-                    <svg xmlns='http://www.w3.org/2000/svg' width='26' height='26' viewBox='0 0 16 16' fill='none'>
+                    <svg xmlns='http://www.w3.org/2000/svg' width='22' height='22' viewBox='0 0 16 16' fill='none'>
                       <path fill='url(#b)' d='M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0Z' />
                       <path fill='#fff' d='M10.473 4C8.275 4 8 5.824 8 5.824S7.726 4 5.528 4c-2.114 0-2.73 2.222-2.472 3.41C3.736 10.55 8 12.75 8 12.75s4.265-2.2 4.945-5.34c.257-1.188-.36-3.41-2.472-3.41Z' />
                       <defs>
@@ -1584,7 +1584,7 @@ function App () {
                     </svg>
                   </span>
                   <span className='-m-1 rounded-full border-2 border-white dark:border-slate-800'>
-                    <svg xmlns='http://www.w3.org/2000/svg' width='26' height='26' viewBox='0 0 16 16' fill='none'>
+                    <svg xmlns='http://www.w3.org/2000/svg' width='22' height='22' viewBox='0 0 16 16' fill='none'>
                       <path fill='url(#aa)' d='M16 8A8 8 0 1 1-.001 8 8 8 0 0 1 16 8' />
                       <path fill='url(#bb)' d='M3 8.008C3 10.023 4.006 14 8 14c3.993 0 5-3.977 5-5.992C13 7.849 11.39 7 8 7c-3.39 0-5 .849-5 1.008Z' />
                       <path fill='url(#cc)' d='M4.541 12.5c.804.995 1.907 1.5 3.469 1.5 1.563 0 2.655-.505 3.459-1.5-.551-.588-1.599-1.5-3.459-1.5s-2.917.912-3.469 1.5Z' />
@@ -2662,6 +2662,24 @@ function App () {
               </li>
             </ul>
             <button className='flex items-center justify-center rounded-md flex-none w-full cursor-pointer py-2 px-3 mt-4 uppercase text-sm font-medium bg-green-600 text-white'>upgrade to social</button>
+          </div>
+        </div>
+
+        {/** card */}
+        <div className='break-inside p-4 flex flex-col justify-between rounded-2xl mb-4 text-sm space-y-4 bg-white text-black dark:bg-slate-800 dark:text-slate-100'>
+          <div className='flex flex-col items-center justify-center text-center'>
+            <h1 className='text-base uppercase mb-2 text-slate-600 dark:text-slate-400'>Start PLan</h1>
+            <h2 className='text-5xl mb-5 font-bold'>$125</h2>
+            <p className='text-slate-500 dark:text-slate-400'>Unlock powerfull time-saving tools for creating email delivery and collecting</p>
+            <div className='w-1/2 h-[1px] my-3 bg-slate-200 dark:bg-slate-700' />
+            <div><span className='px-[6px] py-[1px] rounded-sm bg-cyan-200 text-black'>22</span> Coded Screens</div>
+            <div className='w-1/2 h-[1px] my-3 bg-slate-200 dark:bg-slate-700' />
+            <div><span className='px-[6px] py-[1px] rounded-sm bg-cyan-200 text-black'>Premium</span> Support</div>
+            <div className='w-1/2 h-[1px] my-3 bg-slate-200 dark:bg-slate-700' />
+            <div>Works with <span className='px-[6px] py-[1px] rounded-sm bg-cyan-200 text-black'>iOS & Android</span></div>
+            <div className='w-1/2 h-[1px] my-3 bg-slate-200 dark:bg-slate-700' />
+            <div><span className='px-[6px] py-[1px] rounded-sm bg-cyan-200 text-black'>Fully Coded Dart</span> Components</div>
+            <button className='flex items-center justify-center rounded-full flex-none w-full cursor-pointer py-2 px-3 mt-4 uppercase text-sm font-medium bg-black text-white dark:bg-white dark:text-black'>Buy plan now</button>
           </div>
         </div>
 
