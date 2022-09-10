@@ -897,6 +897,12 @@ function App () {
         </div>
 
         {/** card */}
+        <div className='break-inside mb-4 flex-1 w-full flex items-center justify-center p-6 font-bold text-2xl rounded-xl bg-gradient-to-r from-[#C84E89] to-[#F15F79] text-white'>Python</div>
+
+        {/** card */}
+        <div className='break-inside mb-4 flex-1 w-full flex items-center justify-center p-6 font-bold text-2xl rounded-xl bg-gradient-to-r from-[#FF512F] to-[#F09819] text-white'>Javascript</div>
+        
+        {/** card */}
         <div className='break-inside flex flex-col justify-between rounded-xl mb-4 text-sm overflow-hidden bg-white dark:bg-slate-800 dark:text-slate-50'>
           <div className='p-4 space-y-2'>
             <h2 className='text-2xl font-bold'>Vector pack</h2>
