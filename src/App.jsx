@@ -41,7 +41,7 @@ function App () {
           <a href='https://www.figma.com/@frankuxui' className='flex flex-none items-center justify-center rounded-full w-12 h-12 hover:bg-slate-300 transition-all dark:hover:bg-slate-700'>
             <svg width='28' height='28' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
               <path d='M15.332 8.668a3.333 3.333 0 0 0 0-6.663H8.668a3.333 3.333 0 0 0 0 6.663 3.333 3.333 0 0 0 0 6.665 3.333 3.333 0 0 0 0 6.664A3.334 3.334 0 0 0 12 18.664V8.668h3.332z' fill='currentColor' />
-              <circle cx='15.332' cy='12' r='3.332' />
+              <circle cx='15.332' cy='12' r='3.332' fill='currentColor' />
             </svg>
           </a>
           <a href='https://dribbble.com/frankuxui' className='flex flex-none items-center justify-center rounded-full w-12 h-12 hover:bg-slate-300 transition-all dark:hover:bg-slate-700'>
@@ -990,12 +990,12 @@ function App () {
             <div className='absolute top-0 left-0 w-full h-full'>
               <div className='flex justify-between h-full flex-col'>
                 <div className='flex justify-end space-x-2 p-6 bg-gradient-to-t from-[#00000000] to-[#000000]'>
-                  <button className='flex items-center justify-center text-white rounded-full p-2 transition-all group-hover:bg-white group-hover:text-black'>
+                  <button className='flex items-center justify-center text-white rounded-full w-10 h-10 transition-all group-hover:bg-white group-hover:text-black'>
                     <svg width='24' height='24' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
                       <path d='M20.71,7.04C21.1,6.65 21.1,6 20.71,5.63L18.37,3.29C18,2.9 17.35,2.9 16.96,3.29L15.12,5.12L18.87,8.87M3,17.25V21H6.75L17.81,9.93L14.06,6.18L3,17.25Z' fill='currentColor' />
                     </svg>
                   </button>
-                  <button className='flex items-center justify-center text-white rounded-full p-2 transition-all group-hover:bg-white group-hover:text-black'>
+                  <button className='flex items-center justify-center text-white rounded-full w-10 h-10 transition-all group-hover:bg-white group-hover:text-black'>
                     <svg width='26' height='26' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
                       <path d='M12.1 18.55L12 18.65L11.89 18.55C7.14 14.24 4 11.39 4 8.5C4 6.5 5.5 5 7.5 5C9.04 5 10.54 6 11.07 7.36H12.93C13.46 6 14.96 5 16.5 5C18.5 5 20 6.5 20 8.5C20 11.39 16.86 14.24 12.1 18.55M16.5 3C14.76 3 13.09 3.81 12 5.08C10.91 3.81 9.24 3 7.5 3C4.42 3 2 5.41 2 8.5C2 12.27 5.4 15.36 10.55 20.03L12 21.35L13.45 20.03C18.6 15.36 22 12.27 22 8.5C22 5.41 19.58 3 16.5 3Z' fill='currentColor' />
                     </svg>
@@ -1011,7 +1011,7 @@ function App () {
                         </a>
                       </div>
                     </div>
-                    <button className='flex items-center justify-center text-white rounded-full p-2 transition-all group-hover:bg-white group-hover:text-black'>
+                    <button className='flex items-center justify-center text-white rounded-full w-10 h-10 transition-all group-hover:bg-white group-hover:text-black'>
                       <svg width='26' height='26' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
                         <path d='M2 12H4V17H20V12H22V17C22 18.11 21.11 19 20 19H4C2.9 19 2 18.11 2 17V12M12 15L17.55 9.54L16.13 8.13L13 11.25V2H11V11.25L7.88 8.13L6.46 9.55L12 15Z' fill='currentColor' />
                       </svg>
