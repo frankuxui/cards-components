@@ -1,6 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react'
 import './App.css'
-import OpenGraph from './components/OpenGraph'
 import nike from './img/nike.png'
 import student from './img/student.png'
 
@@ -22,8 +21,6 @@ function App () {
 
   return (
     <>
-
-      <OpenGraph title='Cards components' />
       <div className='App pt-16 pb-16 mx-5 '>
 
         <div className='flex justify-center m-auto mb-3'>

@@ -5,9 +5,13 @@ import cover from '../img/cover.jpg'
 const OpenGraph = ({ title, description, image }) => {
   return (
     <>
+      <meta charset='UTF-8' />
+      <link rel='icon' type='image/svg+xml' href='/src/favicon.svg' />
+      <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+      <title>{title || 'React cards component'}</title>
       {/* OG meta */}
       <meta property='og:type' content='website' />
-      <meta property='og:title' content={title || 'Cards components'} />
+      <meta property='og:title' content={title || 'React cards component'} />
       <meta
         property='og:description'
         content={description || 'React cards components with vite js and tailwindcss'}
@@ -30,7 +34,7 @@ const OpenGraph = ({ title, description, image }) => {
         name='twitter:url'
         content='https://cards-components.vercel.app/'
       />
-      <meta name='twitter:title' content={title || 'Cards components'} />
+      <meta name='twitter:title' content={title || 'React cards component'} />
       <meta
         name='twitter:description'
         content={description || 'React cards components with vite js and tailwindcss'}
