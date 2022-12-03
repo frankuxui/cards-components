@@ -8,7 +8,7 @@ import content from '../content.json'
 
 ReactDOM.render(
   <React.StrictMode>
-    <OpenGraph title={content.title} description={content.description} image={image} path={content.path} />
+    <OpenGraph title={content.title} description={content.description} image={content.image} path={content.path} />
     <App />
   </React.StrictMode>,
   document.getElementById('root')
