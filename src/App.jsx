@@ -1,7 +1,9 @@
 import React, { useState, useEffect, useRef } from 'react'
 import './App.css'
+import OpenGraph from './components/OpenGraph'
 import nike from './img/nike.png'
 import student from './img/student.png'
+import cover from './img/cover.png'
 
 function App () {
   const buttonThemenRef = useRef(null)
@@ -21,6 +23,8 @@ function App () {
 
   return (
     <>
+
+      <OpenGraph image={cover} />
 
       <div className='App pt-16 pb-16 mx-5 '>
 
