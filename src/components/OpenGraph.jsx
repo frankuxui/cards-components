@@ -1,6 +1,6 @@
 
 import React from 'react'
-const cover = 'https://cards-components.vercel.app/assets/cover.jpg'
+import cover from '../img/cover.jpg'
 
 const OpenGraph = ({ title, description, image }) => {
   return (
