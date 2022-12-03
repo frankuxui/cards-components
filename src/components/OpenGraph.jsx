@@ -13,7 +13,7 @@ const OpenGraph = ({ title, description, image, path }) => {
       <meta property='og:type' content='https://cards-components.vercel.app/' />
       <meta property='og:title' content='React cards components with vite js and tailwindcss' />
       <meta property='og:description' content='React cards components with vite js and tailwindcss' />
-      <meta property='og:image' content={image} />
+      <meta property='og:image' content='./img/cover.png' />
       <meta property='og:image:width' content='1660' />
       <meta property='og:image:height' content='876' />
       <meta property='og:url' content='https://cards-components.vercel.app/' />
@@ -23,7 +23,7 @@ const OpenGraph = ({ title, description, image, path }) => {
       <meta name='twitter:url' content='https://cards-components.vercel.app/' />
       <meta name='twitter:title' content='React card components' />
       <meta name='twitter:description' content='React cards components with vite js and tailwindcss' />
-      <meta name='twitter:image' content={image} />
+      <meta name='twitter:image' content='./img/cover.png' />
       <title>React card components</title>
     </Helmet>
   )
