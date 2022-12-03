@@ -1,5 +1,4 @@
 import React, { useState, useEffect, useRef } from 'react'
-import { Helmet } from 'react-helmet'
 import './App.css'
 import nike from './img/nike.png'
 import student from './img/student.png'
