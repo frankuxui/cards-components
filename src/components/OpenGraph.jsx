@@ -1,10 +1,9 @@
 
 import React from 'react'
-import { Helmet } from 'react-helmet'
 
 const OpenGraph = ({ title, description, image, path }) => {
   return (
-    <Helmet>
+    <>
       <meta charset='UTF-8' />
       <link rel='icon' type='image/svg+xml' href='/src/favicon.svg' />
       <meta name='viewport' content='width=device-width, initial-scale=1.0' />
@@ -28,7 +27,7 @@ const OpenGraph = ({ title, description, image, path }) => {
       <meta property='twitter:image' content='https://s3-alpha.figma.com/hub/file/1392927913/80259dad-667f-4df5-8428-61e97c4d0afa-cover.png' />
       <meta property='twitter:url' content='https://cards-components.vercel.app/' />
       <title>React card components</title>
-    </Helmet>
+    </>
   )
 }
 
