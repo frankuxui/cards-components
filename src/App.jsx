@@ -25,18 +25,18 @@ function App () {
       <OpenGraph />
       <div className='App pt-16 pb-16 mx-5 '>
 
-      <a
-        href='https://www.buymeacoffee.com/frankuxui'
-        target='_blank'
-        className='block fixed top-8 right-8 z-50'
-        rel='noreferrer'
-      >
-        <img
-          className='w-full max-w-[10rem]'
-          src='https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png'
-          alt='Buy Me A Coffee'
-        />
-      </a>
+        <a
+          href='https://www.buymeacoffee.com/frankuxui'
+          target='_blank'
+          className='block fixed top-8 right-8 z-50'
+          rel='noreferrer'
+        >
+          <img
+            className='w-full max-w-[10rem]'
+            src='https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png'
+            alt='Buy Me A Coffee'
+          />
+        </a>
 
         <div className='flex justify-center m-auto mb-3'>
           <button ref={buttonThemenRef} className='rounded-full w-16 h-16 bg-slate-300 text-3xl dark:bg-slate-800'>
