@@ -2,6 +2,10 @@
 
 ![Cover](https://github.com/frankuxui/cards-components/blob/main/src/img/cover.png)
 
+## Comunidad de figma
+
+**"Este recurso está disponible de forma gratuita en la comunidad de [Figma](https://www.figma.com/community/file/1038262182101233833/full-cards-components). Puedes acceder a él para utilizarlo en tus proyectos de diseño."**
+
 ## Descripción
 
 **"Diseño de múltiples tarjetas creadas con [Tailwind CSS](https://tailwindcss.com/), desarrolladas con un enfoque en la estética minimalista y atractiva. Estas tarjetas son totalmente compatibles con las variantes de temas claro y oscuro, y están diseñadas para ser responsivas, adaptándose a diferentes tamaños de pantalla. Además, ofrecen una amplia variedad de opciones de diseño para satisfacer diversas necesidades, desde presentaciones de contenido hasta interfaces de usuario complejas."**
